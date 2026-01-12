@@ -56,7 +56,7 @@ sections:
     items:
       - type: FeaturedItem
         title: Devis Gratuit
-        subtitle: Numbers Done
+        subtitle: ''
         text: >
           Nous ne facturons pas de devis. Payer pour un premier diagnostic n'a
           pas de sens d'après nous. Vous payez uniquement si votre machine est à
