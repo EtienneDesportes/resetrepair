@@ -132,7 +132,7 @@ sections:
             flexDirection: row
         type: FeaturedItem
     actions:
-      - label: Get started
+      - label: Faire un devis
         altText: ''
         url: /
         showIcon: false
