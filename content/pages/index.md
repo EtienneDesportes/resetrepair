@@ -52,7 +52,7 @@ sections:
       opacity: 100
       url: /images/noise.png
   - type: FeaturedItemsSection
-    subtitle: Subtitle goes here
+    subtitle: ''
     items:
       - type: FeaturedItem
         title: Devis Gratuit
