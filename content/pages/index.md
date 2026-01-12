@@ -18,7 +18,7 @@ sections:
       *   Récupération de données
 
     actions:
-      - label: Get started
+      - label: Faire un devis
         altText: ''
         url: /
         showIcon: false
