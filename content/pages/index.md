@@ -117,10 +117,10 @@ sections:
         type: FeaturedItem
       - title: 200%
         subtitle: Faster
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        text: >
+          Notre expertise nous permet de vous garantir nos interventions pendant
+          6 mois. Nous avons les outils et composants pour assurer une
+          réparation de haute qualité.
         image:
           url: /images/icon3.svg
           altText: Featured icon three
