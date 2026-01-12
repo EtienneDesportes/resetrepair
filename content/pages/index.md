@@ -64,10 +64,10 @@ sections:
       - type: FeaturedItem
         title: 500k
         subtitle: Numbers Done
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        text: >
+          Nous ne facturons pas de devis. Payer pour un premier diagnostic n'a
+          pas de sens d'après nous. Vous payez uniquement si votre machine est à
+          nouveau en état de marche.
         actions: []
         elementId: null
         colors: bg-neutralAlt-fg-dark
