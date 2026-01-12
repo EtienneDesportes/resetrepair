@@ -90,7 +90,7 @@ sections:
           sans remplacer la carte mère. Économique pour vous, une passion pour
           nous et écologique pour tous.
         image:
-          url: /images/icon2.svg
+          url: /images/eco-8be7843e(1).svg
           altText: Featured icon two
           elementId: ''
           type: ImageBlock
