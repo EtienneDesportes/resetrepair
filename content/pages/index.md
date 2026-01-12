@@ -83,7 +83,7 @@ sections:
           styles:
             self:
               borderRadius: x-large
-      - title: 20x
+      - title: + Economique
         subtitle: The Job Stuff
         text: >
           Nous sommes l'alternative et proposons une réparation à moindre coût
