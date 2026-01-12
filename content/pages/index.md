@@ -109,7 +109,7 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: Garantie
-        subtitle: Faster
+        subtitle: ''
         text: >
           Notre expertise nous permet de vous garantir nos interventions pendant
           6 mois. Nous avons les outils et composants pour assurer une
