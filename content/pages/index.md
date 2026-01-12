@@ -109,13 +109,13 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: Garantie
-        subtitle: Faster
+        subtitle: ''
         text: >
           Notre expertise nous permet de vous garantir nos interventions pendant
           6 mois. Nous avons les outils et composants pour assurer une
           réparation de haute qualité.
         image:
-          url: /images/icon3.svg
+          url: /images/garantie-ce22d1df(1).svg
           altText: Featured icon three
           elementId: ''
           type: ImageBlock
@@ -138,7 +138,7 @@ sections:
         showIcon: false
         icon: arrowRight
         iconPosition: right
-        style: primary
+        style: secondary
         elementId: ''
         type: Button
     elementId: ''
