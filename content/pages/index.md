@@ -84,7 +84,7 @@ sections:
             self:
               borderRadius: x-large
       - title: + Economique
-        subtitle: The Job Stuff
+        subtitle: ''
         text: >
           Nous sommes l'alternative et proposons une réparation à moindre coût
           sans remplacer la carte mère. Économique pour vous, une passion pour
