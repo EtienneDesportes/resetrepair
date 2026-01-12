@@ -115,7 +115,7 @@ sections:
           6 mois. Nous avons les outils et composants pour assurer une
           réparation de haute qualité.
         image:
-          url: /images/icon3.svg
+          url: /images/garantie-ce22d1df(1).svg
           altText: Featured icon three
           elementId: ''
           type: ImageBlock
