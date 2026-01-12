@@ -28,7 +28,7 @@ sections:
         elementId: ''
         type: Button
     media:
-      url: /images/outils-réparation-macbook.jpg
+      url: /images/réparation-micro-soudure.jpg
       altText: Unblock your team boost your time to production preview
       elementId: ''
       type: ImageBlock
