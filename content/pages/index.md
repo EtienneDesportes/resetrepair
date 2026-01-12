@@ -48,7 +48,7 @@ sections:
       altText: noise
       backgroundSize: auto
       backgroundPosition: ''
-      backgroundRepeat: no-repeat
+      backgroundRepeat: repeat
       opacity: 100
       url: /images/noise.png
   - type: FeaturedItemsSection
