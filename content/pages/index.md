@@ -62,7 +62,7 @@ sections:
     subtitle: Subtitle goes here
     items:
       - type: FeaturedItem
-        title: 500k
+        title: Devis Gratuit
         subtitle: Numbers Done
         text: >
           Nous ne facturons pas de devis. Payer pour un premier diagnostic n'a
