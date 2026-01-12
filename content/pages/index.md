@@ -87,7 +87,7 @@ sections:
         subtitle: The Job Stuff
         text: >
           Nous sommes l'alternative et proposons une réparation à moindre coût
-          sans remplacer la carte mère.Économique pour vous, une passion pour
+          sans remplacer la carte mère. Économique pour vous, une passion pour
           nous et écologique pour tous.
         image:
           url: /images/icon2.svg
