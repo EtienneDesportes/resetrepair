@@ -83,7 +83,7 @@ sections:
           styles:
             self:
               borderRadius: x-large
-      - title: + Economique + Ecologiqe
+      - title: + Economique + Ecologique
         subtitle: ''
         text: >
           Nous sommes l'alternative et proposons une réparation à moindre coût
