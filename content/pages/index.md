@@ -4,7 +4,7 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: Il reste une chance pour réparer votre machine !
+      text: Il reste un espoir pour votre machine !
       color: text-dark
       type: TitleBlock
     subtitle: Subtitle goes here
