@@ -108,7 +108,7 @@ sections:
             textAlign: left
             justifyContent: center
         type: FeaturedItem
-      - title: Garantie 6 mois
+      - title: Garantie
         subtitle: Faster
         text: >
           Notre expertise nous permet de vous garantir nos interventions pendant
