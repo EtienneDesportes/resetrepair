@@ -7,7 +7,7 @@ sections:
       text: Il reste un espoir pour votre machine !
       color: text-neutral
       type: TitleBlock
-    subtitle: Spécialiste en micro soudure sur matériel électronique
+    subtitle: ''
     text: |+
       <span style="color:#11295c">
       Réparation de carte-mère :
