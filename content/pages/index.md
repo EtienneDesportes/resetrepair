@@ -8,10 +8,10 @@ sections:
       color: text-neutral
       type: TitleBlock
     subtitle: ''
-    text: |+
+    text: |
       <span style="color:#11295c">
 
-      ##Spécialiste en micro-soudure sur matériel électronique
+      **Spécialiste en micro-soudure sur matériel électronique**
 
       </span>
 
@@ -23,7 +23,6 @@ sections:
       *   Problème de démarrage
 
       *   Récupération de données </span>
-
     actions:
       - label: Faire un devis
         altText: ''
