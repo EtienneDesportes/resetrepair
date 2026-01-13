@@ -34,7 +34,7 @@
     "secondaryLinks": [
         {
             "type": "Button",
-            "label": "Get started",
+            "label": "Faire un devis",
             "altText": "",
             "url": "/",
             "showIcon": false,
