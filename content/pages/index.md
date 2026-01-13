@@ -184,7 +184,7 @@ sections:
     actions: []
     media:
       title: Title of the video
-      url: ''
+      url: public/images/5137_Circuit_Circuits_1920x1080(1).mp4
       autoplay: true
       loop: true
       muted: true
