@@ -11,7 +11,7 @@ sections:
     text: |+
       <span style="color:#11295c">
 
-      **Spécialiste en micro soudure sur matériel électronique**
+      ## **Spécialiste en micro soudure sur matériel électronique**
 
       </span>
 
