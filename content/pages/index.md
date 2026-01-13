@@ -4,7 +4,7 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: Il reste un espoir pour votre machine !
+      text: Il reste un espoir pour votre machine...
       color: text-dark
       type: TitleBlock
     subtitle: Spécialiste en micro soudure sur matériel      informatique
