@@ -15,7 +15,7 @@
         {
             "label": "Comment ça marche ?",
             "url": "/pricing",
-            "icon": "arrowRight",
+            "icon": "",
             "iconPosition": "right",
             "style": "primary",
             "type": "Link",
