@@ -13,15 +13,6 @@
     },
     "primaryLinks": [
         {
-            "label": "A propos",
-            "altText": "Blog",
-            "url": "/blog",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "primary",
-            "type": "Link"
-        },
-        {
             "type": "Link",
             "label": "See Tutorials",
             "altText": "",
