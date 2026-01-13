@@ -38,7 +38,8 @@
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "primary",
-            "type": "Button"
+            "type": "Button",
+            "showIcon": true
         }
     ],
     "variant": "logo-left-primary-nav-centered",
