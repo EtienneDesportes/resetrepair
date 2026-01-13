@@ -50,7 +50,7 @@ sections:
     subtitle: ''
     items:
       - type: FeaturedItem
-        title: Devis Gratuit 100% Satisfait
+        title: ''
         subtitle: ''
         text: >+
           <div style="text-align: left">Nous ne facturons pas de devis. Payer
