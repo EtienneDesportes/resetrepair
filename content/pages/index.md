@@ -5,7 +5,7 @@ sections:
   - type: GenericSection
     title:
       text: Il reste un espoir pour votre machine !
-      color: text-neutral
+      color: text-primary
       type: TitleBlock
     subtitle: ''
     text: "<span style=\"color: #11295c\"\_>\n### **Spécialiste en micro-soudure sur matériel électronique**\n\nRéparation de carte-mère :\n\n*   Dommage liquide\n\n*   Problème de démarrage\n\n*   Récupération de données\n\n</span>\n"
