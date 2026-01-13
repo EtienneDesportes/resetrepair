@@ -165,7 +165,7 @@ sections:
     type: DividerSection
   - type: GenericSection
     title:
-      text: Generic section with a video
+      text: Il reste un espoir pour votre machine !
       color: text-dark
       styles:
         self:
