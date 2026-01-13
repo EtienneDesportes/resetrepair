@@ -53,10 +53,15 @@ sections:
         title: ''
         subtitle: ''
         text: >+
-          **Devis Gratuit\*\*\*\*100% Satisfaction**Nous ne facturons pas de
-          devis. Payer pour un premier diagnostic n'a pas de sens d'après nous.
-          Vous payez uniquement si votre machine est à nouveau en état de
-          marche.
+          **Devis Gratuit**
+
+
+          **100% Satisfaction**
+
+
+          Nous ne facturons pas de devis. Payer pour un premier diagnostic n'a
+          pas de sens d'après nous. Vous payez uniquement si votre machine est à
+          nouveau en état de marche.
 
 
           <div style="text-align: left"></div>
