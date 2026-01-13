@@ -184,7 +184,7 @@ sections:
     actions: []
     media:
       title: Title of the video
-      url: https://youtube.com/shorts/IKrqxeD_ECc?si=FAu7qtnwWn2Koa0S
+      url: ''
       autoplay: true
       loop: true
       muted: true
