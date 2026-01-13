@@ -27,10 +27,6 @@ sections:
         style: secondary
         elementId: ''
         type: Button
-    media:
-      altText: Unblock your team boost your time to production preview
-      elementId: ''
-      type: ImageBlock
     elementId: ''
     colors: bg-light-fg-dark
     styles:
