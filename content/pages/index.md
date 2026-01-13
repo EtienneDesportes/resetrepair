@@ -8,10 +8,8 @@ sections:
       color: text-neutral
       type: TitleBlock
     subtitle: ''
-    text: |
-      <span style="color:blue">
-
-      **Spécialiste en micro-soudure sur matériel électronique**
+    text: |+
+      Spécialiste en micro-soudure sur matériel électronique
 
       Réparation de carte-mère:
 
@@ -21,7 +19,6 @@ sections:
 
       *   Récupération de données
 
-      </span>
     actions:
       - label: Faire un devis
         altText: ''
