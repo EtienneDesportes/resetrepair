@@ -13,32 +13,39 @@
     },
     "primaryLinks": [
         {
-            "label": "Comment ça marche ?",
-            "url": "/pricing",
-            "icon": "",
-            "iconPosition": "right",
-            "style": "primary",
             "type": "Link",
-            "showIcon": false
-        },
-        {
-            "label": "A propos",
-            "altText": "Blog",
-            "url": "/blog",
+            "label": "Comment ça marche ?",
+            "altText": "",
+            "url": "/",
+            "showIcon": false,
             "icon": "arrowRight",
             "iconPosition": "right",
-            "style": "primary",
-            "type": "Link"
+            "style": "secondary",
+            "elementId": ""
+        },
+        {
+            "type": "Link",
+            "label": "A propos",
+            "altText": "",
+            "url": "/",
+            "showIcon": false,
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "elementId": ""
         }
     ],
     "secondaryLinks": [
         {
+            "type": "Button",
             "label": "Faire un devis",
+            "altText": "",
             "url": "/",
+            "showIcon": false,
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "primary",
-            "type": "Button"
+            "elementId": ""
         }
     ],
     "variant": "logo-left-primary-nav-centered",

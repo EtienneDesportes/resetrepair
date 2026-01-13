@@ -5,18 +5,10 @@ sections:
   - type: GenericSection
     title:
       text: Il reste un espoir pour votre machine !
-      color: text-dark
+      color: text-neutral
       type: TitleBlock
-    subtitle: Spécialiste en micro soudure sur matériel électronique
-    text: |+
-      Réparation de carte-mère :
-
-      *   Dommage liquide
-
-      *   Problème de démarrage
-
-      *   Récupération de données
-
+    subtitle: ''
+    text: "<span style=\"color: #11295c\"\_>\n### **Spécialiste en micro-soudure sur matériel électronique**\n\nRéparation de carte-mère :\n\n*   Dommage liquide\n\n*   Problème de démarrage\n\n*   Récupération de données\n\n</span>\n"
     actions:
       - label: Faire un devis
         altText: ''
@@ -24,7 +16,7 @@ sections:
         showIcon: false
         icon: arrowRight
         iconPosition: right
-        style: secondary
+        style: primary
         elementId: ''
         type: Button
     elementId: ''
@@ -47,38 +39,23 @@ sections:
       opacity: 100
       url: /images/noise.png
     media:
-      type: VideoBlock
-      title: Title of the video
-      url: /images/soldering.mp4
-      autoplay: true
-      loop: true
-      muted: true
-      controls: false
-      aspectRatio: '16:9'
+      type: ImageBlock
+      url: /images/réparation-micro-soudure.jpg
+      altText: Image alt text placeholder
+      elementId: ''
       styles:
         self:
-          padding:
-            - pt-2
-            - pb-2
-            - pl-2
-            - pr-2
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
+          borderRadius: medium
   - type: FeaturedItemsSection
     subtitle: ''
     items:
       - type: FeaturedItem
-        title: Devis Gratuit
+        title: ''
         subtitle: ''
-        text: >
-          Nous ne facturons pas de devis. Payer pour un premier diagnostic n'a
-          pas de sens d'après nous. Vous payez uniquement si votre machine est à
-          nouveau en état de marche.
+        text: "<span style=\"color: #11295c\"\_>\n\n**Devis Gratuit**\n\nNous ne facturons pas de devis. Payer pour un premier diagnostic n'a pas de sens d'après nous. Vous payez uniquement si votre machine est à nouveau en état de marche.\n\n</span>\n"
         actions: []
         elementId: null
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-light-fg-dark
         styles:
           self:
             padding:
@@ -123,7 +100,7 @@ sections:
             textAlign: left
             justifyContent: center
         type: FeaturedItem
-      - title: Garantie
+      - title: Sous garantie 6 mois
         subtitle: ''
         text: >
           Notre expertise nous permet de vous garantir nos interventions pendant
@@ -222,42 +199,6 @@ sections:
       backgroundRepeat: repeat
       opacity: 100
       url: /images/noise.png
-  - title:
-      text: Business Consulting
-      color: text-dark
-      type: TitleBlock
-    subtitle: Be in good company
-    text: >
-      A service that provides advice and guidance to startups and small
-      businesses.
-    actions:
-      - label: Get started
-        url: /
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        type: Button
-      - label: See Tutorials
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        type: Link
-    media:
-      url: /images/hero3.svg
-      altText: Dope design preview
-      type: ImageBlock
-    badge:
-      label: This is a badge
-      color: text-primary
-      type: Badge
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        alignItems: center
-        flexDirection: row-reverse
-    type: GenericSection
   - title: Divider
     colors: bg-light-fg-dark
     styles:
