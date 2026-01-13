@@ -31,17 +31,7 @@
             "type": "Link"
         }
     ],
-    "secondaryLinks": [
-        {
-            "label": "Faire un devis",
-            "url": "/",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "primary",
-            "type": "Button",
-            "showIcon": false
-        }
-    ],
+    "secondaryLinks": [],
     "variant": "logo-left-primary-nav-centered",
     "colors": "bg-neutral-fg-dark",
     "type": "Header"
