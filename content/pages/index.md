@@ -9,6 +9,7 @@ sections:
       type: TitleBlock
     subtitle: Spécialiste en micro soudure sur matériel électronique
     text: |+
+      <span style="color:blue">
       Réparation de carte-mère :
 
       *   Dommage liquide
@@ -16,6 +17,7 @@ sections:
       *   Problème de démarrage
 
       *   Récupération de données
+      </span>
 
     actions:
       - label: Faire un devis
