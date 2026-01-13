@@ -48,7 +48,7 @@ sections:
       url: /images/noise.png
     media:
       type: ImageBlock
-      url: /images/hero2.svg
+      url: /images/réparation-micro-soudure.jpg
       altText: Image alt text placeholder
       elementId: ''
       styles:
