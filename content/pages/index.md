@@ -252,6 +252,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
+      url: /images/noise.png
   - title:
       text: Business Consulting
       color: text-dark
