@@ -124,7 +124,7 @@ sections:
             textAlign: left
             justifyContent: center
         type: FeaturedItem
-      - title: Sous garantie
+      - title: Sous garantie 6 mois
         subtitle: ''
         text: >
           Notre expertise nous permet de vous garantir nos interventions pendant
