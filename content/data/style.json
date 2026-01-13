@@ -1,8 +1,8 @@
 {
-    "light": "#13386e",
+    "light": "#11295c",
     "dark": "#ffffff",
     "neutral": "#f6f6f6",
-    "neutralAlt": "#13386e",
+    "neutralAlt": "#11295c",
     "primary": "#1787fc",
     "fontBody": "sans",
     "fontHeadlines": "sans",
@@ -23,7 +23,7 @@
         "type": "ThemeStyleHeading"
     },
     "h3": {
-        "size": "3xl",
+        "size": "6xl",
         "weight": "normal",
         "decoration": "none",
         "case": "none",
