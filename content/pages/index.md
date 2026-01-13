@@ -5,7 +5,7 @@ sections:
   - type: GenericSection
     title:
       text: Il reste un espoir pour votre machine !
-      color: text-dark
+      color: text-neutral
       type: TitleBlock
     subtitle: Spécialiste en micro soudure sur matériel électronique
     text: |+
