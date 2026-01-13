@@ -72,10 +72,11 @@ sections:
       - type: FeaturedItem
         title: Devis Gratuit
         subtitle: ''
-        text: >
-          Nous ne facturons pas de devis. Payer pour un premier diagnostic n'a
-          pas de sens d'après nous. Vous payez uniquement si votre machine est à
-          nouveau en état de marche.
+        text: >+
+          <div style="text-align: left">Nous ne facturons pas de devis. Payer
+          pour un premier diagnostic n'a pas de sens d'après nous. Vous payez
+          uniquement si votre machine est à nouveau en état de marche.</div>
+
         actions: []
         elementId: null
         colors: bg-neutralAlt-fg-dark
