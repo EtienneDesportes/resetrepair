@@ -9,15 +9,16 @@ sections:
       type: TitleBlock
     subtitle: ''
     text: |+
-      Spécialiste en micro-soudure sur matériel électronique
+      **Spécialiste en micro-soudure sur matériel électronique**
 
-      Réparation de carte-mère:
+
+      Réparation de carte-mère :
 
       *   Dommage liquide
 
       *   Problème de démarrage
 
-      *   Récupération de données
+      *   Récupération de données 
 
     actions:
       - label: Faire un devis
