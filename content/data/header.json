@@ -33,7 +33,7 @@
     ],
     "secondaryLinks": [
         {
-            "label": "<span style=\"color:11295c\">Faire un devis</span>",
+            "label": "Faire un devis",
             "url": "/",
             "icon": "arrowRight",
             "iconPosition": "right",
