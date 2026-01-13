@@ -8,23 +8,24 @@ sections:
       color: text-neutral
       type: TitleBlock
     subtitle: ''
-    text: |+
-      ## <span style="color:#11295c">
+    text: |
+      ##<span style="color:#11295c">
 
-      ## **Spécialiste en micro-soudure sur matériel électronique**
+      **Spécialiste en micro-soudure sur matériel électronique**
 
-      ## </span>
+       </span>
 
       <span style="color:#11295c">
       Réparation de carte-mère :
-      --------------------------
+      \--------------------------
+      ===========================
 
-      ## Dommage liquide
+      Dommage liquide
 
-      ## Problème de démarrage
+      Problème de démarrage
 
-      ## Récupération de données 
-
+      Récupération de données
+       </span>
     actions:
       - label: Faire un devis
         altText: ''
