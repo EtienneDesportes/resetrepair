@@ -15,10 +15,11 @@
         {
             "label": "Comment ça marche ?",
             "url": "/pricing",
-            "icon": "arrowRight",
+            "icon": "",
             "iconPosition": "right",
-            "style": "secondary",
-            "type": "Link"
+            "style": "primary",
+            "type": "Link",
+            "showIcon": false
         },
         {
             "label": "A propos",

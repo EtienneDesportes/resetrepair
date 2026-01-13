@@ -27,10 +27,6 @@ sections:
         style: secondary
         elementId: ''
         type: Button
-    media:
-      altText: Unblock your team boost your time to production preview
-      elementId: ''
-      type: ImageBlock
     elementId: ''
     colors: bg-light-fg-dark
     styles:
@@ -50,6 +46,26 @@ sections:
       backgroundRepeat: repeat
       opacity: 100
       url: /images/noise.png
+    media:
+      type: VideoBlock
+      title: Title of the video
+      url: /images/soldering.mp4
+      autoplay: true
+      loop: true
+      muted: true
+      controls: false
+      aspectRatio: '16:9'
+      styles:
+        self:
+          padding:
+            - pt-2
+            - pb-2
+            - pl-2
+            - pr-2
+          borderColor: border-dark
+          borderStyle: solid
+          borderWidth: 1
+          borderRadius: large
   - type: FeaturedItemsSection
     subtitle: ''
     items:
@@ -163,53 +179,6 @@ sections:
           - pb-7
           - pr-7
     type: DividerSection
-  - type: GenericSection
-    title:
-      text: Il reste un espoir pour votre machine !
-      color: text-dark
-      styles:
-        self:
-          textAlign: left
-      type: TitleBlock
-    subtitle: Spécialiste en micro soudure sur matériel      informatique
-    text: |+
-      Réparation de carte-mère :
-
-      *   Dommage liquide
-
-      *   Problème de démarrage
-
-      *   Récupération de données
-
-    actions: []
-    media:
-      title: Title of the video
-      url: public/images/5137_Circuit_Circuits_1920x1080(1).mp4
-      autoplay: true
-      loop: true
-      muted: true
-      controls: false
-      aspectRatio: '16:9'
-      styles:
-        self:
-          padding:
-            - pt-2
-            - pb-2
-            - pl-2
-            - pr-2
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-      type: VideoBlock
-    elementId: null
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        flexDirection: row
-        justifyContent: center
-      subtitle:
-        textAlign: left
   - title:
       text: Social Media Management
       color: text-dark
@@ -245,6 +214,14 @@ sections:
       self:
         alignItems: center
     type: GenericSection
+    backgroundImage:
+      type: BackgroundImage
+      altText: altText of the image
+      backgroundSize: auto
+      backgroundPosition: ''
+      backgroundRepeat: repeat
+      opacity: 100
+      url: /images/noise.png
   - title:
       text: Business Consulting
       color: text-dark
