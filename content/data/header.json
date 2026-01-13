@@ -13,15 +13,6 @@
     },
     "primaryLinks": [
         {
-            "label": "Comment ça marche ?",
-            "url": "/pricing",
-            "icon": "",
-            "iconPosition": "right",
-            "style": "primary",
-            "type": "Link",
-            "showIcon": false
-        },
-        {
             "label": "A propos",
             "altText": "Blog",
             "url": "/blog",
