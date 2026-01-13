@@ -49,7 +49,7 @@ sections:
     media:
       type: VideoBlock
       title: Title of the video
-      url: /images/placeholder-video.mp4
+      url: /images/5137_Circuit_Circuits_1920x1080(1).mp4
       autoplay: true
       loop: true
       muted: true
