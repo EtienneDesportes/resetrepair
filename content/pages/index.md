@@ -28,7 +28,7 @@ sections:
         elementId: ''
         type: Button
     elementId: ''
-    colors: bg-neutral-fg-dark
+    colors: bg-light-fg-dark
     styles:
       self:
         alignItems: center
