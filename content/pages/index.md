@@ -8,9 +8,8 @@ sections:
       color: text-neutral
       type: TitleBlock
     subtitle: ''
-    text: |+
-
-      # **Il reste un espoir pour votre machine !**
+    text: |
+      ## **Il reste un espoir pour votre machine !**
 
       ### **Spécialiste en micro-soudure sur matériel électronique**
 
@@ -21,7 +20,6 @@ sections:
       *   Problème de démarrage
 
       *   Récupération de données
-
     actions:
       - label: Faire un devis
         altText: ''
