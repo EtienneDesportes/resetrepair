@@ -67,6 +67,14 @@ sections:
             flexDirection: row
             justifyContent: center
             textAlign: left
+        image:
+          type: ImageBlock
+          url: /images/hero2.svg
+          altText: Image alt text placeholder
+          elementId: ''
+          styles:
+            self:
+              borderRadius: medium
       - title: + Économique + Écologique
         subtitle: ''
         text: >
