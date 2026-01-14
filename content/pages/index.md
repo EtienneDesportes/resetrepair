@@ -69,7 +69,7 @@ sections:
             textAlign: left
         image:
           type: ImageBlock
-          url: /images/hero2.svg
+          url: /images/devisgratuit-60bd9b49(1).svg
           altText: Image alt text placeholder
           elementId: ''
           styles:
