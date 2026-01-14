@@ -56,7 +56,7 @@ sections:
     subtitle: ''
     items:
       - type: FeaturedItem
-        title: Test
+        title: ''
         tagline: ''
         subtitle: This is the item subtitle
         text: |
