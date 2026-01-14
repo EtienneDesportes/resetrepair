@@ -4,7 +4,7 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: **Il reste un espoir pour votre machine !**
+      text: <strong>Il reste un espoir pour votre machine !</strong>
       color: text-neutral
       type: TitleBlock
     subtitle: ''
