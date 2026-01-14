@@ -37,7 +37,7 @@ sections:
       backgroundPosition: ''
       backgroundRepeat: repeat
       opacity: 100
-      url: /images/noise.png
+      url: /images/simple-pcb-layout_lml7zo.webp
     media:
       type: ImageBlock
       url: /images/réparation-micro-soudure.jpg
