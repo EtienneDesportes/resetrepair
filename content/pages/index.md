@@ -56,31 +56,6 @@ sections:
     subtitle: ''
     items:
       - type: FeaturedItem
-        title: ''
-        tagline: ''
-        subtitle: ''
-        text: |+
-
-
-        image:
-          type: ImageBlock
-          url: /images/devisgratuit-60bd9b49(1).svg
-          altText: Placeholder text
-          styles:
-            self:
-              borderRadius: x-large
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: row
-      - type: FeaturedItem
         title: Test
         tagline: This is the tagline
         subtitle: This is the item subtitle
