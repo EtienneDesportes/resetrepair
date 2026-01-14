@@ -71,7 +71,7 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: col
-      - title: Feature Item Two
+      - title: ''
         tagline: This is the tagline
         subtitle: This is the item subtitle
         text: |
