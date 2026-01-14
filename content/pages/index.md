@@ -59,12 +59,6 @@ sections:
         tagline: ''
         subtitle: ''
         text: "<span style=\"color: #11295c\"\_>\n\n<p style='text-align: justify;'>Nous ne facturons pas de devis. Payer pour un premier diagnostic n'a pas de sens d'après nous. Vous payez uniquement si votre machine est à nouveau en état de marche.</p>.\n</span>\n\n"
-        image:
-          altText: Placeholder Image
-          styles:
-            self:
-              borderRadius: x-large
-          type: ImageBlock
         colors: bg-light-fg-dark
         styles:
           self:
