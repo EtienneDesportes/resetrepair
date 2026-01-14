@@ -47,7 +47,7 @@ sections:
         self:
           borderRadius: medium
   - title:
-      text: List of features here
+      text: ''
       color: text-primary
       styles:
         self:
