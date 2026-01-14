@@ -34,7 +34,7 @@ sections:
       type: BackgroundImage
       altText: noise
       backgroundSize: auto
-      backgroundPosition: center
+      backgroundPosition: ''
       backgroundRepeat: repeat-y
       opacity: 50
       url: /images/simple-pcb-layout_lml7zo.webp
