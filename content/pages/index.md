@@ -33,7 +33,7 @@ sections:
     backgroundImage:
       type: BackgroundImage
       altText: noise
-      backgroundSize: contain
+      backgroundSize: auto
       backgroundPosition: ''
       backgroundRepeat: repeat-y
       opacity: 50
