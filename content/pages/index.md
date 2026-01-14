@@ -37,7 +37,7 @@ sections:
       backgroundPosition: ''
       backgroundRepeat: repeat-y
       opacity: 15
-      url: /images/simple-pcb-layout_lml7zo.webp
+      url: /images/printed_circuit_board_layout_vgmgll.webp
     media:
       type: ImageBlock
       url: /images/réparation-micro-soudure.jpg
