@@ -52,7 +52,7 @@ sections:
       - type: FeaturedItem
         title: ''
         subtitle: ''
-        text: "<span style=\"color: #11295c\"\_>\n#**Devis Gratuit**\n\n##Nous ne facturons pas de devis. Payer pour un premier diagnostic n'a pas de sens d'après nous. Vous payez uniquement si votre machine est à nouveau en état de marche.\n</span>\n"
+        text: "<span style=\"color: #11295c\"\_>\n\\#**Devis Gratuit**\n\n\\####Nous ne facturons pas de devis. Payer pour un premier diagnostic n'a pas de sens d'après nous. Vous payez uniquement si votre machine est à nouveau en état de marche. </span>\n"
         actions: []
         elementId: null
         colors: bg-light-fg-dark
