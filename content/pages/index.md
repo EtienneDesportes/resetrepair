@@ -71,21 +71,6 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: col
-      - title: ''
-        tagline: ''
-        subtitle: ''
-        text: "<span style=\"color: #11295c\"\_>\n\n<big style=\"font-size:65px;\"> Devis Gratuit</big>\n\n<p style='text-align: justify;'>Nous ne facturons pas de devis. Payer pour un premier diagnostic n'a pas de sens d'après nous. Vous payez uniquement si votre machine est à nouveau en état de marche.</p>.\n</span>\n\n"
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-        type: FeaturedItem
       - title: Feature Item Two
         tagline: This is the tagline
         subtitle: This is the item subtitle
