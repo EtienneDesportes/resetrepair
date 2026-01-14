@@ -55,7 +55,7 @@ sections:
       type: TitleBlock
     subtitle: ''
     items:
-      - title: Feature Item One
+      - title: Devis Gratuit
         tagline: This is the tagline
         subtitle: This is the item subtitle
         text: |
