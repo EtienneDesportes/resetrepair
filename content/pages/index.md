@@ -59,7 +59,9 @@ sections:
         title: ''
         tagline: ''
         subtitle: ''
-        text: "<span style=\"color: #11295c\"\_>\n\n<p style='text-align: justify;'>Nous ne facturons pas de devis. Payer pour un premier diagnostic n'a pas de sens d'après nous. Vous payez          uniquement si votre machine est à nouveau en état de marche.</p>\n\n</span>\n\n"
+        text: |+
+
+
         image:
           type: ImageBlock
           url: /images/devisgratuit-60bd9b49(1).svg
