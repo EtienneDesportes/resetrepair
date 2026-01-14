@@ -46,14 +46,7 @@ sections:
       styles:
         self:
           borderRadius: medium
-  - title:
-      text: ''
-      color: text-primary
-      styles:
-        self:
-          textAlign: center
-      type: TitleBlock
-    subtitle: ''
+  - subtitle: ''
     items:
       - type: FeaturedItem
         title: ''
