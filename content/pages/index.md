@@ -59,8 +59,7 @@ sections:
         title: ''
         tagline: ''
         subtitle: ''
-        text: |
-          Follow the tutorial to build your first Netlify Create site.
+        text: "<span style=\"color: #11295c\"\_>\n\n<p style='text-align: justify;'>Nous ne facturons pas de devis. Payer pour un premier diagnostic n'a pas de sens d'après nous. Vous payez          uniquement si votre machine est à nouveau en état de marche.</p></span>\n\n"
         image:
           type: ImageBlock
           url: /images/abstract-feature1.svg
