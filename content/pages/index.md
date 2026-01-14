@@ -58,8 +58,12 @@ sections:
       - title: ''
         tagline: ''
         subtitle: ''
-        text: |
-          Follow the tutorial to build your first Netlify Create site.
+        text: >+
+          <p style='text-align: justify;'>Nous ne facturons pas de devis. Payer
+          pour un premier diagnostic n'a pas de sens d'après nous. Vous
+          payez          uniquement si votre machine est à nouveau en état de
+          marche.</p>.
+
         image:
           url: /images/devisgratuit-60bd9b49(1).svg
           altText: Placeholder Image
