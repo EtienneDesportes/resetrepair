@@ -36,7 +36,7 @@ sections:
       backgroundSize: cover
       backgroundPosition: ''
       backgroundRepeat: repeat-y
-      opacity: 15
+      opacity: 10
       url: /images/simple-pcb-layout_lml7zo.webp
     media:
       type: ImageBlock
