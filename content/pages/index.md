@@ -8,7 +8,7 @@ sections:
     actions:
       - label: Faire un devis
         altText: ''
-        url: /
+        url: /faireundevis
         showIcon: false
         icon: arrowRight
         iconPosition: right
