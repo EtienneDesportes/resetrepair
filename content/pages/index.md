@@ -237,7 +237,7 @@ sections:
             flexDirection: col
       - type: FeaturedItem
         title: ''
-        tagline: This is the tagline
+        tagline: ''
         subtitle: This is the item subtitle
         text: >+
           <span style="color: #11295c">
