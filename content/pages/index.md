@@ -37,7 +37,7 @@ sections:
     media:
       type: ImageBlock
       url: /images/réparation-micro-soudure.png
-      altText: ''
+      altText: 'Réparation Macbook '
       elementId: ''
       styles:
         self:
