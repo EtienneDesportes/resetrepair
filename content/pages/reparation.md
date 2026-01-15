@@ -108,7 +108,7 @@ sections:
     media:
       type: ImageBlock
       url: /images/réparation-carte-mère.jpg
-      altText: Image alt text placeholder
+      altText: Micro Soudure Strasbourg
       elementId: ''
       styles:
         self:
