@@ -5,7 +5,7 @@ sections:
   - type: GenericSection
     title:
       type: TitleBlock
-      text: A team that works closely together
+      text: La réparation est uniquement facturée si elle est réalisée avec succès !
       color: text-dark
       styles:
         self:
