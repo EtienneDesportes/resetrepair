@@ -206,7 +206,7 @@ sections:
         image:
           type: ImageBlock
           url: /images/réparation-multimètre-soudure-microscope.jpg
-          altText: Placeholder image
+          altText: Réparation Console PS5 Strasbourg
           styles:
             self:
               borderRadius: x-large
