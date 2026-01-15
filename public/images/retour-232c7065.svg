@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 10810 2822" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g transform="matrix(1.33333,0,0,1.33333,5614.4,1160.43)">
-        <g id="Retour_Règlement" transform="matrix(1,0,0,1,-751.354,526.683)">
-            <text x="0px" y="0px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:600px;fill:rgb(17,41,92);">Règlement</text>
-        </g>
-        <g id="icon-maintenance" transform="matrix(0.646921,0,0,0.646925,-2895,-539.03)">
-            <use xlink:href="#_Image1" x="0" y="0" width="2231px" height="2247px"/>
+<svg width="100%" height="100%" viewBox="0 0 14517 4451" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(2,0,0,2,8346.84,-3570.91)">
+        <g transform="matrix(0.760386,0,0,0.760386,-638.529,2782.1)">
+            <g transform="matrix(1,0,0,1,-5405,-1411)">
+                <g transform="matrix(1.33333,0,0,1.33333,5614.4,1160.43)">
+                    <g id="Retour_Règlement" transform="matrix(1,0,0,1,-751.354,526.683)">
+                        <text x="0px" y="0px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:600px;fill:rgb(17,41,92);">Règlement</text>
+                    </g>
+                    <g id="icon-maintenance" transform="matrix(0.646921,0,0,0.646925,-2895,-539.03)">
+                        <use id="_Image1_" serif:id="_Image1" xlink:href="#_Image1" x="0" y="0" width="2231px" height="2247px"/>
+                    </g>
+                </g>
+            </g>
         </g>
     </g>
     <defs>
