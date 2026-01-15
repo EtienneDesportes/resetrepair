@@ -238,7 +238,7 @@ sections:
       - type: FeaturedItem
         title: ''
         tagline: ''
-        subtitle: This is the item subtitle
+        subtitle: ''
         text: >+
           <span style="color: #11295c">
 
