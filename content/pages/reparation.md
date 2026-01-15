@@ -128,7 +128,7 @@ sections:
         subtitle: ''
         image:
           type: ImageBlock
-          url: /images/outils-réparation-macbook.jpg
+          url: /images/réparation-multimètre-soudure-microscope(2).jpg
           altText: Faux Fur Throw
           elementId: ''
           styles:
