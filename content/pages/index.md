@@ -37,7 +37,7 @@ sections:
     media:
       type: ImageBlock
       url: /images/réparation-micro-soudure.png
-      altText: 'Réparation Macbook '
+      altText: Réparation Macbook Strasbourg
       elementId: ''
       styles:
         self:
