@@ -106,6 +106,8 @@ sections:
           - pl-5
           - pb-5
           - pr-5
+      text:
+        textAlign: justify
     backgroundImage:
       type: BackgroundImage
       altText: altText of the image
