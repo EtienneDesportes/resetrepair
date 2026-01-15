@@ -181,7 +181,7 @@ sections:
     showThumbnail: false
     showExcerpt: false
     showDate: false
-    showAuthor: true
+    showAuthor: false
     actions: []
     elementId: ''
     variant: three-col-grid
