@@ -27,7 +27,7 @@ sections:
         style: primary
     media:
       type: ImageBlock
-      url: /images/hero3.svg
+      url: /images/réparation-micro-soudure.jpg
       altText: Dope design preview
     badge:
       type: Badge
