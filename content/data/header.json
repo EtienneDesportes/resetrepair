@@ -27,7 +27,7 @@
             "type": "Link",
             "label": "À propos",
             "altText": "",
-            "url": "/",
+            "url": "/apropos",
             "showIcon": false,
             "icon": "arrowRight",
             "iconPosition": "right",
