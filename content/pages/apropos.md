@@ -57,10 +57,10 @@ sections:
           - pb-10
           - pr-10
         margin:
-          - mt-5
-          - ml-5
-          - mb-5
-          - mr-5
+          - mt-24
+          - ml-24
+          - mb-24
+          - mr-24
       text:
         textAlign: justify
     backgroundImage:
