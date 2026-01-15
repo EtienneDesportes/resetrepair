@@ -41,7 +41,7 @@ sections:
 
         image:
           type: ImageBlock
-          url: /images/img-placeholder.svg
+          url: /images/photo Etienne Réparation.png
           altText: Featured item
           styles:
             self:
