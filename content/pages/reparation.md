@@ -125,7 +125,7 @@ sections:
         colors: bg-light-fg-dark
       - type: FeaturedItem
         title: Faux Fur Throw
-        subtitle: $ 88 – $ 176
+        subtitle: ''
         image:
           type: ImageBlock
           url: /images/outils-réparation-macbook.jpg
