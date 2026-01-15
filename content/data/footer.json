@@ -12,7 +12,7 @@
             "label": "Tutoriels Réparation",
             "altText": "",
             "url": "/https://repair.wiki/w/Main_Page#gsc.tab=0",
-            "showIcon": false,
+            "showIcon": true,
             "icon": "arrowRight",
             "iconPosition": "left",
             "style": "secondary",
