@@ -32,17 +32,6 @@
         "links": [
             {
                 "type": "Link",
-                "label": "Repair Wiki",
-                "altText": "",
-                "url": "https://repair.wiki/w/Main_Page#gsc.tab=0",
-                "showIcon": false,
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "style": "secondary",
-                "elementId": ""
-            },
-            {
-                "type": "Link",
                 "label": "ifixit",
                 "altText": "",
                 "url": "https://fr.ifixit.com/",
