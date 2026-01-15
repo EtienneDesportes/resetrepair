@@ -67,11 +67,11 @@ sections:
         self:
           textAlign: left
     subtitle: Section with a video subtitle
-    text: >+
+    text: >
       <span style="color: #11295c">
 
 
-      ## Le diagnostic
+      \## Le diagnostic
 
 
       Quand une machine tombe en panne, il faut dans un premier temps utiliser
@@ -92,10 +92,7 @@ sections:
       la changer entièrement !
 
 
-
-
       </span>
-
     actions: []
     media:
       type: VideoBlock
