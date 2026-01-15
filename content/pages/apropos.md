@@ -44,11 +44,6 @@ sections:
 
       </p></span>
 
-
-      ![](/images/photo%20Etienne%20Re%CC%81paration.png)
-
-
-
     actions: []
     colors: bg-light-fg-dark
     styles:
