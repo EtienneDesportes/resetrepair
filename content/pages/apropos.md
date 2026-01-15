@@ -8,13 +8,13 @@ sections:
         title: ''
         tagline: ''
         subtitle: ''
-        text: >+
+        text: >
           <span style="color: #11295c">
 
           <p style='text-align: justify;'>
 
 
-          Etienne, ingénieur mécatronique et bricoleur en tout genre, décide
+          **Etienne**, ingénieur mécatronique et bricoleur en tout genre, décide
           d'ouvrir son atelier pour redonner aux technologies du quotidien la
           valeur qu'ils méritent : **rien ne se jette, tout est réparable (enfin
           presque... )**. Non seulement c’est économique pour le client, une
@@ -41,7 +41,6 @@ sections:
 
 
           </p></span>
-
         image:
           type: ImageBlock
           url: /images/photo Etienne Réparation.png
