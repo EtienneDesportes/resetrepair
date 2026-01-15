@@ -115,7 +115,7 @@ sections:
         subtitle: ''
         image:
           type: ImageBlock
-          url: /images/réparation-multimètre-soudure-microscope.jpg
+          url: /images/envoigratuit-69c13db7.svg
           altText: Cotton Knit Throws
           elementId: ''
           styles:
