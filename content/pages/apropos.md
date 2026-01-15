@@ -58,6 +58,13 @@ sections:
         alignItems: flex-start
         flexDirection: row
         justifyContent: flex-start
+    backgroundImage:
+      type: BackgroundImage
+      altText: altText of the image
+      backgroundSize: auto
+      backgroundPosition: center
+      backgroundRepeat: no-repeat
+      opacity: 100
 slug: apropos
 seo:
   type: Seo
