@@ -43,7 +43,7 @@ sections:
           </p></span>
         image:
           type: ImageBlock
-          url: /images/photo Etienne Réparation.png
+          url: /images/photo Etienne Réparation-1.webp
           altText: Etienne
           styles:
             self:
