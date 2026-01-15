@@ -42,13 +42,12 @@ sections:
       reconditionné qui suffit amplement à nos besoins.
 
 
+      </p></span>
+
+
       ![](/images/photo%20Etienne%20Re%CC%81paration.png)
 
 
-      </p>
-
-
-      </span>
 
     actions: []
     colors: bg-light-fg-dark
