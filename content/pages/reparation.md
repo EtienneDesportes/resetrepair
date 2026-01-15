@@ -105,7 +105,7 @@ sections:
       altText: altText of the image
       backgroundSize: auto
       backgroundPosition: ''
-      backgroundRepeat: repeat-y
+      backgroundRepeat: no-repeat
       opacity: 100
       url: /images/simple-pcb-layout_lml7zo.webp
 slug: reparation
