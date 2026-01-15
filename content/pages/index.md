@@ -4,9 +4,7 @@ slug: /
 sections:
   - type: GenericSection
     subtitle: ''
-    text: |
-      <p style="color: #11295c">
-
+    text: |+
       ## **Votre machine peut être réparée !**
 
       ### **Spécialiste en micro-soudure sur matériel électronique**
@@ -19,7 +17,6 @@ sections:
 
       *   Récupération de données
 
-      </p>
     actions:
       - label: Faire un devis
         altText: ''
