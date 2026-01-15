@@ -81,7 +81,7 @@ sections:
           width: full
       submitButton:
         type: SubmitButtonFormControl
-        label: Submit
+        label: Envoyer
         icon: arrowRight
         iconPosition: right
         style: primary
