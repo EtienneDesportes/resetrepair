@@ -4,19 +4,7 @@ slug: /
 sections:
   - type: GenericSection
     subtitle: ''
-    text: |+
-      ## **Votre machine peut être réparée !**
-
-      ### **Spécialiste en micro-soudure sur matériel électronique**
-
-      Réparation de carte-mère :
-
-      *   Dommage liquide
-
-      *   Problème de démarrage
-
-      *   Récupération de données
-
+    text: "<span style=\"color: #11295c\"\_>\n\n## **Votre machine peut être réparée !**\n\n### **Spécialiste en micro-soudure sur matériel électronique**\n\nRéparation de carte-mère :\n\n*   Dommage liquide\n\n*   Problème de démarrage\n\n*   Récupération de données\n\n</span>\n\n"
     actions:
       - label: Faire un devis
         altText: ''
