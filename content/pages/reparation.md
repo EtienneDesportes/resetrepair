@@ -71,9 +71,6 @@ sections:
       <span style="color: #11295c">
 
 
-      # **Le diagnostic**
-
-
       Quand une machine tombe en panne, il faut dans un premier temps utiliser
       son esprit de déduction et d'observation pour identifier les
       **composants** défectueux. On se retrouve donc dans la peau d'un détective
