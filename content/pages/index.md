@@ -4,18 +4,31 @@ slug: /
 sections:
   - type: GenericSection
     subtitle: ''
-    text: |
-      ## **Votre machine peut être réparée !**
+    text: >+
+      <h2 id="-votre-machine-peut-tre-r-par-e-"><strong>Votre machine peut être
+      réparée !</strong></h2>
 
-      **Spécialiste en micro-soudure sur matériel électronique**
+      <p><strong>Spécialiste en micro-soudure sur matériel
+      électronique</strong></p>
 
-      Réparation de Carte-Mère:
+      <p>Réparation de Carte-Mère:</p>
 
-      *   Dommage liquide
+      <ul>
 
-      *   Problème de démarrage
+      <li><p>Dommage liquide</p>
 
-      *   Récupération de données
+      </li>
+
+      <li><p>Problème de démarrage</p>
+
+      </li>
+
+      <li><p>Récupération de données</p>
+
+      </li>
+
+      </ul>
+
     actions:
       - label: Faire un devis
         altText: ''
