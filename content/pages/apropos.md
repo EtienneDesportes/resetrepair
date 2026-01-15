@@ -74,7 +74,7 @@ sections:
     media:
       type: ImageBlock
       url: /images/photo Etienne Réparation.png
-      altText: Image alt text placeholder
+      altText: Photo Etienne Réparateur Strasbourg Schiltigheim
       elementId: ''
       styles:
         self:
