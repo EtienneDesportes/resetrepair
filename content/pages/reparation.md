@@ -186,10 +186,10 @@ sections:
     styles:
       self:
         padding:
-          - pt-8
-          - pl-8
-          - pb-8
-          - pr-8
+          - pt-10
+          - pl-10
+          - pb-10
+          - pr-10
         justifyContent: flex-start
       subtitle:
         textAlign: center
