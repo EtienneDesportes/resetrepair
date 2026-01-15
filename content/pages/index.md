@@ -300,5 +300,6 @@ seo:
   socialImage: /images/réparation-micro-soudure.jpg
   type: Seo
   metaTags: []
+  addTitleSuffix: false
 type: PageLayout
 ---
