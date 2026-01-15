@@ -148,7 +148,7 @@ sections:
             flexDirection: col
             justifyContent: center
       - type: FeaturedItem
-        title: Chunky Cotton Knit Throw
+        title: ''
         subtitle: ''
         image:
           type: ImageBlock
