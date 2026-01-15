@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 9678 2967" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g transform="matrix(1.61512,0,0,1.61512,3541.48,1868.36)">
+<svg width="100%" height="100%" viewBox="0 0 12904 3956" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(2.15349,0,0,2.15349,4721.97,2491.15)">
         <g>
             <g>
                 <g id="Devis_Gratuit_100_Satisfaction">
-                    <g transform="matrix(600,0,0,600,2767.68,0)">
+                    <g transform="matrix(1,0,0,1,372.271,0)">
+                        <text x="0px" y="0px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:600px;fill:rgb(17,41,92);">Garantie</text>
                     </g>
-                    <text x="0px" y="0px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:600px;fill:rgb(17,41,92);">Garantie</text>
-                    <g transform="matrix(0.548313,0,0,0.548313,1171.69,-118.805)">
-                        <g transform="matrix(1,0,0,1,-6452,-1978)">
-                            <g transform="matrix(0.888887,0,0,0.888887,-842.148,805.261)">
+                    <g transform="matrix(0.487388,0,0,0.487388,-2827.79,-761.833)">
+                        <g>
+                            <g>
                                 <g>
                                     <g>
                                         <g>
-                                            <clipPath id="_clip1">
-                                                <rect x="0" y="0" width="13517.1" height="2543.74"/>
-                                            </clipPath>
-                                            <g clip-path="url(#_clip1)">
-                                                <g id="poignee-mains" transform="matrix(1.00783,0,0,1.00782,1343.57,-0.004)">
-                                                    <g>
+                                            <g>
+                                                <clipPath id="_clip1">
+                                                    <rect x="0" y="0" width="13517.1" height="2543.74"/>
+                                                </clipPath>
+                                                <g clip-path="url(#_clip1)">
+                                                    <g id="poignee-mains" transform="matrix(1.00783,0,0,1.00782,1343.57,-0.004)">
                                                         <g>
-                                                            <use id="poignee-mains1" serif:id="poignee-mains" xlink:href="#_Image2" x="0" y="0" width="3925px" height="2524px"/>
+                                                            <g>
+                                                                <use id="poignee-mains1" serif:id="poignee-mains" xlink:href="#_Image2" x="0" y="0" width="3925px" height="2524px"/>
+                                                            </g>
                                                         </g>
                                                     </g>
                                                 </g>
