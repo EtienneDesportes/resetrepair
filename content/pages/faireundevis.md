@@ -71,8 +71,8 @@ sections:
           width: full
         - type: TextareaFormControl
           name: >-
-            <b>Quel est votre problème ? Merci de préciser le modèle et l'année
-            de votre appareil
+            Quel est votre problème ? Merci de préciser le modèle et l'année de
+            votre appareil
           label: >-
             Quel est votre problème ? Merci de préciser le modèle et l'année de
             votre appareil
