@@ -23,7 +23,7 @@
                 "pl-0",
                 "pr-0"
             ],
-            "textAlign": "right",
+            "textAlign": "justify",
             "borderColor": "border-neutral",
             "borderStyle": "solid",
             "borderWidth": 0,
