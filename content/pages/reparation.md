@@ -170,6 +170,15 @@ sections:
               borderRadius: medium
         actions: []
         colors: bg-light-fg-dark
+        text: >+
+          <span style="color: #11295c">
+
+          <p style='text-align: justify;'>Vous réglez uniquement le devis si la
+          réparation est finalisée avec succès. On vous renvoie gratuitement
+          votre machine en colis assuré.</p>
+
+          </span>
+
     actions: []
     elementId: ''
     variant: three-col-grid
