@@ -129,7 +129,7 @@ sections:
         subtitle: ''
         image:
           type: ImageBlock
-          url: /images/réparation-multimètre-soudure-microscope(2).jpg
+          url: /images/réparation-32a3e815.svg
           altText: Faux Fur Throw
           elementId: ''
           styles:
