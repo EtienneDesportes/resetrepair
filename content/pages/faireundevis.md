@@ -63,7 +63,7 @@ sections:
           isRequired: true
           width: full
         - type: TextFormControl
-          name: name
+          name: Téléphone
           label: Name
           hideLabel: true
           placeholder: Your name
