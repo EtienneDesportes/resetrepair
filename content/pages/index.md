@@ -291,7 +291,7 @@ sections:
         textAlign: center
 seo:
   metaTitle: 'Réparation électronique Strasbourg '
-  metaDescription: This demo site is built with Netlify Create.
+  metaDescription: 'MacBook PC Portable Console '
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
