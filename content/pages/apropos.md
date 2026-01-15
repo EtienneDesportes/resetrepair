@@ -85,8 +85,10 @@ sections:
             - pr-0
 slug: apropos
 seo:
+  metaTitle: Réparation électronique Strasbourg Schiltigheim
+  metaDescription: >-
+    Réparation Micro Soudure MacBook PC Portable Console Apple Audio Tablette
+    Smartphone Carte Mère 
+  socialImage: /images/réparation-micro-soudure.jpg
   type: Seo
-  metaTitle: Careers - Demo site
-  metaDescription: This is the careers page built with Netlify.
-  metaTags: []
 ---
