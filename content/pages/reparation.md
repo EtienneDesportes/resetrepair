@@ -55,7 +55,7 @@ sections:
       backgroundSize: contain
       backgroundPosition: center
       backgroundRepeat: repeat
-      opacity: 10
+      opacity: 5
       url: /images/simple-pcb-layout_lml7zo.webp
   - type: GenericSection
     title:
