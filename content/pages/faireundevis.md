@@ -52,7 +52,7 @@ sections:
           name: Nom / Prénom
           label: Name
           hideLabel: true
-          placeholder: Your name
+          placeholder: Votre Nom et Prénom
           isRequired: true
           width: full
         - type: EmailFormControl
