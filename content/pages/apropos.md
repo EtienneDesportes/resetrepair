@@ -73,7 +73,6 @@ sections:
       url: /images/simple-pcb-layout_lml7zo.webp
     media:
       type: ImageBlock
-      url: /images/photo Etienne Réparation.png
       altText: Photo Etienne Réparateur Strasbourg Schiltigheim
       elementId: ''
       styles:
