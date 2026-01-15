@@ -199,7 +199,9 @@ sections:
         title: ''
         tagline: ''
         subtitle: ''
-        text: "<span style=\"color: #11295c\"\_>\n\n<p style='text-align: justify;'>Après confirmation du devis, une étiquette d’envoi avec assurance vous sera envoyée. Il ne vous reste plus qu’à coller l’étiquette sur votre colis et de le déposer en bureau de poste. </p>\n\n</span>\n\n"
+        text: |+
+
+
         image:
           type: ImageBlock
           url: /images/envoigratuit-69c13db7.svg
