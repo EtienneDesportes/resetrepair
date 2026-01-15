@@ -111,11 +111,7 @@ sections:
   - type: GenericSection
     subtitle: ''
     text: |+
-
-
       <span style="color: #11295c">
-
-      ## Nos outils
 
       *   Microscope Amscope 4-NTP
 
