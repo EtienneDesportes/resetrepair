@@ -155,7 +155,7 @@ sections:
     actions: []
     media:
       type: VideoBlock
-      title: Title of the video
+      title: Micro-Soudure sur Carte-Mère
       url: /images/soldering.mp4
       autoplay: true
       loop: true
