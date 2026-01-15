@@ -182,7 +182,7 @@ sections:
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: repeat
-      opacity: 15
+      opacity: 10
       url: /images/printed_circuit_board_layout_vgmgll.webp
   - type: FeaturedItemsSection
     subtitle: ''
