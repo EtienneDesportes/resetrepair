@@ -72,7 +72,7 @@ sections:
         - type: TextareaFormControl
           name: >-
             <b>Quel est votre problème ? Merci de préciser le modèle et l'année
-            de votre appareil</b>
+            de votre appareil
           label: >-
             Quel est votre problème ? Merci de préciser le modèle et l'année de
             votre appareil
