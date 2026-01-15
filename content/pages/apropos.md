@@ -50,25 +50,39 @@ sections:
       self:
         alignItems: flex-start
         flexDirection: row
-        justifyContent: flex-start
+        justifyContent: center
+        padding:
+          - pt-10
+          - pl-0
+          - pb-10
+          - pr-0
+        margin:
+          - mt-0
+          - ml-0
+          - mb-0
+          - mr-0
       text:
-        textAlign: justify
+        textAlign: left
     backgroundImage:
       type: BackgroundImage
       altText: altText of the image
       backgroundSize: cover
       backgroundPosition: ''
       backgroundRepeat: repeat
-      opacity: 10
+      opacity: 5
       url: /images/simple-pcb-layout_lml7zo.webp
     media:
       type: ImageBlock
-      url: /images/photo Etienne Réparation.png
-      altText: Image alt text placeholder
+      altText: Photo Etienne Réparateur Strasbourg Schiltigheim
       elementId: ''
       styles:
         self:
           borderRadius: medium
+          padding:
+            - pt-0
+            - pl-0
+            - pb-0
+            - pr-0
 slug: apropos
 seo:
   type: Seo
