@@ -134,10 +134,10 @@ sections:
       url: /images/noise.png
   - type: GenericSection
     subtitle: ''
-    text: >
+    text: >+
       <span style="color: #11295c">
 
-      ## **90% des dommages liquides sont réparables !**
+      ## **90% des dommages liquides sont réparables**
 
       <p style="text-align:justify;">
 
@@ -152,6 +152,7 @@ sections:
       </p>
 
       </span>
+
     actions: []
     media:
       type: VideoBlock
