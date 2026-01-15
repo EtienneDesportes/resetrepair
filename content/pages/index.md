@@ -206,8 +206,17 @@ sections:
         title: ''
         tagline: ''
         subtitle: ''
-        text: |
-          Follow the tutorial to build your first awesome Netlify site.
+        text: >+
+          <span style="color: #11295c">
+
+
+          <p style='text-align: justify;'>On confirme la réception de votre
+          MacBook et on le répare. S'il n'est pas réparable, seuls les frais de
+          retour sont à votre charge.</p>
+
+
+          </span>
+
         image:
           type: ImageBlock
           url: /images/abstract-feature2.svg
