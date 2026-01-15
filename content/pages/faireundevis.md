@@ -74,8 +74,8 @@ sections:
             Quel est votre problème ? (Merci de préciser le modèle et l'année de
             votre appareil)
           label: >-
-            Quel est votre problème ? Merci de préciser le modèle et l'année de
-            votre appareil
+            <b>Quel est votre problème ? Merci de préciser le modèle et l'année de
+            votre appareil<b>
           hideLabel: false
           placeholder: Votre message
           width: full
