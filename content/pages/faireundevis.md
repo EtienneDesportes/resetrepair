@@ -105,6 +105,13 @@ sections:
           - pl-5
           - pb-5
           - pr-5
+    backgroundImage:
+      type: BackgroundImage
+      altText: altText of the image
+      backgroundSize: auto
+      backgroundPosition: center
+      backgroundRepeat: no-repeat
+      opacity: 100
 slug: faireundevis
 isDraft: false
 seo:
