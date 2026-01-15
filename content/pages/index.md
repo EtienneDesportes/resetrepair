@@ -74,8 +74,7 @@ sections:
       - title: ''
         tagline: ''
         subtitle: ''
-        text: |
-          Follow the tutorial to build your first awesome Netlify Create site.
+        text: "<span style=\"color: #11295c\"\_>\n\n<p style='text-align: justify;'> Nous sommes l'alternative et proposons une réparation à moindre coût sans remplacer la carte mère.          Economique pour vous, une passion pour nous et écologique pour tous.</p>\n\n\n\n</span>\n\n"
         image:
           url: /images/eco-8be7843e.svg
           altText: Placeholder image
