@@ -50,7 +50,7 @@ sections:
     actions: []
     media:
       type: ImageBlock
-      url: /images/réparation-micro-soudure.jpg
+      url: /images/réparation-multimètre-soudure-microscope.jpg
       altText: Dope design preview
     colors: bg-light-fg-dark
     styles:
