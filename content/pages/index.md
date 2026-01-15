@@ -22,10 +22,10 @@ sections:
         alignItems: center
         flexDirection: row
         padding:
-          - pt-10
-          - pl-10
-          - pb-10
-          - pr-10
+          - pt-5
+          - pl-5
+          - pb-5
+          - pr-5
     backgroundImage:
       type: BackgroundImage
       altText: noise
