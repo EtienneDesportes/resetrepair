@@ -6,7 +6,19 @@
     },
     "text": "Réparation de matériel électronique\n",
     "socialLinks": [],
-    "legalLinks": [],
+    "legalLinks": [
+        {
+            "type": "Link",
+            "label": "See Tutorials",
+            "altText": "",
+            "url": "/https://repair.wiki/w/Main_Page#gsc.tab=0",
+            "showIcon": false,
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "elementId": ""
+        }
+    ],
     "copyrightText": "",
     "colors": "bg-neutral-fg-dark",
     "type": "Footer",
