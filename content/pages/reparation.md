@@ -41,6 +41,8 @@ sections:
           - pr-10
       subtitle:
         textAlign: left
+      text:
+        textAlign: justify
     media:
       type: ImageBlock
       url: /images/820-2330.jpg
