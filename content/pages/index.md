@@ -128,29 +128,6 @@ sections:
       subtitle:
         textAlign: center
     type: FeaturedItemsSection
-  - type: FeaturedPostsSection
-    posts:
-      - >-
-        content/pages/blog/how-to-write-a-blog-post-that-will-get-you-more-traffic.md
-      - content/pages/blog/five-tips-for-starting-a-startup.md
-      - content/pages/blog/what-is-a-design-system.md
-    showThumbnail: false
-    showExcerpt: false
-    showDate: false
-    showAuthor: false
-    actions: []
-    elementId: ''
-    variant: small-list
-    colors: bg-light-fg-dark
-    hoverEffect: move-up
-    styles:
-      self:
-        padding:
-          - pt-16
-          - pl-16
-          - pb-16
-          - pr-16
-        justifyContent: center
   - title:
       text: Generic Section With A Form
       color: text-dark
