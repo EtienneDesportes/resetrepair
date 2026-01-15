@@ -183,7 +183,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: repeat-y
       opacity: 10
-      url: /images/printed_circuit_board_layout_vgmgll.webp
+      url: /images/simple-pcb-layout_lml7zo.webp
   - type: FeaturedItemsSection
     subtitle: ''
     items:
