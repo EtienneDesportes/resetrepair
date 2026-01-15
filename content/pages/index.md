@@ -231,7 +231,7 @@ sections:
         image:
           type: ImageBlock
           url: /images/réparation-multimètre-soudure-microscope(1)(1).jpg
-          altText: Placeholder image
+          altText: Réparation Electronique Schiltigheim
           styles:
             self:
               borderRadius: x-large
