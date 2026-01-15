@@ -36,9 +36,9 @@ sections:
         justifyContent: center
         padding:
           - pt-10
-          - pl-0
+          - pl-10
           - pb-10
-          - pr-0
+          - pr-10
       subtitle:
         textAlign: left
     media:
