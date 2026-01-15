@@ -176,20 +176,6 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: left
-  - type: RecentPostsSection
-    recentCount: 3
-    showThumbnail: false
-    showExcerpt: false
-    showDate: false
-    showAuthor: false
-    actions: []
-    elementId: ''
-    variant: three-col-grid
-    colors: bg-neutral-fg-dark
-    hoverEffect: shadow
-    styles:
-      self:
-        justifyContent: center
 seo:
   metaTitle: Home - Demo site
   metaDescription: This demo site is built with Netlify Create.
