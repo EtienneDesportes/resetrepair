@@ -50,7 +50,7 @@ sections:
     styles:
       self:
         alignItems: flex-start
-        flexDirection: col
+        flexDirection: row
         justifyContent: flex-start
 slug: apropos
 seo:
