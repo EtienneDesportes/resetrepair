@@ -51,6 +51,11 @@ sections:
         alignItems: flex-start
         flexDirection: row
         justifyContent: flex-start
+        padding:
+          - pt-10
+          - pl-10
+          - pb-10
+          - pr-10
       text:
         textAlign: justify
     backgroundImage:
