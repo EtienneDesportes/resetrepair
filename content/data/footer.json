@@ -45,7 +45,7 @@
                 "type": "Link",
                 "label": "ifixit",
                 "altText": "",
-                "url": "/pricing",
+                "url": "https://fr.ifixit.com/",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
