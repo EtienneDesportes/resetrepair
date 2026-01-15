@@ -5,7 +5,7 @@ sections:
   - type: CarouselSection
     items:
       - type: FeaturedItem
-        title: Réparateur Mécatronique
+        title: ''
         tagline: ''
         subtitle: ''
         text: >+
