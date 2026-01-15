@@ -130,11 +130,18 @@ sections:
     type: FeaturedItemsSection
   - type: GenericSection
     subtitle: ''
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+    text: >+
+      90% des dommages liquides sont réparables
+
+
+      <p style="text-align:justify;">Il reste une chance pour réparer votre
+      machine à moindre coût. Si le fabricant vous explique qu'il faut         
+      remplacer toute la carte mère pour un coût exorbitant, ce n'est
+      heureusement rarement le cas ! Après avoir établi un premier diagnostic au
+      microscope à l'aide d'un multimètre et d'une alimentation de labo, nous
+      remplacerons les composants défectueux (résistances, fusibles,
+      condensateurs, mosfets... )</p>
+
     actions: []
     media:
       type: VideoBlock
