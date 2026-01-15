@@ -59,7 +59,7 @@ sections:
         self:
           borderRadius: medium
   - type: GenericSection
-    subtitle: Section with a video subtitle
+    subtitle: ''
     text: >+
       <span style="color: #11295c">
 
