@@ -51,10 +51,6 @@ sections:
       </span>
 
     actions: []
-    media:
-      type: ImageBlock
-      url: /images/photo Etienne Réparation.png
-      altText: Dope design preview
     colors: bg-light-fg-dark
     styles:
       self:
