@@ -219,7 +219,7 @@ sections:
 
         image:
           type: ImageBlock
-          url: /images/abstract-feature2.svg
+          url: /images/réparation-32a3e815.svg
           altText: Placeholder image
           styles:
             self:
