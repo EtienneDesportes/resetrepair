@@ -177,13 +177,6 @@ sections:
       subtitle:
         textAlign: left
   - type: RecentPostsSection
-    title:
-      type: TitleBlock
-      text: Recent posts
-      color: text-dark
-      styles:
-        self:
-          textAlign: center
     recentCount: 3
     showThumbnail: true
     showExcerpt: true
