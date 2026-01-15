@@ -260,7 +260,7 @@ sections:
 
         image:
           type: ImageBlock
-          url: /images/réparation-multimètre-soudure-microscope(1)(1).webp
+          url: /images/alim labo.webp
           altText: Réparation Électronique Schiltigheim
           styles:
             self:
