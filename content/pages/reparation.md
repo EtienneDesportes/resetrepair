@@ -44,7 +44,7 @@ sections:
     media:
       type: ImageBlock
       url: /images/820-2330.jpg
-      altText: Image alt text placeholder
+      altText: Carte Mère MacBook
       elementId: ''
       styles:
         self:
