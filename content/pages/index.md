@@ -130,7 +130,11 @@ sections:
     type: FeaturedItemsSection
   - type: GenericSection
     subtitle: ''
-    text: >
+    text: >-
+      <span style="color: #11295c">
+
+      <p style="text-align:justify;">
+
       ## **90% des dommages liquides sont réparables**
 
 
@@ -139,6 +143,10 @@ sections:
       avoir établi un premier diagnostic au microscope à l'aide d'un multimètre
       et d'une alimentation de labo, nous remplacerons les composants défectueux
       (résistances, fusibles, condensateurs, mosfets... )
+
+      </p>
+
+      </span>
     actions: []
     media:
       type: VideoBlock
