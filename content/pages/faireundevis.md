@@ -119,10 +119,10 @@ sections:
 slug: faireundevis
 isDraft: false
 seo:
+  metaTitle: Réparation électronique Strasbourg Schiltigheim
+  metaDescription: >-
+    Réparation Micro Soudure MacBook PC Portable Console Apple Audio Tablette
+    Smartphone Carte Mère 
+  socialImage: /images/réparation-micro-soudure.jpg
   type: Seo
-  metaTitle: Landing Page
-  metaDescription: Write here your new page's description including most relevant keywords.
-  addTitleSuffix: true
-  socialImage: /images/main-hero.jpg
-  metaTags: []
 ---
