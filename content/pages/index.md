@@ -131,7 +131,7 @@ sections:
     backgroundImage:
       type: BackgroundImage
       altText: altText of the image
-      backgroundSize: contain
+      backgroundSize: auto
       backgroundPosition: ''
       backgroundRepeat: repeat
       opacity: 100
