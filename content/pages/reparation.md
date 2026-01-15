@@ -54,7 +54,7 @@ sections:
         textAlign: center
     media:
       type: ImageBlock
-      url: /images/hero2.svg
+      url: /images/réparation-carte-mère.jpg
       altText: Image alt text placeholder
       elementId: ''
       styles:
