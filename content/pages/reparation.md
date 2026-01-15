@@ -108,41 +108,6 @@ sections:
       styles:
         self:
           borderRadius: medium
-  - type: GenericSection
-    subtitle: ''
-    text: |+
-      ### **Nos Outils**
-
-      *   Microscope Amscope 4-NTP
-
-      *   Station de soudage ERSA i-con 2
-
-      *   Station à air chaud Quick 861dw
-
-      *   Alimentation de labo Owon 0-35V, 0-5A
-
-      *   Multimètre Fluke 17b
-
-      *   Oscilloscope Owon SDS1102
-
-      *   Matériel divers: Etain, Flux,  Alcool IPA
-
-    actions: []
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        flexDirection: row
-        justifyContent: center
-      subtitle:
-        textAlign: left
-    media:
-      type: ImageBlock
-      url: /images/outils-réparation-macbook.jpg
-      altText: Image alt text placeholder
-      elementId: ''
-      styles:
-        self:
-          borderRadius: medium
   - type: FeaturedItemsSection
     title:
       type: TitleBlock
