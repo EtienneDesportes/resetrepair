@@ -1,6 +1,6 @@
 ---
 type: PageLayout
-title: A propos
+title: À propos
 sections:
   - type: GenericSection
     subtitle: ''
