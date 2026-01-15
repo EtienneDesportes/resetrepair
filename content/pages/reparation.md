@@ -10,7 +10,7 @@ sections:
       styles:
         self:
           textAlign: center
-    subtitle: Section subtitle
+    subtitle: ''
     text: >
       **La carte mère est réparable :**
 
