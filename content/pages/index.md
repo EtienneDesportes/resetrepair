@@ -229,7 +229,7 @@ sections:
 
         image:
           type: ImageBlock
-          url: /images/réparation-32a3e815.svg
+          url: /images/réparation-multimètre-soudure-microscope.jpg
           altText: Placeholder image
           styles:
             self:
