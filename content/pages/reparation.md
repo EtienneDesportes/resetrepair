@@ -45,7 +45,7 @@ sections:
         textAlign: justify
     media:
       type: ImageBlock
-      url: /images/820-2330.jpg
+      url: /images/820-2330-1.webp
       altText: Carte Mère MacBook
       elementId: ''
       styles:
