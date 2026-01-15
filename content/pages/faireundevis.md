@@ -98,6 +98,7 @@ sections:
           borderStyle: solid
           borderWidth: 1
           borderRadius: large
+          justifyContent: center
     colors: bg-neutral-fg-dark
     styles:
       self:
