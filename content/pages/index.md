@@ -65,7 +65,7 @@ sections:
       url: /images/simple-pcb-layout_lml7zo.webp
     media:
       type: ImageBlock
-      url: /images/réparation-micro-soudure.webp
+      url: /images/header image.webp
       altText: Réparation Macbook Strasbourg
       elementId: ''
       styles:
