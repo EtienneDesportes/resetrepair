@@ -12,11 +12,16 @@ sections:
           textAlign: center
     subtitle: Section subtitle
     text: >
-      There are many variations of passages of Lorem Ipsum available, but the
-      majority have suffered alteration in some form, by injected humour, or
-      randomised words which don't look even slightly believable. If you are
-      going to use a passage of Lorem Ipsum, you need to be sure there isn't
-      anything embarrassing hidden in the middle of text.
+      **La carte mère est réparable :**
+
+      Vous réglez en ligne par CB le montant indiqué sur le devis. L’envoi et
+      retour par colis sont assurés et gratuits.
+
+
+      **La carte mère n’est pas réparable :**
+
+      Vous serez informé par e-mail. Le retour est facturé 30€ TTC si vous ne
+      pouvez pas récupérer votre appareil à l'atelier.
     actions:
       - type: Button
         label: See open positions
