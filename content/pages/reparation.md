@@ -159,7 +159,7 @@ sections:
             self:
               borderRadius: medium
         actions: []
-        colors: bg-neutral-fg-dark
+        colors: bg-light-fg-dark
     actions: []
     elementId: ''
     variant: three-col-grid
