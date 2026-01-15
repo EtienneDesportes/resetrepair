@@ -127,7 +127,7 @@ sections:
             self:
               borderRadius: medium
         actions: []
-        colors: bg-light-fg-dark
+        colors: bg-dark-fg-light
         text: "<span style=\"color: #11295c\"\_>\n\n<p style='text-align: justify;'>Après confirmation du devis, une étiquette d’envoi avec assurance vous sera envoyée. Il ne vous reste plus qu’à coller l’étiquette sur votre colis et de le déposer en bureau de poste. </p>\n</span>\n\n"
       - type: FeaturedItem
         title: ''
