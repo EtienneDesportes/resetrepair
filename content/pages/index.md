@@ -5,13 +5,7 @@ sections:
   - type: GenericSection
     subtitle: ''
     text: |+
-      ```
-      <body>
-      ```
-
-      ```
       <p style="color: #11295c">
-      ```
 
       ## **Votre machine peut être réparée !**
 
@@ -25,10 +19,7 @@ sections:
 
       *   Récupération de données
 
-
       </p>
-
-      </body>
 
     actions:
       - label: Faire un devis
