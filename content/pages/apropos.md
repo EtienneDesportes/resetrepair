@@ -6,7 +6,7 @@ sections:
     items:
       - type: FeaturedItem
         title: Réparateur Mécatronique
-        tagline: Feature 1
+        tagline: ''
         subtitle: Increase your reach
         text: >+
           <span style="color: #11295c">
