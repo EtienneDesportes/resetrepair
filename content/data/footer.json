@@ -4,7 +4,7 @@
         "altText": "Logo light",
         "type": "ImageBlock"
     },
-    "text": "Réparateur de matériel électronique\n",
+    "text": "Réparation de matériel électronique\n",
     "socialLinks": [],
     "legalLinks": [],
     "copyrightText": "",
@@ -25,5 +25,61 @@
                 "pr-5"
             ]
         }
+    },
+    "secondaryLinks": {
+        "type": "FooterLinksGroup",
+        "title": "Tutoriel de Réparation",
+        "links": [
+            {
+                "type": "Link",
+                "label": "Repair Wiki",
+                "altText": "",
+                "url": "https://repair.wiki/w/Main_Page#gsc.tab=0",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "elementId": ""
+            },
+            {
+                "type": "Link",
+                "label": "ifixit",
+                "altText": "",
+                "url": "https://fr.ifixit.com/",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "elementId": ""
+            }
+        ]
+    },
+    "primaryLinks": {
+        "type": "FooterLinksGroup",
+        "title": "Entreprise",
+        "links": [
+            {
+                "type": "Link",
+                "label": "Droit à la réparation",
+                "altText": "",
+                "url": "https://repair.eu/fr/",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "elementId": ""
+            },
+            {
+                "type": "Link",
+                "label": "Repair Cafe",
+                "altText": "",
+                "url": "https://www.repaircafe.org/en/",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "elementId": ""
+            }
+        ]
     }
 }
