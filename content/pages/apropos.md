@@ -62,7 +62,7 @@ sections:
           - mb-0
           - mr-0
       text:
-        textAlign: justify
+        textAlign: left
     backgroundImage:
       type: BackgroundImage
       altText: altText of the image
