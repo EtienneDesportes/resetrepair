@@ -304,6 +304,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
+      url: /images/noise.png
 seo:
   metaTitle: Réparation électronique Strasbourg Schiltigheim
   metaDescription: >-
