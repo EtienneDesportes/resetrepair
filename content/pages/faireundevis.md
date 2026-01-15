@@ -112,6 +112,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
+      url: /images/noise.png
 slug: faireundevis
 isDraft: false
 seo:
