@@ -191,7 +191,7 @@ sections:
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: repeat-y
-      opacity: 10
+      opacity: 5
       url: /images/simple-pcb-layout_lml7zo.webp
   - type: FeaturedItemsSection
     subtitle: ''
