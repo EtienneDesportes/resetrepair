@@ -63,7 +63,7 @@ sections:
       url: /images/simple-pcb-layout_lml7zo.webp
     media:
       type: ImageBlock
-      url: /images/hero2.svg
+      url: /images/photo Etienne Réparation.png
       altText: Image alt text placeholder
       elementId: ''
       styles:
