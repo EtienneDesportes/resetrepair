@@ -130,12 +130,13 @@ sections:
     type: FeaturedItemsSection
   - type: GenericSection
     subtitle: ''
-    text: >-
+    text: >
       <span style="color: #11295c">
+
+      ## **90% des dommages liquides sont réparables**
 
       <p style="text-align:justify;">
 
-      ## **90% des dommages liquides sont réparables**
 
 
       Si le fabricant vous explique qu'il faut remplacer toute la carte mère
@@ -143,6 +144,7 @@ sections:
       avoir établi un premier diagnostic au microscope à l'aide d'un multimètre
       et d'une alimentation de labo, nous remplacerons les composants défectueux
       (résistances, fusibles, condensateurs, mosfets... )
+
 
       </p>
 
