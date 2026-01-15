@@ -36,7 +36,7 @@ sections:
       altText: Placeholder image
       backgroundSize: auto
       backgroundPosition: center
-      backgroundRepeat: no-repeat
+      backgroundRepeat: repeat
       opacity: 100
     styles:
       self:
