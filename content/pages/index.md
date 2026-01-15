@@ -235,7 +235,7 @@ sections:
 
         image:
           type: ImageBlock
-          url: /images/réparation-multimètre-soudure-microscope.webp
+          url: /images/microscopemacbook.webp
           altText: Réparation Console PS5 Strasbourg
           styles:
             self:
