@@ -111,8 +111,6 @@ sections:
   - type: GenericSection
     subtitle: ''
     text: |+
-      <span style="color: #11295c">
-
       ### **Nos Outils**
 
       *   Microscope Amscope 4-NTP
@@ -128,8 +126,6 @@ sections:
       *   Oscilloscope Owon SDS1102
 
       *   Matériel divers: Etain, Flux,  Alcool IPA
-
-      </span>
 
     actions: []
     media:
