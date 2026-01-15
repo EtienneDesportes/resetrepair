@@ -5,7 +5,7 @@ sections:
   - type: GenericSection
     subtitle: ''
     text: |+
-      <span style="color: #11295c">\*
+      <span style="color: #11295c">
 
       ## **Votre machine peut être réparée !**
 
@@ -18,8 +18,6 @@ sections:
       *   Problème de démarrage
 
       *   Récupération de données
-
-      \*</span>
 
     actions:
       - label: Faire un devis
