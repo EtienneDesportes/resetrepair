@@ -130,17 +130,15 @@ sections:
     type: FeaturedItemsSection
   - type: GenericSection
     subtitle: ''
-    text: >+
+    text: >
       ## **90% des dommages liquides sont réparables**
 
 
-      Il reste une chance pour réparer votre machine à moindre coût. Si le
-      fabricant vous explique qu'il faut          remplacer toute la carte mère
+      Si le fabricant vous explique qu'il faut remplacer toute la carte mère
       pour un coût exorbitant, ce n'est heureusement rarement le cas ! Après
       avoir établi un premier diagnostic au microscope à l'aide d'un multimètre
       et d'une alimentation de labo, nous remplacerons les composants défectueux
       (résistances, fusibles, condensateurs, mosfets... )
-
     actions: []
     media:
       type: VideoBlock
