@@ -56,6 +56,11 @@ sections:
           - pl-10
           - pb-10
           - pr-10
+        margin:
+          - mt-5
+          - ml-5
+          - mb-5
+          - mr-5
       text:
         textAlign: justify
     backgroundImage:
