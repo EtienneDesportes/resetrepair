@@ -10,8 +10,8 @@ sections:
       réparée !</strong></h2>
 
 
-      <h4 id="microsoudure"><strong>Spécialiste en micro-soudure sur matériel
-      électronique</strong></h4>
+      <h1 id="microsoudure"><strong>Spécialiste en micro-soudure sur matériel
+      électronique</strong></h1>
 
       <p>Réparation de Carte-Mère:</p>
 
