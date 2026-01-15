@@ -9,8 +9,9 @@ sections:
       id="-votre-machine-peut-tre-r-par-e-"><strong>Votre machine peut être
       réparée !</strong></h2>
 
-      <p><strong>Spécialiste en micro-soudure sur matériel
-      électronique</strong></p>
+
+      <h3 id="microsoudure"><strong>Spécialiste en micro-soudure sur matériel
+      électronique</strong></strong></h3>
 
       <p>Réparation de Carte-Mère:</p>
 
