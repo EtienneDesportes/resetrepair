@@ -129,13 +129,6 @@ sections:
         textAlign: center
     type: FeaturedItemsSection
   - type: GenericSection
-    title:
-      type: TitleBlock
-      text: Generic section with a video
-      color: text-dark
-      styles:
-        self:
-          textAlign: left
     subtitle: ''
     text: |-
       Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
