@@ -43,7 +43,7 @@
             },
             {
                 "type": "Link",
-                "label": "Pricing",
+                "label": "",
                 "altText": "",
                 "url": "/pricing",
                 "showIcon": false,
