@@ -56,6 +56,8 @@ sections:
         alignItems: flex-start
         flexDirection: row
         justifyContent: flex-start
+      text:
+        textAlign: center
     backgroundImage:
       type: BackgroundImage
       altText: altText of the image
