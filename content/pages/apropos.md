@@ -51,7 +51,7 @@ sections:
       self:
         alignItems: center
         flexDirection: row-reverse
-        justifyContent: flex-start
+        justifyContent: flex-end
 slug: apropos
 seo:
   type: Seo
