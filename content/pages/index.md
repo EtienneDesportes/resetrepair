@@ -215,10 +215,10 @@ sections:
         styles:
           self:
             padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
             borderRadius: x-large
             flexDirection: col
       - type: FeaturedItem
