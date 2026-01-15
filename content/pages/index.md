@@ -183,6 +183,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
+      url: /images/printed_circuit_board_layout_vgmgll.webp
   - type: FeaturedItemsSection
     subtitle: ''
     items:
