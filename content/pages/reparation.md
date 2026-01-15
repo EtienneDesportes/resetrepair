@@ -12,8 +12,8 @@ sections:
           textAlign: center
     subtitle: ''
     text: >
-      ### La réparation est uniquement facturée si elle est réalisée avec succès
-      !
+      ### **La réparation est uniquement facturée si elle est réalisée avec
+      succès !**
 
 
       **La carte mère est réparable :**
