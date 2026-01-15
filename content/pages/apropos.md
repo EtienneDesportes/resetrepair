@@ -42,7 +42,7 @@ sections:
         image:
           type: ImageBlock
           url: /images/photo Etienne Réparation.png
-          altText: Featured item
+          altText: Etienne
           styles:
             self:
               borderRadius: medium
