@@ -125,7 +125,7 @@ export const Header: Model = {
                     label: 'Neutral background, dark foreground',
                     value: 'bg-neutral-fg-dark',
                     textColor: '$dark',
-                    backgroundColor: '#1787fc',
+                    backgroundColor: '$neutral',
                     borderColor: '#ececec'
                 },
                 {
