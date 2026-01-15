@@ -204,7 +204,7 @@ sections:
 
         image:
           type: ImageBlock
-          url: /images/envoigratuit-69c13db7.svg
+          url: /images/réparation-multimètre-soudure-microscope(1)(1).jpg
           altText: Placeholder image
           styles:
             self:
