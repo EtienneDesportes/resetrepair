@@ -148,6 +148,15 @@ sections:
             borderRadius: none
             flexDirection: col
             justifyContent: center
+        text: >+
+          <span style="color: #11295c">
+
+          <p style='text-align: justify;'>On confirme la réception de votre
+          MacBook et on le répare. S'il n'est pas réparable, seuls les frais de
+          retour sont à votre charge.</p>
+
+          </span>
+
       - type: FeaturedItem
         title: ''
         subtitle: ''
