@@ -112,7 +112,7 @@ sections:
     items:
       - type: FeaturedItem
         title: ''
-        subtitle: $ 44.99 – $ 90
+        subtitle: ''
         image:
           type: ImageBlock
           url: /images/réparation-multimètre-soudure-microscope.jpg
