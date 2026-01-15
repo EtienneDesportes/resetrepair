@@ -9,5 +9,15 @@
     "legalLinks": [],
     "copyrightText": "",
     "colors": "bg-neutral-fg-dark",
-    "type": "Footer"
+    "type": "Footer",
+    "styles": {
+        "self": {
+            "margin": [
+                "mt-11",
+                "ml-11",
+                "mb-11",
+                "mr-11"
+            ]
+        }
+    }
 }
