@@ -149,7 +149,7 @@ sections:
             justifyContent: center
       - type: FeaturedItem
         title: Chunky Cotton Knit Throw
-        subtitle: $117
+        subtitle: ''
         image:
           type: ImageBlock
           url: /images/alimentation-labo-réparation.jpg
