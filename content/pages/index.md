@@ -5,6 +5,14 @@ sections:
   - type: GenericSection
     subtitle: ''
     text: |+
+      ```
+      <body>
+      ```
+
+      ```
+      <p style="color: #11295c">
+      ```
+
       ## **Votre machine peut être réparée !**
 
       ### **Spécialiste en micro-soudure sur matériel électronique**
@@ -16,6 +24,11 @@ sections:
       *   Problème de démarrage
 
       *   Récupération de données
+
+
+      </p>
+
+      </body>
 
     actions:
       - label: Faire un devis
