@@ -77,7 +77,7 @@ sections:
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
-      opacity: 5
+      opacity: 100
       url: /images/simple-pcb-layout_lml7zo.webp
 slug: apropos
 seo:
