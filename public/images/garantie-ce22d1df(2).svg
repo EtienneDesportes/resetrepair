@@ -1,22 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 9678 2967" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g transform="matrix(1.33333,0,0,1.33333,5564.56,-2380.6)">
-        <g transform="matrix(0.5,0,0,0.5,-1267.86,2874.35)">
-            <g transform="matrix(1,0,0,1,-6758.56,-1271.87)">
-                <clipPath id="_clip1">
-                    <rect x="0" y="0" width="13517.1" height="2543.74"/>
-                </clipPath>
-                <g clip-path="url(#_clip1)">
-                    <g transform="matrix(2,0,0,2,6183.07,-1425.91)">
-                        <g transform="matrix(1.05877,0,0,1.05877,65.7914,1638.31)">
-                            <g id="Devis_Gratuit_100_Satisfaction">
-                                <text x="0px" y="0px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:600px;fill:rgb(17,41,92);">Garantie</text>
-                            </g>
-                        </g>
-                        <g id="poignee-mains" transform="matrix(0.503914,0,0,0.503911,-2419.75,712.953)">
+<svg width="100%" height="100%" viewBox="0 0 12904 3956" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(2.15349,0,0,2.15349,4721.97,2491.15)">
+        <g>
+            <g>
+                <g id="Devis_Gratuit_100_Satisfaction">
+                    <g transform="matrix(1,0,0,1,372.271,0)">
+                        <text x="0px" y="0px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:600px;fill:rgb(17,41,92);">Garantie</text>
+                    </g>
+                    <g transform="matrix(0.487388,0,0,0.487388,-2827.79,-761.833)">
+                        <g>
                             <g>
-                                <use id="poignee-mains1" serif:id="poignee-mains" xlink:href="#_Image2" x="0" y="0" width="3925px" height="2524px"/>
+                                <g>
+                                    <g>
+                                        <g>
+                                            <g>
+                                                <clipPath id="_clip1">
+                                                    <rect x="0" y="0" width="13517.1" height="2543.74"/>
+                                                </clipPath>
+                                                <g clip-path="url(#_clip1)">
+                                                    <g id="poignee-mains" transform="matrix(1.00783,0,0,1.00782,1343.57,-0.004)">
+                                                        <g>
+                                                            <g>
+                                                                <use id="poignee-mains1" serif:id="poignee-mains" xlink:href="#_Image2" x="0" y="0" width="3925px" height="2524px"/>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
                             </g>
                         </g>
                     </g>
