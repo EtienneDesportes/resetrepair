@@ -61,6 +61,14 @@ sections:
       backgroundRepeat: repeat
       opacity: 10
       url: /images/simple-pcb-layout_lml7zo.webp
+    media:
+      type: ImageBlock
+      url: /images/hero2.svg
+      altText: Image alt text placeholder
+      elementId: ''
+      styles:
+        self:
+          borderRadius: medium
 slug: apropos
 seo:
   type: Seo
