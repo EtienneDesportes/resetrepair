@@ -40,7 +40,7 @@ sections:
       url: /images/simple-pcb-layout_lml7zo.webp
     media:
       type: ImageBlock
-      url: /images/réparation-micro-soudure.jpg
+      url: /images/réparation-micro-soudure.png
       altText: Image alt text placeholder
       elementId: ''
       styles:
@@ -74,8 +74,7 @@ sections:
       - title: ''
         tagline: ''
         subtitle: ''
-        text: |
-          Follow the tutorial to build your first awesome Netlify Create site.
+        text: "<span style=\"color: #11295c\"\_>\n\n<p style='text-align: justify;'> Nous sommes l'alternative et proposons une réparation à moindre coût sans remplacer la carte mère.          Economique pour vous, une passion pour nous et écologique pour tous.</p>\n\n\n\n</span>\n\n"
         image:
           url: /images/eco-8be7843e.svg
           altText: Placeholder image
@@ -97,9 +96,7 @@ sections:
       - title: ''
         tagline: ''
         subtitle: ''
-        text: >
-          Learn from the tutorial and build your first awesome Netlify Create
-          site.
+        text: "<span style=\"color: #11295c\"\_>\n\n<p style='text-align: justify;'>Notre expertise nous permet de vous garantir nos interventions pendant 6 mois. Nous avons les outils et          composants pour assurer une réparation de haute qualité.</p>\n\n</span>\n\n"
         image:
           url: /images/garantie-ce22d1df(2).svg
           altText: Placeholder image
@@ -131,65 +128,159 @@ sections:
       subtitle:
         textAlign: center
     type: FeaturedItemsSection
-  - title:
-      text: Generic Section With A Form
-      color: text-dark
-      type: TitleBlock
-    subtitle: Section with a form subtitle
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+  - type: GenericSection
+    subtitle: ''
+    text: >
+      <span style="color: #11295c">
+
+      ## **90% des dommages liquides sont réparables !**
+
+      <p style="text-align:justify;">
+
+
+      Si le fabricant vous explique qu'il faut remplacer toute la carte mère
+      pour un coût exorbitant, ce n'est heureusement rarement le cas ! Après
+      avoir établi un premier diagnostic au microscope à l'aide d'un multimètre
+      et d'une alimentation de labo, nous remplacerons les composants défectueux
+      (résistances, fusibles, condensateurs, mosfets... )
+
+
+      </p>
+
+      </span>
+    actions: []
     media:
-      fields:
-        - name: name
-          label: Name
-          hideLabel: true
-          placeholder: Your name
-          isRequired: true
-          width: full
-          type: TextFormControl
-        - name: email
-          label: Email
-          hideLabel: true
-          placeholder: Your email
-          isRequired: true
-          width: full
-          type: EmailFormControl
-        - name: message
-          label: Message
-          hideLabel: true
-          placeholder: Your message
-          width: full
-          type: TextareaFormControl
-      elementId: contact-form
+      type: VideoBlock
+      title: Title of the video
+      url: /images/soldering.np4
+      autoplay: true
+      loop: true
+      muted: true
+      controls: false
+      aspectRatio: '16:9'
       styles:
         self:
           padding:
-            - pt-6
-            - pb-6
-            - pl-6
-            - pr-6
+            - pt-2
+            - pb-2
+            - pl-2
+            - pr-2
           borderColor: border-dark
           borderStyle: solid
           borderWidth: 1
           borderRadius: large
-      type: FormBlock
-      submitButton:
-        type: SubmitButtonFormControl
-        label: Submit
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: null
-    badge:
-      label: Contact Us
-      color: text-primary
-      type: Badge
     colors: bg-light-fg-dark
-    type: GenericSection
+    styles:
+      self:
+        flexDirection: row
+        justifyContent: center
+      subtitle:
+        textAlign: left
+  - type: FeaturedItemsSection
+    subtitle: ''
+    items:
+      - type: FeaturedItem
+        title: ''
+        tagline: ''
+        subtitle: ''
+        text: "<span style=\"color: #11295c\"\_>\n\n<p style='text-align: justify;'>Après confirmation du devis, une étiquette d’envoi avec assurance vous sera envoyée. Il ne vous reste plus qu’à coller l’étiquette sur votre colis et de le déposer en bureau de poste. </p>\n\n</span>\n\n"
+        image:
+          type: ImageBlock
+          url: /images/envoigratuit-69c13db7.svg
+          altText: Placeholder image
+          styles:
+            self:
+              borderRadius: x-large
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: x-large
+            flexDirection: col
+      - type: FeaturedItem
+        title: ''
+        tagline: ''
+        subtitle: ''
+        text: >+
+          <span style="color: #11295c">
+
+
+          <p style='text-align: justify;'>On confirme la réception de votre
+          MacBook et on le répare. S'il n'est pas réparable, seuls les frais de
+          retour sont à votre charge.</p>
+
+
+          </span>
+
+        image:
+          type: ImageBlock
+          url: /images/réparation-32a3e815.svg
+          altText: Placeholder image
+          styles:
+            self:
+              borderRadius: x-large
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: x-large
+            flexDirection: col
+      - type: FeaturedItem
+        title: ''
+        tagline: ''
+        subtitle: ''
+        text: >+
+          <span style="color: #11295c">
+
+
+          <p style='text-align: justify;'>Vous réglez uniquement le devis si la
+          réparation est finalisée avec succès. On vous renvoie gratuitement
+          votre machine en colis assuré.</p>
+
+
+          </span>
+
+        image:
+          type: ImageBlock
+          url: /images/retour-232c7065.svg
+          altText: Placeholder image
+          styles:
+            self:
+              borderRadius: x-large
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: x-large
+            flexDirection: col
+    actions: []
+    variant: three-col-grid
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-16
+          - pl-8
+          - pb-16
+          - pr-8
+        justifyContent: center
+      subtitle:
+        textAlign: center
 seo:
   metaTitle: Home - Demo site
   metaDescription: This demo site is built with Netlify Create.
