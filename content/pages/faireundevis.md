@@ -55,7 +55,7 @@ sections:
       type: Badge
       label: Contact Us
       color: text-primary
-    colors: bg-light-fg-dark
+    colors: bg-neutral-fg-dark
 slug: faireundevis
 isDraft: false
 seo:
