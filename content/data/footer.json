@@ -71,7 +71,7 @@
             },
             {
                 "type": "Link",
-                "label": "CGU",
+                "label": "",
                 "altText": "",
                 "url": "/blog",
                 "showIcon": false,
