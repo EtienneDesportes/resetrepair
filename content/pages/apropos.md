@@ -63,7 +63,7 @@ sections:
       altText: altText of the image
       backgroundSize: contain
       backgroundPosition: ''
-      backgroundRepeat: no-repeat
+      backgroundRepeat: repeat-y
       opacity: 10
       url: /images/simple-pcb-layout_lml7zo.webp
 slug: apropos
