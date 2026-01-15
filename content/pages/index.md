@@ -215,10 +215,10 @@ sections:
         styles:
           self:
             padding:
-              - pt-4
-              - pl-4
-              - pb-4
-              - pr-4
+              - pt-1
+              - pl-1
+              - pb-1
+              - pr-1
             borderRadius: x-large
             flexDirection: col
       - type: FeaturedItem
