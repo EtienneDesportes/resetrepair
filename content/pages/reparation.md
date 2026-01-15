@@ -137,7 +137,7 @@ sections:
         textAlign: left
     media:
       type: ImageBlock
-      url: /images/réparation-multimètre-soudure-microscope.jpg
+      url: /images/outils-réparation-macbook.jpg
       altText: Image alt text placeholder
       elementId: ''
       styles:
