@@ -42,6 +42,9 @@ sections:
       reconditionné qui suffit amplement à nos besoins.
 
 
+      ![](/images/photo%20Etienne%20Re%CC%81paration.png)
+
+
       </p>
 
 
