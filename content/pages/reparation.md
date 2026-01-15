@@ -100,6 +100,13 @@ sections:
       styles:
         self:
           borderRadius: medium
+    backgroundImage:
+      type: BackgroundImage
+      altText: altText of the image
+      backgroundSize: auto
+      backgroundPosition: center
+      backgroundRepeat: no-repeat
+      opacity: 100
 slug: reparation
 seo:
   type: Seo
