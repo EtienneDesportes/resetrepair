@@ -55,7 +55,7 @@ sections:
           - pt-10
           - pl-0
           - pb-10
-          - pr-10
+          - pr-0
         margin:
           - mt-0
           - ml-0
