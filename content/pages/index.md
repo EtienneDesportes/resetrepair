@@ -281,10 +281,10 @@ sections:
     styles:
       self:
         padding:
-          - pt-16
-          - pl-8
-          - pb-16
-          - pr-8
+          - pt-10
+          - pl-10
+          - pb-10
+          - pr-10
         justifyContent: center
       subtitle:
         textAlign: center
