@@ -181,7 +181,7 @@ sections:
       altText: altText of the image
       backgroundSize: cover
       backgroundPosition: center
-      backgroundRepeat: no-repeat
+      backgroundRepeat: repeat
       opacity: 15
       url: /images/printed_circuit_board_layout_vgmgll.webp
   - type: FeaturedItemsSection
