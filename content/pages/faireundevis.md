@@ -78,7 +78,7 @@ sections:
             votre appareil
           hideLabel: false
           placeholder: Votre message
-          width: full
+          width: 1/2
       submitButton:
         type: SubmitButtonFormControl
         label: Envoyer
