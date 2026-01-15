@@ -5,21 +5,37 @@ sections:
   - type: GenericSection
     subtitle: ''
     text: |+
+      ```
       <p style="color: #11295c">
+      ```
 
-      ## **Votre machine peut être réparée !**
+      ```
+      Votre machine peut être réparée !
+      ```
 
-      ### **Spécialiste en micro-soudure sur matériel électronique**
+      ```
+      Spécialiste en micro-soudure sur matériel électronique
+      ```
 
+      ```
       Réparation de carte-mère :
+      ```
 
-      *   Dommage liquide
+      ```
+      Dommage liquide
+      ```
 
-      *   Problème de démarrage
+      ```
+      Problème de démarrage
+      ```
 
-      *   Récupération de données
+      ```
+      Récupération de données
+      ```
 
+      ```
       </p>
+      ```
 
     actions:
       - label: Faire un devis
