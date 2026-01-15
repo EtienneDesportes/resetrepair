@@ -104,7 +104,7 @@ sections:
         flexDirection: row-reverse
         justifyContent: center
       text:
-        textAlign: center
+        textAlign: justify
       subtitle:
         textAlign: center
     media:
