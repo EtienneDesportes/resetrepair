@@ -291,7 +291,7 @@ sections:
         textAlign: center
 seo:
   metaTitle: Réparation électronique Strasbourg  Schiltigheim
-  metaDescription: 'MacBook PC Portable Console '
+  metaDescription: 'MacBook PC Portable Console Apple Réparation Micro Soudure  '
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
