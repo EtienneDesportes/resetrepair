@@ -110,11 +110,29 @@ sections:
           borderRadius: medium
   - type: GenericSection
     subtitle: ''
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+    text: |+
+
+
+      <span style="color: #11295c">
+
+      ## Nos outils
+
+      *   Microscope Amscope 4-NTP
+
+      *   Station de soudage ERSA i-con 2
+
+      *   Station à air chaud Quick 861dw
+
+      *   Alimentation de labo Owon 0-35V, 0-5A
+
+      *   Multimètre Fluke 17b
+
+      *   Oscilloscope Owon SDS1102
+
+      *   Matériel divers: Etain, Flux,  Alcool IPA
+
+      </span>
+
     actions: []
     media:
       type: VideoBlock
