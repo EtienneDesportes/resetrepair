@@ -109,7 +109,7 @@ sections:
         textAlign: center
     media:
       type: ImageBlock
-      url: /images/réparation-carte-mère.jpg
+      url: /images/réparation-carte-mère-1.webp
       altText: Micro Soudure Strasbourg
       elementId: ''
       styles:
