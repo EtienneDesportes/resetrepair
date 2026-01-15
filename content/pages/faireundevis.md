@@ -64,7 +64,7 @@ sections:
           width: full
         - type: TextFormControl
           name: Téléphone
-          label: Votre numéro
+          label: telephone
           hideLabel: true
           placeholder: Votre numéro
           isRequired: true
