@@ -34,7 +34,7 @@ sections:
       type: BackgroundImage
       url: /images/noise.png
       altText: Placeholder image
-      backgroundSize: cover
+      backgroundSize: auto
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
