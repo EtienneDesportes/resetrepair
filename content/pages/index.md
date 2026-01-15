@@ -96,9 +96,7 @@ sections:
       - title: ''
         tagline: ''
         subtitle: ''
-        text: >
-          Learn from the tutorial and build your first awesome Netlify Create
-          site.
+        text: "<span style=\"color: #11295c\"\_>\n\n<p style='text-align: justify;'>Notre expertise nous permet de vous garantir nos interventions pendant 6 mois. Nous avons les outils et          composants pour assurer une réparation de haute qualité.</p>\n\n</span>\n\n"
         image:
           url: /images/garantie-ce22d1df(2).svg
           altText: Placeholder image
