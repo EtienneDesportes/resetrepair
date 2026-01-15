@@ -85,6 +85,7 @@ sections:
         icon: arrowRight
         iconPosition: right
         style: primary
+        showIcon: true
       elementId: contact-form
       styles:
         self:
