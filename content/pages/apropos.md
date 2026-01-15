@@ -49,7 +49,7 @@ sections:
     styles:
       self:
         alignItems: flex-start
-        flexDirection: row-reverse
+        flexDirection: row
         justifyContent: flex-start
         padding:
           - pt-10
