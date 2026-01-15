@@ -125,4 +125,5 @@ seo:
     Smartphone Carte Mère 
   socialImage: /images/réparation-micro-soudure.jpg
   type: Seo
+  addTitleSuffix: false
 ---
