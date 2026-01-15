@@ -28,7 +28,7 @@ sections:
       pouvez pas récupérer votre appareil à l'atelier.
     actions:
       - type: Button
-        label: See open positions
+        label: Faire un devis
         url: /
         icon: arrowRight
         iconPosition: right
