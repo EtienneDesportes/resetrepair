@@ -70,7 +70,9 @@ sections:
           isRequired: false
           width: full
         - type: TextareaFormControl
-          name: message
+          name: >-
+            Quel est votre problème ? (Merci de préciser le modèle et l'année de
+            votre appareil)
           label: Message
           hideLabel: true
           placeholder: >-
