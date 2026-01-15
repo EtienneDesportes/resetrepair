@@ -5,7 +5,7 @@ sections:
   - type: GenericSection
     title:
       type: TitleBlock
-      text: La réparation est uniquement facturée si elle est réalisée avec succès !
+      text: ''
       color: text-dark
       styles:
         self:
