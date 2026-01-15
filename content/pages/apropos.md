@@ -3,10 +3,6 @@ type: PageLayout
 title: A propos
 sections:
   - type: GenericSection
-    title:
-      type: TitleBlock
-      text: Business Consulting
-      color: text-dark
     subtitle: ''
     text: >
       A service that provides advice and guidance to startups and small
