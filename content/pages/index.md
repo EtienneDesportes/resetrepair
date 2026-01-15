@@ -252,7 +252,7 @@ sections:
 
         image:
           type: ImageBlock
-          url: /images/abstract-feature3.svg
+          url: /images/retour-232c7065.svg
           altText: Placeholder image
           styles:
             self:
