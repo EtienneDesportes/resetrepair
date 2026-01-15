@@ -18,8 +18,8 @@ sections:
 
       passion pour le réparateur (moi-même), et écologique pour tout le
       monde. Diplômé de la formation trinationale mécatronique, l'électronique
-      est une réelle passion. Vous pouvez directement venir déposer votre
-      machine. On se fera un plaisir de vous expliquer comment on procède.
+      est une réelle passion. On se fera un plaisir de vous expliquer comment on
+      procède.
 
       L’obsolescence programmée est de plus en plus pratiquée par les grandes
       entreprises de **technologies**. Par exemple un fabricant bien connu
