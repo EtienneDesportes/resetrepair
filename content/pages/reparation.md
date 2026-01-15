@@ -59,13 +59,6 @@ sections:
         self:
           borderRadius: medium
   - type: FeaturedPostsSection
-    title:
-      type: TitleBlock
-      text: Featured posts
-      color: text-dark
-      styles:
-        self:
-          textAlign: center
     posts:
       - >-
         content/pages/blog/how-to-write-a-blog-post-that-will-get-you-more-traffic.md
