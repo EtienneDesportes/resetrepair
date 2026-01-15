@@ -73,7 +73,9 @@ sections:
           name: message
           label: Message
           hideLabel: true
-          placeholder: 'Votre '
+          placeholder: >-
+            Quel est votre problème ? (Merci de préciser le modèle et l'année de
+            votre appareil)
           width: full
       submitButton:
         type: SubmitButtonFormControl
