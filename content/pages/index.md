@@ -294,7 +294,7 @@ seo:
   metaDescription: >-
     Réparation Micro Soudure MacBook PC Portable Console Apple Audio Tablette
     Smartphone Carte Mère 
-  socialImage: /images/main-hero.jpg
+  socialImage: /images/réparation-micro-soudure.jpg
   type: Seo
 type: PageLayout
 ---
