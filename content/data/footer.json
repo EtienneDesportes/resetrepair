@@ -34,7 +34,7 @@
                 "type": "Link",
                 "label": "Repair Wiki",
                 "altText": "",
-                "url": "/",
+                "url": "/https://repair.wiki/w/Main_Page#gsc.tab=0",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
