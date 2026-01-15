@@ -5,7 +5,8 @@ sections:
   - type: GenericSection
     subtitle: ''
     text: >+
-      <h2 id="-votre-machine-peut-tre-r-par-e-"><strong>Votre machine peut être
+      <span style="color: #11295c"><h2
+      id="-votre-machine-peut-tre-r-par-e-"><strong>Votre machine peut être
       réparée !</strong></h2>
 
       <p><strong>Spécialiste en micro-soudure sur matériel
@@ -28,6 +29,9 @@ sections:
       </li>
 
       </ul>
+
+
+      </span>
 
     actions:
       - label: Faire un devis
