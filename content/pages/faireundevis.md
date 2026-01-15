@@ -89,10 +89,10 @@ sections:
       styles:
         self:
           padding:
-            - pt-28
-            - pb-28
-            - pl-28
-            - pr-28
+            - pt-40
+            - pb-40
+            - pl-40
+            - pr-40
           borderColor: border-dark
           borderStyle: solid
           borderWidth: 1
