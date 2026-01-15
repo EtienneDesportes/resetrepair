@@ -178,9 +178,9 @@ sections:
         textAlign: left
   - type: RecentPostsSection
     recentCount: 3
-    showThumbnail: true
+    showThumbnail: false
     showExcerpt: false
-    showDate: true
+    showDate: false
     showAuthor: true
     actions: []
     elementId: ''
