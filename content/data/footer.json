@@ -5,14 +5,7 @@
         "type": "ImageBlock"
     },
     "text": "Réparateur de matériel électronique\n",
-    "socialLinks": [
-        {
-            "altText": "Email link",
-            "url": "/",
-            "icon": "mail",
-            "type": "Social"
-        }
-    ],
+    "socialLinks": [],
     "legalLinks": [],
     "copyrightText": "",
     "colors": "bg-neutral-fg-dark",
