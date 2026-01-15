@@ -64,6 +64,11 @@ sections:
     styles:
       self:
         justifyContent: center
+        padding:
+          - pt-5
+          - pl-5
+          - pb-5
+          - pr-5
       subtitle:
         textAlign: center
 slug: apropos
