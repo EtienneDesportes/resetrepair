@@ -8,10 +8,13 @@ sections:
       <span style="color: #11295c">
 
 
+      <p style='text-align: justify;'>
+
+
       Etienne, ingénieur mécatronique et bricoleur en tout genre, décide
       d'ouvrir son atelier pour redonner aux technologies du quotidien la valeur
       qu'ils méritent : **rien ne se jette, tout est réparable** (enfin
-      presque... ). Non seulement c’est économique pour le client, une 
+      presque... ). Non seulement c’est économique pour le client, une
 
       passion pour le réparateur (moi-même), et écologique pour tout le
       monde. Diplômé de la formation trinationale mécatronique, l'électronique
@@ -24,7 +27,7 @@ sections:
       qualité dont la panne entraîne le dysfonctionnement complet de
       l’ordinateur. Les appareils deviennent inutilisables et le fabricant vous
       indiquera qu’il faudra remplacer toute la carte mère. Le coût de
-      réparation sera très 
+      réparation sera très
 
       élevé alors qu’on pourrait simplement remplacer par **micro-soudure** ce
       composant. Ceci est un exemple parmi d’autres. De telles pratiques
@@ -37,6 +40,9 @@ sections:
       tech. Ce sera aussi une manière de remettre en cause les agissements
       nuisibles d’industriels et d’encourager l’utilisation de matériel
       reconditionné qui suffit amplement à nos besoins.
+
+
+      </p>
 
 
       </span>
