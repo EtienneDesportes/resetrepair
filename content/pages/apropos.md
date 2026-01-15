@@ -50,7 +50,7 @@ sections:
       self:
         alignItems: flex-start
         flexDirection: col
-        justifyContent: flex-start
+        justifyContent: center
         padding:
           - pt-10
           - pl-0
