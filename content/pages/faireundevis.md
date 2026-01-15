@@ -98,6 +98,13 @@ sections:
           borderWidth: 1
           borderRadius: large
     colors: bg-neutral-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-5
+          - pl-5
+          - pb-5
+          - pr-5
 slug: faireundevis
 isDraft: false
 seo:
