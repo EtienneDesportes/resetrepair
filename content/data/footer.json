@@ -73,7 +73,7 @@
                 "type": "Link",
                 "label": "Repair Cafe",
                 "altText": "",
-                "url": "/blog",
+                "url": "https://www.repaircafe.org/en/community/repair-guides/",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
