@@ -66,7 +66,7 @@ sections:
           name: Téléphone
           label: Votre numéro
           hideLabel: true
-          placeholder: Your name
+          placeholder: Votre numéro
           isRequired: true
           width: full
         - type: TextareaFormControl
