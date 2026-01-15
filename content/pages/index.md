@@ -204,7 +204,7 @@ sections:
 
         image:
           type: ImageBlock
-          url: /images/réparation-multimètre-soudure-microscope(1)(1).jpg
+          url: /images/réparation-multimètre-soudure-microscope.jpg
           altText: Placeholder image
           styles:
             self:
@@ -229,7 +229,7 @@ sections:
 
         image:
           type: ImageBlock
-          url: /images/réparation-multimètre-soudure-microscope.jpg
+          url: /images/réparation-multimètre-soudure-microscope(1)(1).jpg
           altText: Placeholder image
           styles:
             self:
