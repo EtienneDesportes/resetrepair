@@ -285,7 +285,7 @@ sections:
 
         image:
           type: ImageBlock
-          url: /images/réparation-multimètre-soudure-microscope(2).jpg
+          url: /images/réparation-multimètre-soudure-microscope(2).webp
           altText: Réparation Carte-Mère Strasbourg
           styles:
             self:
