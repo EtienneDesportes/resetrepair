@@ -26,13 +26,7 @@ sections:
 
       Vous serez informé par e-mail. Le retour est facturé 30€ TTC si vous ne
       pouvez pas récupérer votre appareil à l'atelier.
-    actions:
-      - type: Button
-        label: Faire un devis
-        url: /
-        icon: arrowRight
-        iconPosition: right
-        style: primary
+    actions: []
     colors: bg-neutral-fg-dark
     backgroundImage:
       type: BackgroundImage
