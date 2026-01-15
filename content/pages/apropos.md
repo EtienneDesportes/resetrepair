@@ -71,6 +71,13 @@ sections:
           - pr-5
       subtitle:
         textAlign: center
+    backgroundImage:
+      type: BackgroundImage
+      altText: altText of the image
+      backgroundSize: auto
+      backgroundPosition: center
+      backgroundRepeat: no-repeat
+      opacity: 100
 slug: apropos
 seo:
   metaTitle: Réparation Électronique Strasbourg Schiltigheim
