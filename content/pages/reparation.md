@@ -152,7 +152,7 @@ sections:
         subtitle: ''
         image:
           type: ImageBlock
-          url: /images/alimentation-labo-réparation.jpg
+          url: /images/réparation-multimètre-soudure-microscope(1)(1).jpg
           altText: Chunky Cotton Knit Throw
           elementId: ''
           styles:
