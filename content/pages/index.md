@@ -290,7 +290,7 @@ sections:
       subtitle:
         textAlign: center
 seo:
-  metaTitle: 'Réparation électronique Strasbourg '
+  metaTitle: Réparation électronique Strasbourg  Schiltigheim
   metaDescription: 'MacBook PC Portable Console '
   socialImage: /images/main-hero.jpg
   type: Seo
