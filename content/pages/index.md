@@ -236,11 +236,20 @@ sections:
             borderRadius: x-large
             flexDirection: col
       - type: FeaturedItem
-        title: ''
-        tagline: ''
-        subtitle: ''
-        text: |
-          Learn from the tutorial and build your first awesome Netlify site.
+        title: Feature Item Three
+        tagline: This is the tagline
+        subtitle: This is the item subtitle
+        text: >+
+          <span style="color: #11295c">
+
+
+          <p style='text-align: justify;'>Vous réglez uniquement le devis si la
+          réparation est finalisée avec succès. On vous renvoie gratuitement
+          votre machine en colis assuré.</p>
+
+
+          </span>
+
         image:
           type: ImageBlock
           url: /images/abstract-feature3.svg
