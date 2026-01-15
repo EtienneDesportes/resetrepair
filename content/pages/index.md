@@ -128,6 +128,13 @@ sections:
       subtitle:
         textAlign: center
     type: FeaturedItemsSection
+    backgroundImage:
+      type: BackgroundImage
+      altText: altText of the image
+      backgroundSize: auto
+      backgroundPosition: center
+      backgroundRepeat: no-repeat
+      opacity: 100
   - type: GenericSection
     subtitle: ''
     text: >
