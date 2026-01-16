@@ -70,9 +70,7 @@ sections:
           isRequired: false
           width: full
         - type: TextareaFormControl
-          name: >-
-            Quel est votre problème ? Merci de préciser le modèle et l'année de
-            votre appareil
+          name: problem
           label: >-
             Quel est votre problème ? Merci de préciser le modèle et l'année de
             votre appareil
