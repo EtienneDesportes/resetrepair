@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form for Netlify Detection</title>
+</head>
+<body>
+    <form name="contact-form" method="POST" data-netlify="true">
+        <input type="hidden" name="contact-form" value="contact-form">
+        <div>
+            <input type="text" name="nom" placeholder="Votre nom et prénom" required>
+        </div>
+        <div>
+            <input type="email" name="email" placeholder="Votre email" required>
+        </div>
+        <div>
+            <input type="text" name="phone" placeholder="Votre numéro">
+        </div>
+        <div>
+            <textarea name="problem" placeholder="Votre message"></textarea>
+        </div>
+        <button type="submit">Envoyer</button>
+    </form>
+</body>
+</html>
