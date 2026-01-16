@@ -49,7 +49,7 @@ sections:
       type: FormBlock
       fields:
         - type: TextFormControl
-          name: Nom / Prénom
+          name: Nom
           label: Name
           hideLabel: true
           placeholder: Votre nom et prénom
