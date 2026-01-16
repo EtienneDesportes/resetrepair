@@ -63,7 +63,7 @@ sections:
           isRequired: true
           width: full
         - type: TextFormControl
-          name: Téléphone (optionnel
+          name: phone
           label: telephone
           hideLabel: true
           placeholder: Votre numéro
