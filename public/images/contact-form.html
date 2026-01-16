@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden Contact Form</title>
+</head>
+<body>
+    <form name="contact-form" method="POST" data-netlify="true" style="display: none;">
+        <input type="hidden" name="form-name" value="contact-form" />
+        <input type="text" name="nom" placeholder="Votre nom et prénom" required />
+        <input type="email" name="email" placeholder="Votre email" required />
+        <input type="text" name="phone" placeholder="Votre numéro" />
+        <textarea name="problem" placeholder="Quel est votre problème ? Merci de préciser le modèle et l'année de votre appareil"></textarea>
+        <button type="submit">Envoyer</button>
+    </form>
+</body>
+</html>
