@@ -49,28 +49,28 @@ sections:
       type: FormBlock
       fields:
         - type: TextFormControl
-          name: nom
-          label: Name
+          name: name
+          label: name
           hideLabel: true
           placeholder: Votre nom et prénom
           isRequired: true
           width: full
         - type: EmailFormControl
           name: email
-          label: Email
+          label: email
           hideLabel: true
           placeholder: Votre email
           isRequired: true
           width: full
         - type: TextFormControl
-          name: phone
+          name: telephone
           label: telephone
           hideLabel: true
-          placeholder: Votre numéro
+          placeholder: Un numéro pour vous joindre
           isRequired: false
           width: full
         - type: TextareaFormControl
-          name: problem
+          name: message
           label: >-
             Quel est votre problème ? Merci de préciser le modèle et l'année de
             votre appareil
