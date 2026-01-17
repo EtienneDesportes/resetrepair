@@ -45,7 +45,7 @@ sections:
       mois. Nous avons les outils et composants pour assurer une réparation de
        haute qualité.
     actions: []
-      media:
+    media:
       type: FormBlock
       fields:
         - type: TextFormControl
