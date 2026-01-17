@@ -45,21 +45,52 @@ sections:
       mois. Nous avons les outils et composants pour assurer une réparation de
        haute qualité.
     actions: []
-  <form name="contact-form" method="POST" data-netlify="true" action="/thank-you.html">
-  <label for="name">Name</label>
-  <input type="text" name="name" id="name" required>
-  
-  <label for="email">Email</label>
-  <input type="email" name="email" id="email" required>
-  
-  <label for="phone">Phone</label>
-  <input type="tel" name="phone" id="phone" required>
-  
-  <label for="problem">Problem</label>
-  <textarea name="problem" id="problem" required></textarea>
-  
-  <button type="submit">Submit</button>
+    media:
+<form name="contact-form" method="POST" data-netlify="true" action="/thank-you.html">
+  <label for="name">Name</label>
+  <input type="text" name="name" id="name" required>
+  
+  <label for="email">Email</label>
+  <input type="email" name="email" id="email" required>
+  
+  <label for="phone">Phone</label>
+  <input type="tel" name="phone" id="phone" required>
+  
+  <label for="problem">Problem</label>
+  <textarea name="problem" id="problem" required></textarea>
+  
+  <button type="submit">Submit</button>
 </form>
+      styles:
+        self:
+          padding:
+            - pt-28
+            - pb-20
+            - pl-20
+            - pr-20
+          borderColor: border-dark
+          borderStyle: solid
+          borderWidth: 1
+          borderRadius: large
+          justifyContent: flex-start
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-5
+          - pl-5
+          - pb-5
+          - pr-5
+      text:
+        textAlign: justify
+    backgroundImage:
+      type: BackgroundImage
+      altText: altText of the image
+      backgroundSize: auto
+      backgroundPosition: center
+      backgroundRepeat: repeat
+      opacity: 100
+      url: /images/noise.png
   
 slug: faireundevis
 isDraft: false
