@@ -105,10 +105,10 @@ sections:
       styles:
         self:
           padding:
-            - pt-9
-            - pb-9
-            - pl-9
-            - pr-9
+            - pt-14
+            - pb-14
+            - pl-14
+            - pr-14
           borderColor: border-dark
           borderStyle: solid
           borderWidth: 1
