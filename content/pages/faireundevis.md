@@ -44,8 +44,22 @@ sections:
        expertise nous permet de vous garantir nos interventions pendant 6 
       mois. Nous avons les outils et composants pour assurer une réparation de
        haute qualité.
+<form name="contact-form" method="POST" data-netlify="true" action="/thank-you.html">
+  <label for="name">Name</label>
+  <input type="text" name="name" id="name" required>
+  
+  <label for="email">Email</label>
+  <input type="email" name="email" id="email" required>
+  
+  <label for="phone">Phone</label>
+  <input type="tel" name="phone" id="phone" required>
+  
+  <label for="problem">Problem</label>
+  <textarea name="problem" id="problem" required></textarea>
+  
+  <button type="submit">Submit</button>
+</form>
     actions: []
-    
     colors: bg-neutral-fg-dark
     styles:
       self:
