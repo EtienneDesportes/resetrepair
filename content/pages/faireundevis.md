@@ -63,44 +63,22 @@ sections:
       backgroundRepeat: repeat
       opacity: 100
       url: /images/noise.png
-    media:
-      type: FormBlock
-      fields:
-        - type: TextFormControl
-          name: name
-          label: Name
-          hideLabel: true
-          placeholder: Votre nom et prénom
-          isRequired: true
-          width: full
-        - type: EmailFormControl
-          name: email
-          label: Email
-          hideLabel: true
-          placeholder: Votre email
-          isRequired: true
-          width: full
-        - type: TextFormControl
-          name: Phone
-          label: Phone
-          hideLabel: true
-          placeholder: Votre téléphone (optionnel)
-          isRequired: false
-          width: full
-        - type: TextareaFormControl
-          name: message
-          label: Message
-          hideLabel: true
-          placeholder: Votre message
-          width: full
-          isRequired: true
-      submitButton:
-        type: SubmitButtonFormControl
-        label: Envoyer
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: primary
+    media: >+
+    <form name="contact-form" method="POST" data-netlify="true" action="/thank-you.html">
+  <label for="name">Name</label>
+  <input type="text" name="name" id="name" required>
+  
+  <label for="email">Email</label>
+  <input type="email" name="email" id="email" required>
+  
+  <label for="phone">Phone</label>
+  <input type="tel" name="phone" id="phone" required>
+  
+  <label for="problem">Problem</label>
+  <textarea name="problem" id="problem" required></textarea>
+  
+  <button type="submit">Submit</button>
+</form>
       elementId: devis
       styles:
         self:
