@@ -46,57 +46,60 @@ sections:
        haute qualité.
     actions: []
     media:
-      type: FormBlock
-      fields:
-        - type: TextFormControl
-          name: name
-          label: name
-          hideLabel: true
-          placeholder: Votre nom et prénom
-          isRequired: true
-          width: full
-        - type: EmailFormControl
-          name: email
-          label: email
-          hideLabel: true
-          placeholder: Votre email
-          isRequired: true
-          width: full
-        - type: TextFormControl
-          name: telephone
-          label: telephone
-          hideLabel: true
-          placeholder: Un numéro pour vous joindre
-          isRequired: false
-          width: full
-        - type: TextareaFormControl
-          name: message
-          label: >-
-            Quel est votre problème ? Merci de préciser le modèle et l'année de
-            votre appareil
-          hideLabel: false
-          placeholder: Votre message
-          width: full
-      submitButton:
-        type: SubmitButtonFormControl
-        label: Envoyer
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        showIcon: true
-      elementId: contact-form
-      styles:
-        self:
-          padding:
-            - pt-28
-            - pb-20
-            - pl-20
-            - pr-20
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-          justifyContent: flex-start
+      type: HTMLBlock
+      html: |
+        <form name="contact-devis" method="POST" data-netlify="true" class="contact-form-container">
+          <input type="hidden" name="form-name" value="contact-devis" />
+          
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Votre nom et prénom" required />
+          </div>
+          
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Votre email" required />
+          </div>
+          
+          <div class="form-group">
+            <input type="tel" name="telephone" placeholder="Un numéro pour vous joindre" />
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Quel est votre problème ? Merci de préciser le modèle et l'année de votre appareil</label>
+            <textarea id="message" name="message" placeholder="Votre message" rows="5"></textarea>
+          </div>
+          
+          <button type="submit" class="submit-button">
+            Envoyer
+          </button>
+        </form>
+
+        <style>
+          .contact-form-container {
+            padding: 40px;
+            border: 1px solid #000;
+            border-radius: 20px;
+            background-color: transparent;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+          }
+          .form-group { display: flex; flex-direction: column; gap: 5px; }
+          .form-group input, .form-group textarea {
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            width: 100%;
+          }
+          .submit-button {
+            padding: 12px 24px;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            align-self: flex-start;
+          }
+        </style>
     colors: bg-neutral-fg-dark
     styles:
       self:
