@@ -45,6 +45,58 @@ sections:
       mois. Nous avons les outils et composants pour assurer une réparation de
        haute qualité.
     actions: []
+    media:
+      type: FormBlock
+      fields:
+        - type: TextFormControl
+          name: name
+          label: name
+          hideLabel: true
+          placeholder: Votre nom et prénom
+          isRequired: true
+          width: full
+        - type: EmailFormControl
+          name: email
+          label: email
+          hideLabel: true
+          placeholder: Votre email
+          isRequired: true
+          width: full
+        - type: TextFormControl
+          name: telephone
+          label: telephone
+          hideLabel: true
+          placeholder: Un numéro pour vous joindre
+          isRequired: false
+          width: full
+        - type: TextareaFormControl
+          name: message
+          label: >-
+            Quel est votre problème ? Merci de préciser le modèle et l'année de
+            votre appareil
+          hideLabel: false
+          placeholder: Votre message
+          width: full
+      submitButton:
+        type: SubmitButtonFormControl
+        label: Envoyer
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        showIcon: true
+      elementId: contact-form
+      styles:
+        self:
+          padding:
+            - pt-28
+            - pb-20
+            - pl-20
+            - pr-20
+          borderColor: border-dark
+          borderStyle: solid
+          borderWidth: 1
+          borderRadius: large
+          justifyContent: flex-start
     colors: bg-neutral-fg-dark
     styles:
       self:
@@ -63,34 +115,6 @@ sections:
       backgroundRepeat: repeat
       opacity: 100
       url: /images/noise.png
-    media: >+
-    <form name="contact-form" method="POST" data-netlify="true" action="/thank-you.html">
-  <label for="name">Name</label>
-  <input type="text" name="name" id="name" required>
-  
-  <label for="email">Email</label>
-  <input type="email" name="email" id="email" required>
-  
-  <label for="phone">Phone</label>
-  <input type="tel" name="phone" id="phone" required>
-  
-  <label for="problem">Problem</label>
-  <textarea name="problem" id="problem" required></textarea>
-  
-  <button type="submit">Submit</button>
-</form>
-      elementId: devis
-      styles:
-        self:
-          padding:
-            - pt-14
-            - pb-14
-            - pl-14
-            - pr-14
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
 slug: faireundevis
 isDraft: false
 seo:
