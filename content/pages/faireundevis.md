@@ -46,7 +46,6 @@ sections:
        haute qualité.
     actions: []
 
-
     colors: bg-neutral-fg-dark
     styles:
       self:
