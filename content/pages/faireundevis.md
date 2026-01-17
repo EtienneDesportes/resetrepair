@@ -4,7 +4,7 @@ title: Faire un Devis
 sections:
   - type: GenericSection
     subtitle: ''
-    text: >
+    text: >+
       **DEVIS GRATUIT**
 
 
@@ -44,7 +44,7 @@ sections:
        expertise nous permet de vous garantir nos interventions pendant 6 
       mois. Nous avons les outils et composants pour assurer une réparation de
        haute qualité.
-<form name="contact-form" method="POST" data-netlify="true" action="/thank-you.html">
+    <form name="contact-form" method="POST" data-netlify="true" action="/thank-you.html">
   <label for="name">Name</label>
   <input type="text" name="name" id="name" required>
   
@@ -58,7 +58,7 @@ sections:
   <textarea name="problem" id="problem" required></textarea>
   
   <button type="submit">Submit</button>
-</form>
+        </form>
     actions: []
     colors: bg-neutral-fg-dark
     styles:
