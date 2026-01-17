@@ -45,53 +45,6 @@ sections:
       mois. Nous avons les outils et composants pour assurer une réparation de
        haute qualité.
     actions: []
-    media:
-      type: FormBlock
-      fields:
-        - type: TextFormControl
-          name: name
-          label: name
-          hideLabel: true
-          placeholder: Votre nom et prénom
-          isRequired: true
-          width: full
-        - type: EmailFormControl
-          name: email
-          label: email
-          hideLabel: true
-          placeholder: Votre email
-          isRequired: true
-          width: full
-        - type: TextFormControl
-          name: telephone
-          label: telephone
-          hideLabel: true
-          placeholder: Un numéro pour vous joindre
-          isRequired: false
-          width: full
-        - type: TextareaFormControl
-          name: message
-          label: >-
-            Quel est votre problème ? Merci de préciser le modèle et l'année de
-            votre appareil
-          hideLabel: false
-          placeholder: Votre message
-          width: full
-      submitButton:
-        type: SubmitButtonFormControl
-        label: Envoyer
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        showIcon: true
-      elementId: contact-form
-      styles:
-        self:
-          padding:
-            - pt-28
-            - pb-20
-            - pl-20
-            - pr-20
           borderColor: border-dark
           borderStyle: solid
           borderWidth: 1
