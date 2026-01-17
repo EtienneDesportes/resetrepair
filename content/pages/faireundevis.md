@@ -45,21 +45,7 @@ sections:
       mois. Nous avons les outils et composants pour assurer une réparation de
        haute qualité.
     actions: []
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-          justifyContent: flex-start
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-5
-          - pl-5
-          - pb-5
-          - pr-5
-      text:
-        textAlign: justify
+
     backgroundImage:
       type: BackgroundImage
       altText: altText of the image
