@@ -48,7 +48,7 @@ sections:
     media:
       type: FormBlock
       fields:
-        - input type: TextFormControl
+        - type: TextFormControl
           name: name
           label: name
           hideLabel: true
