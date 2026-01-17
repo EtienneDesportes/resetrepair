@@ -84,7 +84,7 @@ sections:
           name: Phone
           label: Phone
           hideLabel: true
-          placeholder: Your name
+          placeholder: Votre télephone (optionnel)
           isRequired: true
           width: full
         - type: TextareaFormControl
