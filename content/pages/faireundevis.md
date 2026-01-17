@@ -86,6 +86,13 @@ sections:
           hideLabel: true
           placeholder: Your message
           width: full
+        - type: TextFormControl
+          name: Phone
+          label: Name
+          hideLabel: true
+          placeholder: Your name
+          isRequired: true
+          width: full
       submitButton:
         type: SubmitButtonFormControl
         label: Submit
