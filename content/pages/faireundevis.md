@@ -77,7 +77,7 @@ sections:
           name: email
           label: Email
           hideLabel: true
-          placeholder: Your email
+          placeholder: Votre email
           isRequired: true
           width: full
         - type: TextareaFormControl
