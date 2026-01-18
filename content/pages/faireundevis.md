@@ -4,27 +4,109 @@ title: Faire un Devis
 sections:
   - type: GenericSection
     subtitle: ''
-    text: |
-      ## DEVIS GRATUIT & RÉPARATION GARANTIE
+    text: >
+      **DEVIS GRATUIT**
 
-      **Diagnostic gratuit** - Vous payez uniquement si votre machine est réparée avec succès.
 
-      **Tarifs transparents** - De 80 à 450€ TTC selon la panne et l'âge de votre machine.
 
-      **Envoi et retour inclus** - Étiquette d'envoi avec assurance fournie. Dépôt en point relais ou à notre atelier.
+      Nous
+       ne facturons pas de devis. Payer pour un premier diagnostic n'a pas de 
+      sens d'après nous. Vous payez uniquement si votre machine est à nouveau 
 
-      **Garantie 6 mois** - Réparation de haute qualité garantie.
+      en état de marche.
+
+
+      **REPARATION AVEC SATISFACTION GARANTIE**
+
+
+      Vous réglez uniquement le devis si la réparation est réalisée avec succès.
+      Pas de mauvaises surprises. Les tarifs vont **de 80 à 450€ TTC**, selon la
+      panne et l’âge de votre machine. La facturation se fait toujours après
+      réparation.
+
+
+      **ENVOI ET RETOUR INCLUS**
+
+
+
+      Vous
+       recevez une étiquette d'envoi, avec assurance incluse. Votre colis bien
+       sécurisé, il ne vous reste plus qu’à coller l’étiquette et le déposer 
+      en point relais. Vous pouvez aussi déposer votre machine à notre 
+
+      atelier. 
+
+
+      **GARANTIE 6 MOIS**
+
+
+      Notre
+       expertise nous permet de vous garantir nos interventions pendant 6 
+      mois. Nous avons les outils et composants pour assurer une réparation de
+       haute qualité.
     actions: []
+    media:
+      type: FormBlock
+      fields:
+        - type: TextFormControl
+          name: name
+          label: name
+          hideLabel: true
+          placeholder: Votre nom et prénom
+          isRequired: true
+          width: full
+        - type: EmailFormControl
+          name: email
+          label: email
+          hideLabel: true
+          placeholder: Votre email
+          isRequired: true
+          width: full
+        - type: TextFormControl
+          name: telephone
+          label: telephone
+          hideLabel: true
+          placeholder: Un numéro pour vous joindre
+          isRequired: false
+          width: full
+        - type: TextareaFormControl
+          name: message
+          label: >-
+            Quel est votre problème ? Merci de préciser le modèle et l'année de
+            votre appareil
+          hideLabel: false
+          placeholder: Votre message
+          width: full
+      submitButton:
+        type: SubmitButtonFormControl
+        label: Envoyer
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        showIcon: true
+      elementId: contact-form
+      styles:
+        self:
+          padding:
+            - pt-28
+            - pb-20
+            - pl-20
+            - pr-20
+          borderColor: border-dark
+          borderStyle: solid
+          borderWidth: 1
+          borderRadius: large
+          justifyContent: flex-start
     colors: bg-neutral-fg-dark
     styles:
       self:
         padding:
-          - pt-10
+          - pt-5
           - pl-5
           - pb-5
           - pr-5
       text:
-        textAlign: left
+        textAlign: justify
     backgroundImage:
       type: BackgroundImage
       altText: altText of the image
@@ -33,81 +115,6 @@ sections:
       backgroundRepeat: repeat
       opacity: 100
       url: /images/noise.png
-  - type: GenericSection
-    subtitle: ''
-    text: |
-      <form 
-        name="contact" 
-        method="POST" 
-        netlify 
-        action="/thank-you.html"
-        netlify-honeypot="bot-field"
-      >
-        <input type="hidden" name="bot-field" />
-        <input type="hidden" name="form-name" value="contact" />
-        
-        <p>
-          <input 
-            type="text" 
-            name="name" 
-            placeholder="Votre nom et prénom" 
-            required
-            style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; margin-bottom: 15px;"
-          />
-        </p>
-        
-        <p>
-          <input 
-            type="email" 
-            name="email" 
-            placeholder="Votre email" 
-            required
-            style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; margin-bottom: 15px;"
-          />
-        </p>
-        
-        <p>
-          <input 
-            type="tel" 
-            name="telephone" 
-            placeholder="Un numéro pour vous joindre"
-            style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; margin-bottom: 15px;"
-          />
-        </p>
-        
-        <p>
-          <label style="display: block; margin-bottom: 8px; font-weight: 600;">
-            Quel est votre problème ? Merci de préciser le modèle et l'année de votre appareil
-          </label>
-          <textarea 
-            name="message" 
-            placeholder="Votre message" 
-            rows="5"
-            required
-            style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; margin-bottom: 15px; resize: vertical;"
-          ></textarea>
-        </p>
-        
-        <p>
-          <button 
-            type="submit"
-            style="width: 100%; padding: 14px 24px; background: #3b82f6; color: white; border: none; border-radius: 6px; font-size: 16px; font-weight: 600; cursor: pointer;"
-          >
-            Envoyer →
-          </button>
-        </p>
-      </form>
-    actions: []
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-10
-          - pl-5
-          - pb-20
-          - pr-5
-      text:
-        textAlign: left
 slug: faireundevis
 isDraft: false
 seo:
