@@ -9,7 +9,6 @@ sections:
       id="-votre-machine-peut-tre-r-par-e-"><strong>Votre machine peut être
       réparée !</strong></h2>
 
-
       <h3 id="microsoudure">Spécialiste en micro-soudure sur matériel
       électronique</h3>
 
