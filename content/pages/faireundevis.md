@@ -3,7 +3,7 @@ type: PageLayout
 title: Faire un Devis
 sections:
   - type: GenericSection
-    subtitle: 'Réparation rapide et garantie'
+    subtitle: Réparation rapide et garantie
     text: >
       **Devis gratuit - Tarif de 80 à 450€ TTC**
 
@@ -15,8 +15,8 @@ sections:
       **Envoi gratuit - Garantie 6 mois**
 
 
-      Étiquette d'envoi avec assurance fournie. Nos réparations sont garanties
-      6 mois.
+      Étiquette d'envoi avec assurance fournie. Nos réparations sont garanties 6
+      mois.
 
 
       **Réponse sous 24h**
@@ -51,8 +51,7 @@ sections:
           width: full
         - type: TextareaFormControl
           name: message
-          label: >-
-            Décrivez votre problème (modèle et année de l'appareil si possible)
+          label: Décrivez votre problème (modèle et année de l'appareil si possible)
           hideLabel: false
           placeholder: Ex MacBook Pro 2019 ne s'allume plus apres chute
           width: full
@@ -76,7 +75,7 @@ sections:
           borderWidth: 2
           borderRadius: large
           justifyContent: flex-start
-    colors: bg-light-fg-dark
+    colors: bg-neutral-fg-dark
     styles:
       self:
         padding:
