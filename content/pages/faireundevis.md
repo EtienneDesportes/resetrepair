@@ -3,27 +3,47 @@ type: PageLayout
 title: Faire un Devis
 sections:
   - type: GenericSection
-    subtitle: 'Réparation rapide et garantie'
+    subtitle: ''
     text: >
-      **Devis gratuit - Tarif de 80 à 450€ TTC**
+      **DEVIS GRATUIT**
 
 
-      Pas de frais de diagnostic. Vous payez uniquement si votre appareil est
-      réparé avec succès.
+
+      Nous
+       ne facturons pas de devis. Payer pour un premier diagnostic n'a pas de 
+      sens d'après nous. Vous payez uniquement si votre machine est à nouveau 
+
+      en état de marche.
 
 
-      **Envoi gratuit - Garantie 6 mois**
+      **REPARATION AVEC SATISFACTION GARANTIE**
 
 
-      Étiquette d'envoi avec assurance fournie. Nos réparations sont garanties
-      6 mois.
+      Vous réglez uniquement le devis si la réparation est réalisée avec succès.
+      Pas de mauvaises surprises. Les tarifs vont **de 80 à 450€ TTC**, selon la
+      panne et l’âge de votre machine. La facturation se fait toujours après
+      réparation.
 
 
-      **Réponse sous 24h**
+      **ENVOI ET RETOUR INCLUS**
 
 
-      Nous analysons votre demande rapidement et vous proposons une solution
-      adaptée.
+
+      Vous
+       recevez une étiquette d'envoi, avec assurance incluse. Votre colis bien
+       sécurisé, il ne vous reste plus qu’à coller l’étiquette et le déposer 
+      en point relais. Vous pouvez aussi déposer votre machine à notre 
+
+      atelier. 
+
+
+      **GARANTIE 6 MOIS**
+
+
+      Notre
+       expertise nous permet de vous garantir nos interventions pendant 6 
+      mois. Nous avons les outils et composants pour assurer une réparation de
+       haute qualité.
     actions: []
     media:
       type: FormBlock
@@ -32,33 +52,34 @@ sections:
           name: name
           label: name
           hideLabel: true
-          placeholder: Nom et prénom
+          placeholder: Votre nom et prénom
           isRequired: true
           width: full
         - type: EmailFormControl
           name: email
           label: email
           hideLabel: true
-          placeholder: Adresse email
+          placeholder: Votre email
           isRequired: true
           width: full
         - type: TextFormControl
           name: telephone
           label: telephone
           hideLabel: true
-          placeholder: Téléphone (optionnel)
+          placeholder: Un numéro pour vous joindre
           isRequired: false
           width: full
         - type: TextareaFormControl
           name: message
           label: >-
-            Décrivez votre problème (modèle et année de l'appareil si possible)
+            Quel est votre problème ? Merci de préciser le modèle et l'année de
+            votre appareil
           hideLabel: false
-          placeholder: Ex MacBook Pro 2019 ne s'allume plus apres chute
+          placeholder: Votre message
           width: full
       submitButton:
         type: SubmitButtonFormControl
-        label: Obtenir mon devis gratuit
+        label: Envoyer
         icon: arrowRight
         iconPosition: right
         style: primary
@@ -67,25 +88,25 @@ sections:
       styles:
         self:
           padding:
-            - pt-20
+            - pt-28
             - pb-20
-            - pl-16
-            - pr-16
-          borderColor: border-primary
+            - pl-20
+            - pr-20
+          borderColor: border-dark
           borderStyle: solid
-          borderWidth: 2
+          borderWidth: 1
           borderRadius: large
           justifyContent: flex-start
-    colors: bg-light-fg-dark
+    colors: bg-neutral-fg-dark
     styles:
       self:
         padding:
-          - pt-16
-          - pl-4
-          - pb-16
-          - pr-4
+          - pt-5
+          - pl-5
+          - pb-5
+          - pr-5
       text:
-        textAlign: left
+        textAlign: justify
     backgroundImage:
       type: BackgroundImage
       altText: altText of the image
@@ -97,10 +118,10 @@ sections:
 slug: faireundevis
 isDraft: false
 seo:
-  metaTitle: Devis Gratuit - Réparation Électronique Strasbourg
+  metaTitle: Réparation Électronique Strasbourg Schiltigheim
   metaDescription: >-
-    Devis gratuit en 24h. Réparation garantie 6 mois. Tarif de 80 à 450€ TTC. 
-    MacBook, PC, Console, Smartphone, Tablette. Envoi gratuit inclus.
+    Réparation Micro Soudure MacBook PC Portable Console Apple Audio Tablette
+    Smartphone Carte Mère 
   socialImage: /images/header image.webp
   type: Seo
   addTitleSuffix: false
