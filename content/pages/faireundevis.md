@@ -8,7 +8,6 @@ sections:
       **DEVIS GRATUIT**
 
 
-
       Nous
        ne facturons pas de devis. Payer pour un premier diagnostic n'a pas de 
       sens d'après nous. Vous payez uniquement si votre machine est à nouveau 
@@ -47,6 +46,9 @@ sections:
     actions: []
     media:
       type: FormBlock
+      elementId: contact-form
+      action: "/thank-you.html"
+      dataNetlify: true
       fields:
         - type: TextFormControl
           name: name
@@ -84,7 +86,6 @@ sections:
         iconPosition: right
         style: primary
         showIcon: true
-      elementId: contact-form
       styles:
         self:
           padding:
@@ -93,36 +94,4 @@ sections:
             - pl-20
             - pr-20
           borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-          justifyContent: flex-start
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-5
-          - pl-5
-          - pb-5
-          - pr-5
-      text:
-        textAlign: justify
-    backgroundImage:
-      type: BackgroundImage
-      altText: altText of the image
-      backgroundSize: auto
-      backgroundPosition: center
-      backgroundRepeat: repeat
-      opacity: 100
-      url: /images/noise.png
-slug: faireundevis
-isDraft: false
-seo:
-  metaTitle: Réparation Électronique Strasbourg Schiltigheim
-  metaDescription: >-
-    Réparation Micro Soudure MacBook PC Portable Console Apple Audio Tablette
-    Smartphone Carte Mère 
-  socialImage: /images/header image.webp
-  type: Seo
-  addTitleSuffix: false
----
+          border
