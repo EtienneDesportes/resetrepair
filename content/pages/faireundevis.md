@@ -4,112 +4,65 @@ title: Faire un Devis
 sections:
   - type: GenericSection
     subtitle: ''
-    text: >
-      **DEVIS GRATUIT**
+    text: |
+      <div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start;">
+        
+        <div style="flex: 1; min-width: 300px;">
+          <p><strong>DEVIS GRATUIT</strong></p>
+          <p>Nous ne facturons pas de devis. Payer pour un premier diagnostic n'a pas de sens d'après nous. Vous payez uniquement si votre machine est à nouveau en état de marche.</p>
+          
+          <p><strong>REPARATION AVEC SATISFACTION GARANTIE</strong></p>
+          <p>Vous réglez uniquement le devis si la réparation est réalisée avec succès. Pas de mauvaises surprises. Les tarifs vont <strong>de 80 à 450€ TTC</strong>. La facturation se fait toujours après réparation.</p>
+          
+          <p><strong>ENVOI ET RETOUR INCLUS</strong></p>
+          <p>Vous recevez une étiquette d'envoi avec assurance. Déposez votre colis en point relais ou directement à notre atelier.</p>
+          
+          <p><strong>GARANTIE 6 MOIS</strong></p>
+          <p>Notre expertise nous permet de garantir nos interventions pendant 6 mois avec des composants de haute qualité.</p>
+        </div>
 
-
-
-      Nous
-       ne facturons pas de devis. Payer pour un premier diagnostic n'a pas de 
-      sens d'après nous. Vous payez uniquement si votre machine est à nouveau 
-
-      en état de marche.
-
-
-      **REPARATION AVEC SATISFACTION GARANTIE**
-
-
-      Vous réglez uniquement le devis si la réparation est réalisée avec succès.
-      Pas de mauvaises surprises. Les tarifs vont **de 80 à 450€ TTC**, selon la
-      panne et l’âge de votre machine. La facturation se fait toujours après
-      réparation.
-
-
-      **ENVOI ET RETOUR INCLUS**
-
-
-
-      Vous
-       recevez une étiquette d'envoi, avec assurance incluse. Votre colis bien
-       sécurisé, il ne vous reste plus qu’à coller l’étiquette et le déposer 
-      en point relais. Vous pouvez aussi déposer votre machine à notre 
-
-      atelier. 
-
-
-      **GARANTIE 6 MOIS**
-
-
-      Notre
-       expertise nous permet de vous garantir nos interventions pendant 6 
-      mois. Nous avons les outils et composants pour assurer une réparation de
-       haute qualité.
+        <div style="flex: 1; min-width: 300px; background: rgba(255,255,255,0.05); padding: 25px; border-radius: 12px; border: 1px solid #444;">
+          <form name="contact-form" method="POST" data-netlify="true" action="/thank-you.html">
+            <input type="hidden" name="form-name" value="contact-form" />
+            
+            <div style="margin-bottom: 15px;">
+              <input type="text" name="name" placeholder="Votre nom et prénom" required style="width: 100%; padding: 12px; border-radius: 6px; border: 1px solid #ccc; background: #fff; color: #000;">
+            </div>
+            
+            <div style="margin-bottom: 15px;">
+              <input type="email" name="email" placeholder="Votre email" required style="width: 100%; padding: 12px; border-radius: 6px; border: 1px solid #ccc; background: #fff; color: #000;">
+            </div>
+            
+            <div style="margin-bottom: 15px;">
+              <input type="tel" name="telephone" placeholder="Numéro de téléphone" style="width: 100%; padding: 12px; border-radius: 6px; border: 1px solid #ccc; background: #fff; color: #000;">
+            </div>
+            
+            <div style="margin-bottom: 15px;">
+              <label style="display: block; margin-bottom: 5px; font-size: 0.9em;">Quel est votre problème ? (Modèle et année)</label>
+              <textarea name="message" rows="4" placeholder="Détaillez votre panne ici..." required style="width: 100%; padding: 12px; border-radius: 6px; border: 1px solid #ccc; background: #fff; color: #000;"></textarea>
+            </div>
+            
+            <button type="submit" style="width: 100%; padding: 15px; background-color: #007bff; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold;">
+              Envoyer la demande →
+            </button>
+          </form>
+        </div>
+        
+      </div>
     actions: []
-    media:
-      type: FormBlock
-      fields:
-        - type: TextFormControl
-          name: name
-          label: name
-          hideLabel: true
-          placeholder: Votre nom et prénom
-          isRequired: true
-          width: full
-        - type: EmailFormControl
-          name: email
-          label: email
-          hideLabel: true
-          placeholder: Votre email
-          isRequired: true
-          width: full
-        - type: TextFormControl
-          name: telephone
-          label: telephone
-          hideLabel: true
-          placeholder: Un numéro pour vous joindre
-          isRequired: false
-          width: full
-        - type: TextareaFormControl
-          name: message
-          label: >-
-            Quel est votre problème ? Merci de préciser le modèle et l'année de
-            votre appareil
-          hideLabel: false
-          placeholder: Votre message
-          width: full
-      submitButton:
-        type: SubmitButtonFormControl
-        label: Envoyer
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        showIcon: true
-      elementId: contact-form
-      styles:
-        self:
-          padding:
-            - pt-28
-            - pb-20
-            - pl-20
-            - pr-20
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-          justifyContent: flex-start
     colors: bg-neutral-fg-dark
     styles:
       self:
         padding:
-          - pt-5
+          - pt-10
           - pl-5
-          - pb-5
+          - pb-10
           - pr-5
       text:
-        textAlign: justify
+        textAlign: left
     backgroundImage:
       type: BackgroundImage
-      altText: altText of the image
+      altText: background
       backgroundSize: auto
       backgroundPosition: center
       backgroundRepeat: repeat
@@ -119,9 +72,7 @@ slug: faireundevis
 isDraft: false
 seo:
   metaTitle: Réparation Électronique Strasbourg Schiltigheim
-  metaDescription: >-
-    Réparation Micro Soudure MacBook PC Portable Console Apple Audio Tablette
-    Smartphone Carte Mère 
+  metaDescription: Réparation Micro Soudure MacBook PC Portable Console Apple Audio Tablette Smartphone Carte Mère 
   socialImage: /images/header image.webp
   type: Seo
   addTitleSuffix: false
