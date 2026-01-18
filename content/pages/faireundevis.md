@@ -5,30 +5,30 @@ sections:
   - type: GenericSection
     subtitle: ''
     text: >
-      **Devis gratuit** 
+      ### **Devis gratuit**
 
 
       Pas de frais de diagnostic. Vous payez uniquement si votre appareil est
       réparé avec succès.
 
 
-      **Garantie 6 mois**
+      ### **Garantie 6 mois**
 
 
       Nos réparations sont garanties 6 mois.
 
 
-      **Réponse sous 24h**
+      ### **Réponse sous 24h**
 
 
       Nous analysons votre demande rapidement et vous proposons une solution
       adaptée.
 
 
-      **Envoi gratuit** 
+      ### **Envoi gratuit**
 
 
-      Étiquette d'envoi avec assurance fournie. 
+      Étiquette d'envoi avec assurance fournie.
     actions: []
     media:
       type: FormBlock
