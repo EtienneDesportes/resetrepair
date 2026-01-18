@@ -75,7 +75,7 @@ sections:
             - pb-5
             - pl-16
             - pr-16
-          borderColor: border-primary
+          borderColor: border-dark
           borderStyle: solid
           borderWidth: 2
           borderRadius: large
