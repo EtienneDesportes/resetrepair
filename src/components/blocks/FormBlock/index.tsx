@@ -75,11 +75,11 @@ export default function FormBlock(props) {
                 {fields.map((field, index) => {
                     const modelName = field.__metadata.modelName;
                     if (!modelName) {
-                        throw new Error(`form field does not have the 'modelName' property`);
+                        throw new Error("form field does not have the 'modelName' property");
                     }
                     const FormControl = getComponent(modelName);
                     if (!FormControl) {
-                        throw new Error(`no component matching the form field model name: ${modelName}`);
+                        throw new Error("no component matching the form field model name: " + modelName);
                     }
                     return <FormControl key={index} {...field} {...(fieldPath && { 'data-sb-field-path': `.${index}` })} />;
                 })}
