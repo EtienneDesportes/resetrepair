@@ -1,6 +1,5 @@
 import * as React from 'react';
 import classNames from 'classnames';
-
 import { getComponent } from '../../components-registry';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
 import SubmitButtonFormControl from './SubmitButtonFormControl';
@@ -8,17 +7,31 @@ import SubmitButtonFormControl from './SubmitButtonFormControl';
 export default function FormBlock(props) {
     const formRef = React.createRef<HTMLFormElement>();
     const { fields = [], elementId, submitButton, className, styles = {}, 'data-sb-field-path': fieldPath } = props;
-
+    
     if (fields.length === 0) {
         return null;
     }
 
     function handleSubmit(event) {
         event.preventDefault();
+        
+        const form = formRef.current;
+        const formData = new FormData(form);
 
-        const data = new FormData(formRef.current);
-        const value = Object.fromEntries(data.entries());
-        alert(`Form data: ${JSON.stringify(value)}`);
+        // Soumission à Netlify Forms avec fetch
+        fetch('/', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: new URLSearchParams(formData as any).toString()
+        })
+        .then(() => {
+            // Redirection vers la page de remerciement
+            window.location.href = '/thank-you.html';
+        })
+        .catch((error) => {
+            console.error('Erreur:', error);
+            alert('Une erreur est survenue. Veuillez réessayer.');
+        });
     }
 
     return (
@@ -39,25 +52,33 @@ export default function FormBlock(props) {
                     : undefined,
                 styles?.self?.borderRadius ? mapStyles({ borderRadius: styles?.self?.borderRadius }) : undefined
             )}
-            name={elementId}
+            name="contact-form"
             id={elementId}
+            method="POST"
+            netlify="true"
+            netlify-honeypot="bot-field"
             onSubmit={handleSubmit}
             ref={formRef}
-            data-sb-field-path= {fieldPath}
+            data-sb-field-path={fieldPath}
         >
             <div
                 className={classNames('w-full', 'flex', 'flex-wrap', 'gap-8', mapStyles({ justifyContent: styles?.self?.justifyContent ?? 'flex-start' }))}
                 {...(fieldPath && { 'data-sb-field-path': '.fields' })}
             >
-                <input type="hidden" name="form-name" value={elementId} />
+                {/* Champ honeypot caché pour anti-spam */}
+                <input type="hidden" name="bot-field" />
+                
+                {/* Nom du formulaire pour Netlify */}
+                <input type="hidden" name="form-name" value="contact-form" />
+                
                 {fields.map((field, index) => {
                     const modelName = field.__metadata.modelName;
                     if (!modelName) {
-                        throw new Error(`form field does not have the 'modelName' property`);
+                        throw new Error("form field does not have the 'modelName' property");
                     }
                     const FormControl = getComponent(modelName);
                     if (!FormControl) {
-                        throw new Error(`no component matching the form field model name: ${modelName}`);
+                        throw new Error("no component matching the form field model name: " + modelName);
                     }
                     return <FormControl key={index} {...field} {...(fieldPath && { 'data-sb-field-path': `.${index}` })} />;
                 })}
