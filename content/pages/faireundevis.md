@@ -1,128 +1,52 @@
----
-type: PageLayout
-title: Faire un Devis
-sections:
-  - type: GenericSection
-    subtitle: ''
-    text: >
-      **DEVIS GRATUIT**
+<section style="display: flex; flex-wrap: wrap; gap: 40px; padding: 40px 20px; max-width: 1200px; margin: 0 auto; font-family: sans-serif;">
 
+    <div style="flex: 1; min-width: 300px;">
+        <h1 style="color: #333; margin-bottom: 20px;">Faire un devis gratuit</h1>
+        <p style="font-size: 1.1em; line-height: 1.6; color: #555;">
+            Vous rencontrez un problème avec votre appareil ? Remplissez notre formulaire de demande de devis en quelques clics. 
+            Nos techniciens experts analyseront votre demande et vous répondront avec une estimation précise sous 24h.
+        </p>
+        <ul style="list-style: none; padding: 0; margin-top: 20px;">
+            <li style="margin-bottom: 10px;">✅ <strong>Réponse rapide :</strong> Estimation sous 24h ouvrées.</li>
+            <li style="margin-bottom: 10px;">✅ <strong>Pièces de qualité :</strong> Nous utilisons des composants certifiés.</li>
+            <li style="margin-bottom: 10px;">✅ <strong>Garantie :</strong> Toutes nos réparations sont garanties.</li>
+        </ul>
+    </div>
 
+    <div style="flex: 1; min-width: 300px; background: #ffffff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+        
+        <form name="contact-form" method="POST" data-netlify="true" action="/thank-you.html">
+            
+            <input type="hidden" name="form-name" value="contact-form" />
 
-      Nous
-       ne facturons pas de devis. Payer pour un premier diagnostic n'a pas de 
-      sens d'après nous. Vous payez uniquement si votre machine est à nouveau 
+            <div style="margin-bottom: 20px;">
+                <label for="name" style="display: block; font-weight: bold; margin-bottom: 8px;">Nom & Prénom</label>
+                <input type="text" id="name" name="name" placeholder="Votre nom complet" required 
+                    style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; box-sizing: border-box;">
+            </div>
 
-      en état de marche.
+            <div style="margin-bottom: 20px;">
+                <label for="email" style="display: block; font-weight: bold; margin-bottom: 8px;">Adresse Email</label>
+                <input type="email" id="email" name="email" placeholder="votre@email.com" required 
+                    style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; box-sizing: border-box;">
+            </div>
 
+            <div style="margin-bottom: 20px;">
+                <label for="device" style="display: block; font-weight: bold; margin-bottom: 8px;">Modèle de l'appareil</label>
+                <input type="text" id="device" name="device" placeholder="ex: iPhone 13, MacBook Air..." required 
+                    style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; box-sizing: border-box;">
+            </div>
 
-      **REPARATION AVEC SATISFACTION GARANTIE**
+            <div style="margin-bottom: 25px;">
+                <label for="message" style="display: block; font-weight: bold; margin-bottom: 8px;">Description de la panne</label>
+                <textarea id="message" name="message" rows="5" placeholder="Expliquez-nous le problème..." required 
+                    style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; box-sizing: border-box;"></textarea>
+            </div>
 
+            <button type="submit" style="width: 100%; padding: 15px; background-color: #007bff; color: white; font-weight: bold; border: none; border-radius: 6px; cursor: pointer; font-size: 16px;">
+                Envoyer ma demande de devis
+            </button>
+        </form>
+    </div>
 
-      Vous réglez uniquement le devis si la réparation est réalisée avec succès.
-      Pas de mauvaises surprises. Les tarifs vont **de 80 à 450€ TTC**, selon la
-      panne et l’âge de votre machine. La facturation se fait toujours après
-      réparation.
-
-
-      **ENVOI ET RETOUR INCLUS**
-
-
-
-      Vous
-       recevez une étiquette d'envoi, avec assurance incluse. Votre colis bien
-       sécurisé, il ne vous reste plus qu’à coller l’étiquette et le déposer 
-      en point relais. Vous pouvez aussi déposer votre machine à notre 
-
-      atelier. 
-
-
-      **GARANTIE 6 MOIS**
-
-
-      Notre
-       expertise nous permet de vous garantir nos interventions pendant 6 
-      mois. Nous avons les outils et composants pour assurer une réparation de
-       haute qualité.
-    actions: []
-    media:
-      type: FormBlock
-      fields:
-        - type: TextFormControl
-          name: name
-          label: name
-          hideLabel: true
-          placeholder: Votre nom et prénom
-          isRequired: true
-          width: full
-        - type: EmailFormControl
-          name: email
-          label: email
-          hideLabel: true
-          placeholder: Votre email
-          isRequired: true
-          width: full
-        - type: TextFormControl
-          name: telephone
-          label: telephone
-          hideLabel: true
-          placeholder: Un numéro pour vous joindre
-          isRequired: false
-          width: full
-        - type: TextareaFormControl
-          name: message
-          label: >-
-            Quel est votre problème ? Merci de préciser le modèle et l'année de
-            votre appareil
-          hideLabel: false
-          placeholder: Votre message
-          width: full
-      submitButton:
-        type: SubmitButtonFormControl
-        label: Envoyer
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        showIcon: true
-      elementId: contact-form
-      styles:
-        self:
-          padding:
-            - pt-28
-            - pb-20
-            - pl-20
-            - pr-20
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-          justifyContent: flex-start
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-5
-          - pl-5
-          - pb-5
-          - pr-5
-      text:
-        textAlign: justify
-    backgroundImage:
-      type: BackgroundImage
-      altText: altText of the image
-      backgroundSize: auto
-      backgroundPosition: center
-      backgroundRepeat: repeat
-      opacity: 100
-      url: /images/noise.png
-slug: faireundevis
-isDraft: false
-seo:
-  metaTitle: Réparation Électronique Strasbourg Schiltigheim
-  metaDescription: >-
-    Réparation Micro Soudure MacBook PC Portable Console Apple Audio Tablette
-    Smartphone Carte Mère 
-  socialImage: /images/header image.webp
-  type: Seo
-  addTitleSuffix: false
----
+</section>
