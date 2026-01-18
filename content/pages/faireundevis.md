@@ -5,36 +5,51 @@ sections:
   - type: GenericSection
     subtitle: ''
     text: >
-      ## DEVIS GRATUIT
+      **DEVIS GRATUIT**
+
 
       Nous ne facturons pas de devis. Payer pour un premier diagnostic n'a pas de 
       sens d'après nous. Vous payez uniquement si votre machine est à nouveau 
       en état de marche.
 
-      ## REPARATION AVEC SATISFACTION GARANTIE
+
+      **REPARATION AVEC SATISFACTION GARANTIE**
+
 
       Vous réglez uniquement le devis si la réparation est réalisée avec succès.
       Pas de mauvaises surprises. Les tarifs vont **de 80 à 450€ TTC**, selon la
       panne et l’âge de votre machine. La facturation se fait toujours après
       réparation.
 
-      ## ENVOI ET RETOUR INCLUS
+
+      **ENVOI ET RETOUR INCLUS**
+
 
       Vous recevez une étiquette d'envoi, avec assurance incluse. Votre colis bien
       sécurisé, il ne vous reste plus qu’à coller l’étiquette et le déposer 
       en point relais. Vous pouvez aussi déposer votre machine à notre 
       atelier. 
 
-      ## GARANTIE 6 MOIS
+
+      **GARANTIE 6 MOIS**
+
 
       Notre expertise nous permet de vous garantir nos interventions pendant 6 
       mois. Nous avons les outils et composants pour assurer une réparation de
       haute qualité.
-
-    # Remplacement de FormBlock par le HTML brut pour Netlify
     html: >
-      <form 
-        name="devis-reparation" 
-        method="POST" 
-        data-netlify="true" 
-        action="/thank
+      <section style="padding: 20px; border: 1px solid #333; border-radius: 15px; background-color: rgba(255,255,255,0.05);">
+        <form 
+          name="devis-reparation" 
+          method="POST" 
+          data-netlify="true" 
+          action="/thank-you.html"
+        >
+          <input type="hidden" name="form-name" value="devis-reparation" />
+
+          <div style="margin-bottom: 15px;">
+            <input type="text" name="name" placeholder="Votre nom et prénom" required style="width: 100%; padding: 12px; border-radius: 5px; border: 1px solid #ccc;" />
+          </div>
+
+          <div style="margin-bottom: 15px;">
+            <input type="email" name="email" placeholder="Votre email" required style="width: 100%; padding: 12px; border-radius
