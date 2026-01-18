@@ -37,58 +37,48 @@ sections:
       mois. Nous avons les outils et composants pour assurer une réparation de
       haute qualité.
 
-      <br/>
 
-      <form name="contact" method="POST" data-netlify="true" action="/thank-you.html" id="contact-form" style="border: 1px solid #1f2937; padding: 20px; border-radius: 8px;">
-        <input type="hidden" name="form-name" value="contact" />
-        
-        <div style="margin-bottom: 15px;">
-          <input type="text" name="name" placeholder="Votre nom et prénom" required style="width: 100%; padding: 10px; border-radius: 4px; border: 1px solid #ccc;" />
-        </div>
+      <div class="form-container" style="margin-top: 40px; padding: 30px; border: 1px solid #e5e7eb; border-radius: 12px; background-color: rgba(255,255,255,0.05);">
+        <form name="contact" method="POST" data-netlify="true" action="/thank-you.html" id="contact-form">
+          <input type="hidden" name="form-name" value="contact" />
+          
+          <div style="margin-bottom: 20px;">
+            <input type="text" name="name" placeholder="Votre nom et prénom" required style="width: 100%; padding: 12px; border-radius: 6px; border: 1px solid #374151; background: transparent; color: inherit;" />
+          </div>
 
-        <div style="margin-bottom: 15px;">
-          <input type="email" name="email" placeholder="Votre email" required style="width: 100%; padding: 10px; border-radius: 4px; border: 1px solid #ccc;" />
-        </div>
+          <div style="margin-bottom: 20px;">
+            <input type="email" name="email" placeholder="Votre email" required style="width: 100%; padding: 12px; border-radius: 6px; border: 1px solid #374151; background: transparent; color: inherit;" />
+          </div>
 
-        <div style="margin-bottom: 15px;">
-          <input type="text" name="telephone" placeholder="Un numéro pour vous joindre" style="width: 100%; padding: 10px; border-radius: 4px; border: 1px solid #ccc;" />
-        </div>
+          <div style="margin-bottom: 20px;">
+            <input type="text" name="telephone" placeholder="Un numéro pour vous joindre" style="width: 100%; padding: 12px; border-radius: 6px; border: 1px solid #374151; background: transparent; color: inherit;" />
+          </div>
 
-        <div style="margin-bottom: 15px;">
-          <label style="display: block; margin-bottom: 8px; font-weight: bold;">Quel est votre problème ? Merci de préciser le modèle et l'année de votre appareil</label>
-          <textarea name="message" placeholder="Votre message" rows="4" style="width: 100%; padding: 10px; border-radius: 4px; border: 1px solid #ccc;"></textarea>
-        </div>
+          <div style="margin-bottom: 20px;">
+            <label style="display: block; margin-bottom: 10px; font-weight: 600;">Quel est votre problème ? (Modèle, année, panne...)</label>
+            <textarea name="message" placeholder="Détaillez votre demande ici..." rows="4" style="width: 100%; padding: 12px; border-radius: 6px; border: 1px solid #374151; background: transparent; color: inherit;"></textarea>
+          </div>
 
-        <button type="submit" style="background-color: #000; color: #fff; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; display: flex; align-items: center; gap: 10px;">
-          Envoyer ➔
-        </button>
-      </form>
+          <button type="submit" style="background-color: #ffffff; color: #000000; padding: 14px 28px; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; width: 100%; transition: opacity 0.2s;">
+            Envoyer ma demande ➔
+          </button>
+        </form>
+      </div>
     actions: []
     colors: bg-neutral-fg-dark
     styles:
       self:
-        padding:
-          - pt-5
-          - pl-5
-          - pb-5
-          - pr-5
+        padding: [pt-5, pl-5, pb-5, pr-5]
       text:
         textAlign: justify
     backgroundImage:
       type: BackgroundImage
-      altText: altText of the image
-      backgroundSize: auto
-      backgroundPosition: center
-      backgroundRepeat: repeat
-      opacity: 100
       url: /images/noise.png
 slug: faireundevis
 isDraft: false
 seo:
   metaTitle: Réparation Électronique Strasbourg Schiltigheim
-  metaDescription: >-
-    Réparation Micro Soudure MacBook PC Portable Console Apple Audio Tablette
-    Smartphone Carte Mère 
+  metaDescription: Réparation Micro Soudure MacBook PC Portable...
   socialImage: /images/header image.webp
   type: Seo
   addTitleSuffix: false
