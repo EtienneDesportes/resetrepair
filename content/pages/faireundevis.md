@@ -8,10 +8,8 @@ sections:
       **DEVIS GRATUIT**
 
 
-      Nous
-       ne facturons pas de devis. Payer pour un premier diagnostic n'a pas de 
+      Nous ne facturons pas de devis. Payer pour un premier diagnostic n'a pas de 
       sens d'après nous. Vous payez uniquement si votre machine est à nouveau 
-
       en état de marche.
 
 
@@ -27,71 +25,72 @@ sections:
       **ENVOI ET RETOUR INCLUS**
 
 
-
-      Vous
-       recevez une étiquette d'envoi, avec assurance incluse. Votre colis bien
-       sécurisé, il ne vous reste plus qu’à coller l’étiquette et le déposer 
-      en point relais. Vous pouvez aussi déposer votre machine à notre 
-
-      atelier. 
+      Vous recevez une étiquette d'envoi, avec assurance incluse. Votre colis bien
+      sécurisé, il ne vous reste plus qu’à coller l’étiquette et le déposer 
+      en point relais. Vous pouvez aussi déposer votre machine à notre atelier. 
 
 
       **GARANTIE 6 MOIS**
 
 
-      Notre
-       expertise nous permet de vous garantir nos interventions pendant 6 
+      Notre expertise nous permet de vous garantir nos interventions pendant 6 
       mois. Nous avons les outils et composants pour assurer une réparation de
-       haute qualité.
+      haute qualité.
+
+      <br>
+
+      <form name="contact" method="POST" data-netlify="true" action="/thank-you.html" class="contact-form-html">
+        <input type="hidden" name="form-name" value="contact" />
+        
+        <div style="margin-bottom: 15px;">
+          <input type="text" name="name" placeholder="Votre nom et prénom" required style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px;" />
+        </div>
+        
+        <div style="margin-bottom: 15px;">
+          <input type="email" name="email" placeholder="Votre email" required style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px;" />
+        </div>
+        
+        <div style="margin-bottom: 15px;">
+          <input type="tel" name="telephone" placeholder="Un numéro pour vous joindre" style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px;" />
+        </div>
+        
+        <div style="margin-bottom: 15px;">
+          <label style="display: block; margin-bottom: 5px;">Quel est votre problème ? Merci de préciser le modèle et l'année de votre appareil</label>
+          <textarea name="message" placeholder="Votre message" rows="5" style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+        </div>
+        
+        <button type="submit" style="background-color: #000; color: #fff; padding: 12px 24px; border: none; border-radius: 4px; cursor: pointer; font-weight: bold;">
+          Envoyer →
+        </button>
+      </form>
+
     actions: []
-    media:
-      type: FormBlock
-      elementId: contact-form
-      action: "/thank-you.html"
-      dataNetlify: true
-      fields:
-        - type: TextFormControl
-          name: name
-          label: name
-          hideLabel: true
-          placeholder: Votre nom et prénom
-          isRequired: true
-          width: full
-        - type: EmailFormControl
-          name: email
-          label: email
-          hideLabel: true
-          placeholder: Votre email
-          isRequired: true
-          width: full
-        - type: TextFormControl
-          name: telephone
-          label: telephone
-          hideLabel: true
-          placeholder: Un numéro pour vous joindre
-          isRequired: false
-          width: full
-        - type: TextareaFormControl
-          name: message
-          label: >-
-            Quel est votre problème ? Merci de préciser le modèle et l'année de
-            votre appareil
-          hideLabel: false
-          placeholder: Votre message
-          width: full
-      submitButton:
-        type: SubmitButtonFormControl
-        label: Envoyer
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        showIcon: true
-      styles:
-        self:
-          padding:
-            - pt-28
-            - pb-20
-            - pl-20
-            - pr-20
-          borderColor: border-dark
-          border
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-5
+          - pl-5
+          - pb-5
+          - pr-5
+      text:
+        textAlign: justify
+    backgroundImage:
+      type: BackgroundImage
+      altText: altText of the image
+      backgroundSize: auto
+      backgroundPosition: center
+      backgroundRepeat: repeat
+      opacity: 100
+      url: /images/noise.png
+slug: faireundevis
+isDraft: false
+seo:
+  metaTitle: Réparation Électronique Strasbourg Schiltigheim
+  metaDescription: >-
+    Réparation Micro Soudure MacBook PC Portable Console Apple Audio Tablette
+    Smartphone Carte Mère 
+  socialImage: /images/header image.webp
+  type: Seo
+  addTitleSuffix: false
+---
