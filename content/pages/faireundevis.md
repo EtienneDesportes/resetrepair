@@ -60,6 +60,7 @@ sections:
           hideLabel: false
           placeholder: Ex MacBook Pro 2019 ne s'allume plus apres chute
           width: full
+          isRequired: true
       submitButton:
         type: SubmitButtonFormControl
         label: Obtenir mon devis gratuit
