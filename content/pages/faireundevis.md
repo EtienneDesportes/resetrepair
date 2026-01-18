@@ -3,7 +3,7 @@ type: PageLayout
 title: Faire un Devis
 sections:
   - type: GenericSection
-    subtitle: Réparation rapide et garantie
+    subtitle: ''
     text: >
       **Devis gratuit** 
 
