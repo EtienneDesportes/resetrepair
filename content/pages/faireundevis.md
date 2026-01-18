@@ -8,8 +8,11 @@ sections:
       **DEVIS GRATUIT**
 
 
-      Nous ne facturons pas de devis. Payer pour un premier diagnostic n'a pas de 
+
+      Nous
+       ne facturons pas de devis. Payer pour un premier diagnostic n'a pas de 
       sens d'après nous. Vous payez uniquement si votre machine est à nouveau 
+
       en état de marche.
 
 
@@ -25,40 +28,75 @@ sections:
       **ENVOI ET RETOUR INCLUS**
 
 
-      Vous recevez une étiquette d'envoi, avec assurance incluse. Votre colis bien
-      sécurisé, il ne vous reste plus qu’à coller l’étiquette et le déposer 
+
+      Vous
+       recevez une étiquette d'envoi, avec assurance incluse. Votre colis bien
+       sécurisé, il ne vous reste plus qu’à coller l’étiquette et le déposer 
       en point relais. Vous pouvez aussi déposer votre machine à notre 
+
       atelier. 
 
 
       **GARANTIE 6 MOIS**
 
 
-      Notre expertise nous permet de vous garantir nos interventions pendant 6 
+      Notre
+       expertise nous permet de vous garantir nos interventions pendant 6 
       mois. Nous avons les outils et composants pour assurer une réparation de
-      haute qualité.
-
-
-      <form name="contact" method="POST" data-netlify="true" action="/thank-you.html">
-        <p>
-          <input type="text" name="name" placeholder="Votre nom et prénom" required style="width: 100%; margin-bottom: 10px; padding: 10px; border-radius: 5px; border: 1px solid #ccc;" />
-        </p>
-        <p>
-          <input type="email" name="email" placeholder="Votre email" required style="width: 100%; margin-bottom: 10px; padding: 10px; border-radius: 5px; border: 1px solid #ccc;" />
-        </p>
-        <p>
-          <input type="tel" name="telephone" placeholder="Un numéro pour vous joindre" style="width: 100%; margin-bottom: 10px; padding: 10px; border-radius: 5px; border: 1px solid #ccc;" />
-        </p>
-        <p>
-          <label>Quel est votre problème ? Merci de préciser le modèle et l'année de votre appareil</label><br/>
-          <textarea name="message" placeholder="Votre message" style="width: 100%; height: 150px; margin-bottom: 10px; padding: 10px; border-radius: 5px; border: 1px solid #ccc;"></textarea>
-        </p>
-        <p>
-          <button type="submit" style="background-color: #000; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Envoyer →</button>
-        </p>
-      </form>
+       haute qualité.
     actions: []
-    media: null
+    media:
+      type: FormBlock
+      fields:
+        - type: TextFormControl
+          name: name
+          label: name
+          hideLabel: true
+          placeholder: Votre nom et prénom
+          isRequired: true
+          width: full
+        - type: EmailFormControl
+          name: email
+          label: email
+          hideLabel: true
+          placeholder: Votre email
+          isRequired: true
+          width: full
+        - type: TextFormControl
+          name: telephone
+          label: telephone
+          hideLabel: true
+          placeholder: Un numéro pour vous joindre
+          isRequired: false
+          width: full
+        - type: TextareaFormControl
+          name: message
+          label: >-
+            Quel est votre problème ? Merci de préciser le modèle et l'année de
+            votre appareil
+          hideLabel: false
+          placeholder: Votre message
+          width: full
+      submitButton:
+        type: SubmitButtonFormControl
+        label: Envoyer
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        showIcon: true
+      elementId: contact-form
+      styles:
+        self:
+          padding:
+            - pt-28
+            - pb-20
+            - pl-20
+            - pr-20
+          borderColor: border-dark
+          borderStyle: solid
+          borderWidth: 1
+          borderRadius: large
+          justifyContent: flex-start
     colors: bg-neutral-fg-dark
     styles:
       self:
