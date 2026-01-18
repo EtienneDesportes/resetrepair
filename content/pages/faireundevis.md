@@ -21,7 +21,7 @@ sections:
 
       Vous réglez uniquement le devis si la réparation est réalisée avec succès.
       Pas de mauvaises surprises. Les tarifs vont **de 80 à 450€ TTC**, selon la
-      panne et l’âge de votre machine. La facturation se fait toujours après
+      panne et l'âge de votre machine. La facturation se fait toujours après
       réparation.
 
 
@@ -31,7 +31,7 @@ sections:
 
       Vous
        recevez une étiquette d'envoi, avec assurance incluse. Votre colis bien
-       sécurisé, il ne vous reste plus qu’à coller l’étiquette et le déposer 
+       sécurisé, il ne vous reste plus qu'à coller l'étiquette et le déposer 
       en point relais. Vous pouvez aussi déposer votre machine à notre 
 
       atelier. 
@@ -85,6 +85,10 @@ sections:
         style: primary
         showIcon: true
       elementId: contact-form
+      action: /thank-you.html
+      method: POST
+      netlifyForm: true
+      netlifyHoneypot: bot-field
       styles:
         self:
           padding:
