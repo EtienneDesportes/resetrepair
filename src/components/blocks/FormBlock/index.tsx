@@ -12,28 +12,6 @@ export default function FormBlock(props) {
         return null;
     }
 
-    function handleSubmit(event) {
-        event.preventDefault();
-        
-        const form = formRef.current;
-        const formData = new FormData(form);
-
-        // Soumission à Netlify Forms avec fetch
-        fetch('/', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-            body: new URLSearchParams(formData as any).toString()
-        })
-        .then(() => {
-            // Redirection vers la page de remerciement
-            window.location.href = '/thank-you.html';
-        })
-        .catch((error) => {
-            console.error('Erreur:', error);
-            alert('Une erreur est survenue. Veuillez réessayer.');
-        });
-    }
-
     return (
         <form
             className={classNames(
@@ -55,9 +33,9 @@ export default function FormBlock(props) {
             name="contact-form"
             id={elementId}
             method="POST"
+            action="/thank-you.html"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
-            onSubmit={handleSubmit}
             ref={formRef}
             data-sb-field-path={fieldPath}
         >
