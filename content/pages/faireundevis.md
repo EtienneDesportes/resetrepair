@@ -5,18 +5,17 @@ sections:
   - type: GenericSection
     subtitle: Réparation rapide et garantie
     text: >
-      **Devis gratuit - Tarif de 80 à 450€ TTC**
+      **Devis gratuit** 
 
 
       Pas de frais de diagnostic. Vous payez uniquement si votre appareil est
       réparé avec succès.
 
 
-      **Envoi gratuit - Garantie 6 mois**
+      **Garantie 6 mois**
 
 
-      Étiquette d'envoi avec assurance fournie. Nos réparations sont garanties 6
-      mois.
+      Nos réparations sont garanties 6 mois.
 
 
       **Réponse sous 24h**
@@ -24,6 +23,12 @@ sections:
 
       Nous analysons votre demande rapidement et vous proposons une solution
       adaptée.
+
+
+      **Envoi gratuit** 
+
+
+      Étiquette d'envoi avec assurance fournie. 
     actions: []
     media:
       type: FormBlock
