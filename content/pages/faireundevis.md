@@ -8,10 +8,8 @@ sections:
       **DEVIS GRATUIT**
 
 
-      Nous
-       ne facturons pas de devis. Payer pour un premier diagnostic n'a pas de 
+      Nous ne facturons pas de devis. Payer pour un premier diagnostic n'a pas de 
       sens d'après nous. Vous payez uniquement si votre machine est à nouveau 
-
       en état de marche.
 
 
@@ -27,77 +25,45 @@ sections:
       **ENVOI ET RETOUR INCLUS**
 
 
-
-      Vous
-       recevez une étiquette d'envoi, avec assurance incluse. Votre colis bien
-       sécurisé, il ne vous reste plus qu’à coller l’étiquette et le déposer 
-      en point relais. Vous pouvez aussi déposer votre machine à notre 
-
-      atelier. 
+      Vous recevez une étiquette d'envoi, avec assurance incluse. Votre colis bien
+      sécurisé, il ne vous reste plus qu’à coller l’étiquette et le déposer 
+      en point relais. Vous pouvez aussi déposer votre machine à notre atelier. 
 
 
       **GARANTIE 6 MOIS**
 
 
-      Notre
-       expertise nous permet de vous garantir nos interventions pendant 6 
+      Notre expertise nous permet de vous garantir nos interventions pendant 6 
       mois. Nous avons les outils et composants pour assurer une réparation de
-       haute qualité.
+      haute qualité.
+
+      <br/>
+
+      <form name="contact" method="POST" data-netlify="true" action="/thank-you.html" id="contact-form" style="border: 1px solid #1f2937; padding: 20px; border-radius: 8px;">
+        <input type="hidden" name="form-name" value="contact" />
+        
+        <div style="margin-bottom: 15px;">
+          <input type="text" name="name" placeholder="Votre nom et prénom" required style="width: 100%; padding: 10px; border-radius: 4px; border: 1px solid #ccc;" />
+        </div>
+
+        <div style="margin-bottom: 15px;">
+          <input type="email" name="email" placeholder="Votre email" required style="width: 100%; padding: 10px; border-radius: 4px; border: 1px solid #ccc;" />
+        </div>
+
+        <div style="margin-bottom: 15px;">
+          <input type="text" name="telephone" placeholder="Un numéro pour vous joindre" style="width: 100%; padding: 10px; border-radius: 4px; border: 1px solid #ccc;" />
+        </div>
+
+        <div style="margin-bottom: 15px;">
+          <label style="display: block; margin-bottom: 8px; font-weight: bold;">Quel est votre problème ? Merci de préciser le modèle et l'année de votre appareil</label>
+          <textarea name="message" placeholder="Votre message" rows="4" style="width: 100%; padding: 10px; border-radius: 4px; border: 1px solid #ccc;"></textarea>
+        </div>
+
+        <button type="submit" style="background-color: #000; color: #fff; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; display: flex; align-items: center; gap: 10px;">
+          Envoyer ➔
+        </button>
+      </form>
     actions: []
-    media:
-      type: FormBlock
-      elementId: contact-form
-      action: "/thank-you.html"
-      dataNetlify: true
-      fields:
-        - type: TextFormControl
-          name: name
-          label: name
-          hideLabel: true
-          placeholder: Votre nom et prénom
-          isRequired: true
-          width: full
-        - type: EmailFormControl
-          name: email
-          label: email
-          hideLabel: true
-          placeholder: Votre email
-          isRequired: true
-          width: full
-        - type: TextFormControl
-          name: telephone
-          label: telephone
-          hideLabel: true
-          placeholder: Un numéro pour vous joindre
-          isRequired: false
-          width: full
-        - type: TextareaFormControl
-          name: message
-          label: >-
-            Quel est votre problème ? Merci de préciser le modèle et l'année de
-            votre appareil
-          hideLabel: false
-          placeholder: Votre message
-          width: full
-      submitButton:
-        type: SubmitButtonFormControl
-        label: Envoyer
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        showIcon: true
-      styles:
-        self:
-          padding:
-            - pt-28
-            - pb-20
-            - pl-20
-            - pr-20
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-          justifyContent: flex-start
     colors: bg-neutral-fg-dark
     styles:
       self:
