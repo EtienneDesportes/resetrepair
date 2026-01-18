@@ -69,8 +69,8 @@ sections:
           textAlign: center
     subtitle: ''
     text: >
-      ### **La réparation est uniquement facturée si elle est réalisée avec
-      succès !**
+      <div style="text-align: left">### **La réparation est uniquement facturée
+      si elle est réalisée avec succès !**</div>
 
 
       **La carte mère est réparable :**
@@ -121,7 +121,7 @@ seo:
   metaDescription: >-
     Réparation Micro Soudure MacBook PC Portable Console Apple Audio Tablette
     Smartphone Carte Mère 
-  socialImage: /images/réparation-micro-soudure.jpg
+  socialImage: /images/réparation-micro-soudure.webp
   type: Seo
   addTitleSuffix: false
 ---
