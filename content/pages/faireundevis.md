@@ -67,7 +67,7 @@ sections:
         self:
           padding:
             - pt-20
-            - pb-20
+            - pb-5
             - pl-16
             - pr-16
           borderColor: border-primary
