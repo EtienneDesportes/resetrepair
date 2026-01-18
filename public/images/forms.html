@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- Formulaire de contact pour détection Netlify -->
+    <form name="contact-form" netlify netlify-honeypot="bot-field" action="/thank-you.html" method="POST" hidden>
+        <input type="hidden" name="bot-field" />
+        <input type="hidden" name="form-name" value="contact-form" />
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <input type="text" name="telephone" />
+        <textarea name="message"></textarea>
+        <button type="submit">Envoyer</button>
+    </form>
+</body>
+</html>
