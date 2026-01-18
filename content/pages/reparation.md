@@ -69,8 +69,8 @@ sections:
           textAlign: center
     subtitle: ''
     text: >
-      ### **La réparation est uniquement facturée si elle est réalisée avec
-      succès !**
+      <div style="text-align: left">### **La réparation est uniquement facturée
+      si elle est réalisée avec succès !**</div>
 
 
       **La carte mère est réparable :**
