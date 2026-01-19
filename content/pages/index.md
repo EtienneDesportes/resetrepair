@@ -252,10 +252,10 @@ sections:
             flexDirection: col
             justifyContent: center
             margin:
-              - mt-1
-              - ml-1
-              - mb-1
-              - mr-1
+              - mt-0
+              - ml-0
+              - mb-0
+              - mr-0
       - type: FeaturedItem
         title: ''
         tagline: ''
