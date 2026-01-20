@@ -45,7 +45,7 @@
                 "type": "Link",
                 "label": "Repair Wiki",
                 "altText": "",
-                "url": "/https://repair.wiki/w/Main_Page",
+                "url": "https://repair.wiki/w/Main_Page",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
