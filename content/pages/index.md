@@ -291,7 +291,7 @@ sections:
         image:
           type: ImageBlock
           url: /images/plan ensemble.webp
-          altText: Réparation Carte-Mère Strasbourg
+          altText: Réparation Carte-Mère Strasbourg https://www.jesuisreparateur.fr 
           styles:
             self:
               borderRadius: x-large
