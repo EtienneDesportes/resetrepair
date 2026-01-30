@@ -16,7 +16,7 @@ sections:
 
           **Etienne**, ingénieur mécatronique et bricoleur en tout genre, décide
           d'ouvrir son atelier pour redonner aux technologies du quotidien la
-          valeur qu'ils méritent : **rien ne se jette, tout est réparable (enfin
+          valeur qu'elles méritent : **rien ne se jette, tout est réparable (enfin
           presque... )**. Non seulement c’est économique pour le client, une
           passion pour le réparateur (moi-même), et écologique pour tout le
           monde. Diplômé de la formation trinationale mécatronique,
@@ -32,7 +32,7 @@ sections:
           composant. Ceci est un exemple parmi d’autres. De telles pratiques
           enlèvent à l’utilisateur son droit de posséder un objet fonctionnel de
           qualité. De plus, les conséquences écologiques sont énormes,
-          l’obsolescence programmé génère des déchets considérables et nocifs
+          l’obsolescence programmée génère des déchets considérables et nocifs
           pour notre environnement. J’ai donc décidé de créer « Reset Lab » pour
           réparer ce matériel high tech. Ce sera aussi une manière de remettre
           en cause les agissements nuisibles d’industriels et d’encourager
