@@ -171,7 +171,7 @@ sections:
 
 
       Si le fabricant vous explique qu'il faut remplacer toute la carte mère
-      pour un coût exorbitant, ce n'est heureusement rarement le cas ! Après
+      pour un coût exorbitant, ce n'est heureusement pas le cas ! Après
       avoir établi un premier diagnostic au microscope à l'aide d'un multimètre
       et d'une alimentation de labo, nous remplacerons les composants défectueux
       (résistances, fusibles, condensateurs, mosfets... )
