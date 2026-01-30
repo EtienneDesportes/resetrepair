@@ -8,8 +8,7 @@ sections:
       ### **Devis gratuit**
 
 
-      Pas de frais de diagnostic. Vous payez uniquement si votre appareil est
-      réparé avec succès.
+      Pas de frais pour un premier diagnostic. 
 
 
       ### **Garantie 6 mois**
