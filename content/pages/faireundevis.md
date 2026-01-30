@@ -22,12 +22,6 @@ sections:
 
 
       Nous analysons votre demande et vous proposons une solution adaptée.
-
-
-      ### **Envoi gratuit**
-
-
-      Étiquette d'envoi avec assurance fournie.
     actions: []
     media:
       type: FormBlock
