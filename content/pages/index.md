@@ -76,7 +76,7 @@ sections:
         title: ''
         tagline: ''
         subtitle: ''
-        text: "<span style=\"color: #11295c\"\_>\n\n<p style='text-align: justify;'>Nous ne facturons pas de devis. Payer pour un premier diagnostic n'a pas de sens d'après nous. Vous payez uniquement si votre machine est à nouveau en état de marche.</p></span>\n\n"
+        text: "<span style=\"color: #11295c\"\_>\n\n<p style='text-align: justify;'>Payer pour un premier diagnostic n'a pas de sens d'après nous. Si un diagnostic approfondi est nécessaire, nous vous informerons des tarifs appliqués</p></span>\n\n"
         image:
           type: ImageBlock
           url: /images/devisgratuit-60bd9b49.svg
@@ -291,7 +291,7 @@ sections:
         image:
           type: ImageBlock
           url: /images/plan ensemble.webp
-          altText: Réparation Carte-Mère Strasbourg https://www.jesuisreparateur.fr 
+          altText: Réparation Carte-Mère Strasbourg https://www.jesuisreparateur.fr
           styles:
             self:
               borderRadius: x-large
