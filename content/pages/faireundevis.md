@@ -15,7 +15,7 @@ sections:
       ### **Garantie 6 mois**
 
 
-      Nos réparations sont garanties 6 mois.
+      Pas de mauvaises surprises ! Nos réparations sont garanties 6 mois.
 
 
       ### **Réponse sous 24h**
