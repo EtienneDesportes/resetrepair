@@ -21,8 +21,7 @@ sections:
       ### **Réponse sous 24h**
 
 
-      Nous analysons votre demande rapidement et vous proposons une solution
-      adaptée.
+      Nous analysons votre demande et vous proposons une solution adaptée.
 
 
       ### **Envoi gratuit**
