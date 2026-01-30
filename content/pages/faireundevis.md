@@ -8,7 +8,8 @@ sections:
       ### **Devis gratuit**
 
 
-      Pas de frais pour un premier diagnostic. 
+      Pas de frais pour un premier diagnostic. Si un diagnostic approfondi est
+      nécessaire, nous vous tiendrons informés.
 
 
       ### **Garantie 6 mois**
