@@ -9,7 +9,7 @@ sections:
 
 
       Pas de frais pour un premier diagnostic. Si un diagnostic approfondi est
-      nécessaire, nous vous tiendrons informés.
+      nécessaire, nous vous tiendrons informé.
 
 
       ### **Garantie 6 mois**
