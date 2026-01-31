@@ -9,8 +9,9 @@ sections:
       id="-votre-machine-peut-tre-r-par-e-"><strong>Votre machine peut être
       réparée !</strong></h2>
 
+
       <h3 id="microsoudure">Spécialiste en micro-soudure sur matériel
-      électronique</h3>
+      électronique sur Schiltigheim</h3>
 
       <p>Réparation de Carte-Mère:</p>
 
@@ -171,9 +172,9 @@ sections:
 
 
       Si le fabricant vous explique qu'il faut remplacer toute la carte mère
-      pour un coût exorbitant, ce n'est heureusement pas le cas ! Après
-      avoir établi un premier diagnostic au microscope à l'aide d'un multimètre
-      et d'une alimentation de labo, nous remplacerons les composants défectueux
+      pour un coût exorbitant, ce n'est heureusement pas le cas ! Après avoir
+      établi un premier diagnostic au microscope à l'aide d'un multimètre et
+      d'une alimentation de labo, nous remplacerons les composants défectueux
       (résistances, fusibles, condensateurs, mosfets... )
 
 
