@@ -10,8 +10,8 @@ sections:
       réparée !</strong></h2>
 
 
-      <h3 id="microsoudure">Spécialiste en micro-soudure sur matériel
-      électronique sur Schiltigheim</h3>
+      <h3 id="microsoudure">Spécialiste micro-soudure sur matériel électronique
+      à Schiltigheim</h3>
 
       <p>Réparation de Carte-Mère:</p>
 
