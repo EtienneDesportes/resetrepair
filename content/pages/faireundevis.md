@@ -102,6 +102,6 @@ seo:
     MacBook, PC, Console, Smartphone, Tablette. Envoi gratuit inclus.
   socialImage: /images/header image.webp
   type: Seo
-  addTitleSuffix: false
+  addTitleSuffix: true
 ---
 
