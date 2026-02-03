@@ -123,6 +123,6 @@ seo:
     Smartphone Carte Mère 
   socialImage: /images/réparation-micro-soudure.webp
   type: Seo
-  addTitleSuffix: false
+  addTitleSuffix: true
 ---
 
