@@ -1,5 +1,5 @@
 ---
-title: ''
+title: Réparation Électronique Strasbourg Schiltigheim
 slug: /
 sections:
   - type: GenericSection
