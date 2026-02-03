@@ -16,9 +16,9 @@ sections:
 
           **Etienne**, ingénieur mécatronique et bricoleur en tout genre, décide
           d'ouvrir son atelier pour redonner aux technologies du quotidien la
-          valeur qu'elles méritent : **rien ne se jette, tout est réparable (enfin
-          presque... )**. Non seulement c’est économique pour le client, une
-          passion pour le réparateur (moi-même), et écologique pour tout le
+          valeur qu'elles méritent : **rien ne se jette, tout est réparable
+          (enfin presque... )**. Non seulement c’est économique pour le client,
+          une passion pour le réparateur (moi-même), et écologique pour tout le
           monde. Diplômé de la formation trinationale mécatronique,
           l'électronique est une réelle passion. On se fera un plaisir de vous
           expliquer comment on procède. **L’obsolescence programmée** est de
@@ -87,7 +87,7 @@ seo:
   metaDescription: >-
     Réparation Micro Soudure MacBook PC Portable Console Apple Audio Tablette
     Smartphone Carte Mère 
-  socialImage: /images/réparation-micro-soudure.jpg
+  socialImage: /images/header image.webp
   type: Seo
   metaTags: []
   addTitleSuffix: false
