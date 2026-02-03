@@ -336,7 +336,7 @@ seo:
   socialImage: /images/header image.webp
   type: Seo
   metaTags: []
-  addTitleSuffix: false
+  addTitleSuffix: true
 type: PageLayout
 ---
 
