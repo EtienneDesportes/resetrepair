@@ -90,5 +90,5 @@ seo:
   socialImage: /images/réparation-micro-soudure.webp
   type: Seo
   metaTags: []
-  addTitleSuffix: false
+  addTitleSuffix: true
 ---
