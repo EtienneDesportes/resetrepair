@@ -51,14 +51,6 @@ sections:
       styles:
         self:
           borderRadius: medium
-    backgroundImage:
-      type: BackgroundImage
-      altText: altText of the image
-      backgroundSize: contain
-      backgroundPosition: center
-      backgroundRepeat: repeat
-      opacity: 5
-      url: /images/simple-pcb-layout_lml7zo.webp
   - type: GenericSection
     title:
       type: TitleBlock
