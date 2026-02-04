@@ -55,14 +55,6 @@ sections:
           - pl-6
           - pb-6
           - pr-6
-    backgroundImage:
-      type: BackgroundImage
-      altText: noise
-      backgroundSize: cover
-      backgroundPosition: ''
-      backgroundRepeat: repeat-y
-      opacity: 5
-      url: /images/noise.png
     media:
       type: ImageBlock
       url: /images/header image.webp
