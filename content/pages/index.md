@@ -52,7 +52,7 @@ sections:
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
-      opacity: 15
+      opacity: 24
       url: /images/thumb-1920-585935-1.webp
   - subtitle: ''
     items:
