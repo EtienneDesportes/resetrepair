@@ -202,7 +202,7 @@ sections:
       type: BackgroundImage
       altText: altText of the image
       backgroundSize: contain
-      backgroundPosition: center
+      backgroundPosition: ''
       backgroundRepeat: no-repeat
       opacity: 55
       url: /images/resetlab-background-modern(1).svg
