@@ -14,7 +14,21 @@ sections:
       Schiltigheim</h3>
 
       <p>Contactez-nous à etienne@resetlab.fr ou au 0678235040 pour plus
-      d'informations ✆</p>
+      d'informations ✆</p><ul>
+
+      <li><p>Dommage liquide</p>
+
+      </li>
+
+      <li><p>Problème de démarrage</p>
+
+      </li>
+
+      <li><p>Récupération de données</p>
+
+      </li>
+
+      </ul>
 
 
       </span>
