@@ -223,7 +223,7 @@ sections:
               - pt-5
               - pl-0
               - pb-0
-              - pr-5
+              - pr-0
             borderRadius: large
             flexDirection: col
             justifyContent: center
