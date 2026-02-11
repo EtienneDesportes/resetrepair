@@ -225,7 +225,7 @@ sections:
               - pb-5
               - pr-5
             borderRadius: large
-            flexDirection: col-reverse
+            flexDirection: col
             justifyContent: center
             margin:
               - mt-0
