@@ -233,6 +233,7 @@ sections:
               - mb-0
               - mr-0
             borderColor: border-dark
+            borderWidth: 0
       - type: FeaturedItem
         title: ''
         tagline: ''
