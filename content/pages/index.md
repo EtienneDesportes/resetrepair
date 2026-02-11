@@ -48,7 +48,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
-      url: /images/vishnu-mohanan-pfR18JNEMv8-unsplash.webp
+      url: /images/nxwoq5714vv51.webp
   - subtitle: ''
     items:
       - type: FeaturedItem
