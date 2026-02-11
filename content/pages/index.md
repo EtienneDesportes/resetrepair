@@ -48,7 +48,7 @@ sections:
           borderRadius: medium
     backgroundImage:
       type: BackgroundImage
-      altText: altText of the image
+      altText: réparation électronique strasbourg schiltigheim
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
