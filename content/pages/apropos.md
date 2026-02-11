@@ -80,7 +80,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
-      url: /images/thumb-1920-585935-1.webp
+      url: /images/magnus-engo-mbXEkW5ZyBQ-unsplash.webp
 slug: apropos
 seo:
   metaTitle: Réparation Électronique Strasbourg Schiltigheim
