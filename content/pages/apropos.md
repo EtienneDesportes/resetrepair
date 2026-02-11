@@ -67,10 +67,10 @@ sections:
       self:
         justifyContent: center
         padding:
-          - pt-5
-          - pl-5
-          - pb-5
-          - pr-5
+          - pt-4
+          - pl-4
+          - pb-4
+          - pr-4
       subtitle:
         textAlign: center
     backgroundImage:
@@ -80,7 +80,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
-      url: /images/simple-pcb-layout_lml7zo.webp
+      url: /images/thumb-1920-585935-1.webp
 slug: apropos
 seo:
   metaTitle: Réparation Électronique Strasbourg Schiltigheim
