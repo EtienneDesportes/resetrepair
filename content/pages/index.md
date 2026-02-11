@@ -57,6 +57,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
+      url: /images/plufow-le-studio-FktYt7c97d0-unsplash.webp
   - subtitle: ''
     items:
       - type: FeaturedItem
