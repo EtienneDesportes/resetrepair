@@ -5,7 +5,7 @@ sections:
   - type: GenericSection
     subtitle: ''
     text: |
-      ### **Votre machine peut-être réparée !**
+      ## **Votre machine peut-être réparée !**
 
       *Réparation de matériel électronique à Schiltigheim*
 
