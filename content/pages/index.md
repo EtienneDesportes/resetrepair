@@ -52,7 +52,7 @@ sections:
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
-      opacity: 80
+      opacity: 50
       url: /images/resetlab-background-modern.svg
   - subtitle: ''
     items:
