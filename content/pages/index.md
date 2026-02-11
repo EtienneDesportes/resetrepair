@@ -40,7 +40,7 @@ sections:
           - pr-4
     media:
       type: ImageBlock
-      url: /images/réparation-micro-soudure.webp
+      url: /images/P1111509.webp
       altText: Réparation Macbook Strasbourg
       elementId: ''
       styles:
