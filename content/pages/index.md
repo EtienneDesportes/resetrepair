@@ -4,7 +4,7 @@ slug: /
 sections:
   - type: GenericSection
     subtitle: ''
-    text: |+
+    text: |
       <span style="color: #11295c"><h2
       id="-votre-machine-peut-tre-r-par-e-"><strong>Votre machine peut être
       réparée !</strong></h2>
@@ -52,7 +52,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
-      url: /images/test reparation.svg
+      url: /images/resetlab-background.svg
   - subtitle: ''
     items:
       - type: FeaturedItem
