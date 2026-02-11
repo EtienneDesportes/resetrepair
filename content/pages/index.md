@@ -53,7 +53,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 20
-      url: /images/thumb-1920-585935.webp
+      url: /images/thumb-1920-585935-1.webp
   - subtitle: ''
     items:
       - type: FeaturedItem
