@@ -73,8 +73,7 @@ sections:
 
       **La carte mère n’est pas réparable :**
 
-      Vous serez informé par e-mail. Le retour est facturé 30€ TTC si vous ne
-      pouvez pas récupérer votre appareil à l'atelier.
+      Vous serez informé par e-mail. Le retour est facturé 30€.
     actions: []
     colors: bg-neutral-fg-dark
     backgroundImage:
