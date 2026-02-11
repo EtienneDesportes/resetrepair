@@ -57,7 +57,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 60
-      url: /images/robin-glauser-WgMlXuSv-8A-unsplash.webp
+      url: /images/magnus-engo-mbXEkW5ZyBQ-unsplash.webp
   - subtitle: ''
     items:
       - type: FeaturedItem
