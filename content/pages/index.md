@@ -13,8 +13,7 @@ sections:
       <h3 id="microsoudure">Réparation de matériel électronique à
       Schiltigheim</h3>
 
-      <p>Contactez-nous à etienne@resetlab.fr ou au 0678235040 pour plus
-      d'informations ✆</p><ul>
+      <p>Contactez-nous au 0678235040 pour plus d'informations ✆</p><ul>
 
       <li><p>Dommage liquide</p>
 
