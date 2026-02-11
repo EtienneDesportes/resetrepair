@@ -224,7 +224,7 @@ sections:
               - pl-5
               - pb-5
               - pr-5
-            borderRadius: x-large
+            borderRadius: none
             flexDirection: col
             justifyContent: center
             margin:
