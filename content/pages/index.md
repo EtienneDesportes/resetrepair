@@ -53,7 +53,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 15
-      url: /images/circuit_board(1).svg
+      url: /images/circuit_board.svg
   - subtitle: ''
     items:
       - type: FeaturedItem
