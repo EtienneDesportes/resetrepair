@@ -234,7 +234,7 @@ sections:
               - mr-0
             borderColor: border-dark
             borderWidth: 0
-            borderStyle: solid
+            borderStyle: none
       - type: FeaturedItem
         title: ''
         tagline: ''
