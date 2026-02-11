@@ -50,13 +50,6 @@ sections:
       styles:
         self:
           borderRadius: medium
-    backgroundImage:
-      type: BackgroundImage
-      altText: altText of the image
-      backgroundSize: cover
-      backgroundPosition: center
-      backgroundRepeat: no-repeat
-      opacity: 80
   - subtitle: ''
     items:
       - type: FeaturedItem
