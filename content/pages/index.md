@@ -48,7 +48,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
-      url: /images/magnus-engo-mbXEkW5ZyBQ-unsplash.webp
+      url: /images/vishnu-mohanan-pfR18JNEMv8-unsplash.webp
   - subtitle: ''
     items:
       - type: FeaturedItem
