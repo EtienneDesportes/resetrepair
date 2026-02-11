@@ -88,10 +88,10 @@ sections:
     styles:
       self:
         padding:
-          - pt-5
-          - pl-5
-          - pb-5
-          - pr-5
+          - pt-4
+          - pl-4
+          - pb-4
+          - pr-4
         alignItems: center
         flexDirection: row-reverse
         justifyContent: center
