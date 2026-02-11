@@ -45,7 +45,7 @@ sections:
         textAlign: justify
     media:
       type: ImageBlock
-      url: /images/load.svg
+      url: /images/20120608-nerdkits-sous-vide-cooker-schematic.svg
       altText: Carte Mère MacBook
       elementId: ''
       styles:
