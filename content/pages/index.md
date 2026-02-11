@@ -53,7 +53,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
-      url: /images/test background.svg
+      url: /images/test reparation.svg
   - subtitle: ''
     items:
       - type: FeaturedItem
