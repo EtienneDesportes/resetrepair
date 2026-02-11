@@ -204,7 +204,7 @@ sections:
       backgroundSize: contain
       backgroundPosition: center
       backgroundRepeat: no-repeat
-      opacity: 100
+      opacity: 55
       url: /images/resetlab-background-modern(1).svg
   - type: FeaturedItemsSection
     subtitle: ''
