@@ -40,7 +40,7 @@ sections:
           - pr-6
     media:
       type: ImageBlock
-      url: /images/header image.webp
+      url: /images/new cover reset.webp
       altText: Réparation Macbook Strasbourg
       elementId: ''
       styles:
