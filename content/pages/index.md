@@ -7,7 +7,7 @@ sections:
     text: |
       ### **Votre machine peut-être réparée !**
 
-      ###### *Réparation de matériel électronique à Schiltigheim*
+      ##### *Réparation de matériel électronique à Schiltigheim*
 
       📍 21 rue du Soleil 67300 Schiltigheim
 
