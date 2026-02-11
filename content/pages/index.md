@@ -57,6 +57,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
+      url: /images/noise.png
   - subtitle: ''
     items:
       - type: FeaturedItem
