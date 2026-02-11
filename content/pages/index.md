@@ -5,9 +5,8 @@ sections:
   - type: GenericSection
     subtitle: ''
     text: >+
-      <span style="color: #11295c"><h2
-      id="-votre-machine-peut-tre-r-par-e-"><strong>Votre machine peut être
-      réparée !</strong></h2>
+      <span style="color: #ffffff"><h2
+      id="-votre-machine-peut-tre-r-par-e-"><strong></strong></h2>
 
 
       <h3 id="microsoudure">Réparation de matériel électronique à
