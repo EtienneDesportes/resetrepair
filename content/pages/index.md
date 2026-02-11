@@ -13,7 +13,7 @@ sections:
 
       <p>📍 21 rue du Soleil 67300 Schiltigheim</p>
 
-      <p>📞 06.78.23.50.40</p>
+      <p>📞 0678235040</p>
 
       </span>
 
@@ -52,8 +52,8 @@ sections:
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
-      opacity: 50
-      url: /images/resetlab-background-modern.svg
+      opacity: 55
+      url: /images/resetlab-background-modern(1).svg
   - subtitle: ''
     items:
       - type: FeaturedItem
@@ -222,9 +222,9 @@ sections:
             padding:
               - pt-5
               - pl-5
-              - pb-5
+              - pb-0
               - pr-5
-            borderRadius: x-large
+            borderRadius: large
             flexDirection: col
             justifyContent: center
             margin:
@@ -232,6 +232,9 @@ sections:
               - ml-0
               - mb-0
               - mr-0
+            borderColor: border-dark
+            borderWidth: 0
+            borderStyle: none
       - type: FeaturedItem
         title: ''
         tagline: ''
@@ -253,7 +256,7 @@ sections:
             padding:
               - pt-5
               - pl-5
-              - pb-5
+              - pb-0
               - pr-5
             borderRadius: x-large
             flexDirection: col
@@ -278,7 +281,7 @@ sections:
             padding:
               - pt-5
               - pl-5
-              - pb-5
+              - pb-0
               - pr-5
             borderRadius: x-large
             flexDirection: col
