@@ -5,20 +5,17 @@ sections:
   - type: GenericSection
     subtitle: ''
     text: >+
-      <span style="color: #ffffff"><h2 id="Votre machine peut-être réparée
-      !"><strong></strong></h2>
+      Votre machine peut-être réparée !Réparation de matériel électronique à
+      Schiltigheim
 
 
-      <h3 id="microsoudure">Réparation de matériel électronique à
-      Schiltigheim</h3>
+      ```
 
+      📍 21 rue du Soleil 67300 Schiltigheim
 
-      <p>📍 21 rue du Soleil 67300 Schiltigheim</p>
+      📞 06 78 23 50 40
 
-      <p>📞 06 78 23 50 40</p>
-
-
-      </span>
+      ```
 
     actions:
       - label: Faire un devis
