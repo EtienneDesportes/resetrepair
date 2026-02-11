@@ -52,7 +52,7 @@ sections:
       backgroundSize: contain
       backgroundPosition: center
       backgroundRepeat: no-repeat
-      opacity: 20
+      opacity: 100
       url: /images/14_1sas12das.jpg
   - subtitle: ''
     items:
