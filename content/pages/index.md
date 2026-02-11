@@ -4,23 +4,19 @@ slug: /
 sections:
   - type: GenericSection
     subtitle: ''
-    text: >+
+    text: |
       <span style="color: #11295c"><h2
       id="-votre-machine-peut-tre-r-par-e-"><strong>Votre machine peut être
       réparée !</strong></h2>
 
-
       <h3 id="microsoudure">Réparation de matériel électronique à
       Schiltigheim</h3>
-
 
       <p>📍 21 rue du Soleil 67300 Schiltigheim</p>
 
       <p>📞 06 78 23 50 40</p>
 
-
       </span>
-
     actions:
       - label: Faire un devis
         altText: ''
@@ -38,18 +34,26 @@ sections:
         alignItems: center
         flexDirection: row
         padding:
-          - pt-6
-          - pl-6
-          - pb-6
-          - pr-6
+          - pt-4
+          - pl-4
+          - pb-4
+          - pr-4
     media:
       type: ImageBlock
-      url: /images/header image.webp
+      url: /images/réparation-micro-soudure.webp
       altText: Réparation Macbook Strasbourg
       elementId: ''
       styles:
         self:
           borderRadius: medium
+    backgroundImage:
+      type: BackgroundImage
+      altText: altText of the image
+      backgroundSize: cover
+      backgroundPosition: center
+      backgroundRepeat: no-repeat
+      opacity: 15
+      url: /images/thumb-1920-585935-1.webp
   - subtitle: ''
     items:
       - type: FeaturedItem
@@ -124,10 +128,10 @@ sections:
     styles:
       self:
         padding:
-          - pt-6
-          - pl-6
-          - pb-6
-          - pr-6
+          - pt-4
+          - pl-4
+          - pb-4
+          - pr-4
         justifyContent: center
       subtitle:
         textAlign: center
@@ -188,10 +192,10 @@ sections:
         flexDirection: row
         justifyContent: center
         padding:
-          - pt-6
-          - pl-6
-          - pb-6
-          - pr-6
+          - pt-4
+          - pl-4
+          - pb-4
+          - pr-4
       subtitle:
         textAlign: left
   - type: FeaturedItemsSection
@@ -284,10 +288,10 @@ sections:
     styles:
       self:
         padding:
-          - pt-6
-          - pl-6
-          - pb-6
-          - pr-6
+          - pt-4
+          - pl-4
+          - pb-4
+          - pr-4
         justifyContent: center
       subtitle:
         textAlign: center
