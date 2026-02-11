@@ -58,6 +58,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
+      url: /images/resetlab-background-modern(1).svg
   - type: GenericSection
     title:
       type: TitleBlock
