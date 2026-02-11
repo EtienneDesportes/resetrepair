@@ -53,7 +53,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 50
-      url: /images/resetlab-background-modern.svg
+      url: /images/resetlab-background-modern(1).svg
   - subtitle: ''
     items:
       - type: FeaturedItem
