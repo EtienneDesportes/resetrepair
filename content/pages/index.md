@@ -49,7 +49,7 @@ sections:
     backgroundImage:
       type: BackgroundImage
       altText: réparation électronique strasbourg schiltigheim
-      backgroundSize: contain
+      backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
