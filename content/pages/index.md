@@ -47,7 +47,7 @@ sections:
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
-      opacity: 100
+      opacity: 50
       url: /images/magnus-engo-mbXEkW5ZyBQ-unsplash.webp
   - subtitle: ''
     items:
