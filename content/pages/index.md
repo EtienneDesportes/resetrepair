@@ -34,10 +34,10 @@ sections:
         alignItems: center
         flexDirection: row
         padding:
-          - pt-6
-          - pl-6
-          - pb-6
-          - pr-6
+          - pt-0
+          - pl-0
+          - pb-0
+          - pr-0
     media:
       type: ImageBlock
       url: /images/new cover reset.webp
