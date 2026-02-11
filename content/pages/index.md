@@ -53,7 +53,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
-      url: /images/14_1sas12das.jpg
+      url: /images/test background.svg
   - subtitle: ''
     items:
       - type: FeaturedItem
