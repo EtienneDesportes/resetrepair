@@ -192,10 +192,10 @@ sections:
         flexDirection: row
         justifyContent: center
         padding:
-          - pt-6
-          - pl-6
-          - pb-6
-          - pr-6
+          - pt-4
+          - pl-4
+          - pb-4
+          - pr-4
       subtitle:
         textAlign: left
   - type: FeaturedItemsSection
