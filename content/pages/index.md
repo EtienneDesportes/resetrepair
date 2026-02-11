@@ -53,7 +53,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 15
-      url: /images/thumb-1920-585935-1.webp
+      url: /images/circuit_board(1).svg
   - subtitle: ''
     items:
       - type: FeaturedItem
