@@ -52,7 +52,7 @@ sections:
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
-      opacity: 15
+      opacity: 34
       url: /images/circuit_board.svg
   - subtitle: ''
     items:
