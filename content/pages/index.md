@@ -13,8 +13,7 @@ sections:
       <h3 id="microsoudure">Réparation de matériel électronique à
       Schiltigheim</h3>
 
-      <p>Envoyez nous un devis ou contactez-nous au 0678235040 pour plus
-      d'informations</p>
+      <p>Contactez-nous au 0678235040 pour plus d'informations</p>
 
 
       </span>
