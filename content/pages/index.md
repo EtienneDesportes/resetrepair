@@ -4,19 +4,13 @@ slug: /
 sections:
   - type: GenericSection
     subtitle: ''
-    text: >+
-      Votre machine peut-être réparée !Réparation de matériel électronique à
-      Schiltigheim
+    text: |
+      # **Votre machine peut-être réparée !**
 
-
-      ```
+      ### Réparation de matériel électronique à Schiltigheim
 
       📍 21 rue du Soleil 67300 Schiltigheim
-
       📞 06 78 23 50 40
-
-      ```
-
     actions:
       - label: Faire un devis
         altText: ''
