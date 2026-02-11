@@ -57,7 +57,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 60
-      url: /images/plufow-le-studio-FktYt7c97d0-unsplash.webp
+      url: /images/robin-glauser-WgMlXuSv-8A-unsplash.webp
   - subtitle: ''
     items:
       - type: FeaturedItem
