@@ -4,7 +4,7 @@ slug: /
 sections:
   - type: GenericSection
     subtitle: ''
-    text: |+
+    text: |
       <span style="color: #11295c"><h2
       id="Votre machine peut être réparée !"><strong></strong></h2>
 
@@ -15,7 +15,6 @@ sections:
       <p>📞 06.78.23.50.40</p>
 
       </span>
-
     actions:
       - label: Faire un devis
         altText: ''
