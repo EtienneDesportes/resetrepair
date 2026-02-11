@@ -80,7 +80,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
-      url: /images/thumb-1920-585935.webp
+      url: /images/thumb-1920-585935-1.webp
 slug: apropos
 seo:
   metaTitle: Réparation Électronique Strasbourg Schiltigheim
