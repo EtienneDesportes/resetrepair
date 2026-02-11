@@ -198,6 +198,13 @@ sections:
           - pr-4
       subtitle:
         textAlign: left
+    backgroundImage:
+      type: BackgroundImage
+      altText: altText of the image
+      backgroundSize: auto
+      backgroundPosition: center
+      backgroundRepeat: no-repeat
+      opacity: 100
   - type: FeaturedItemsSection
     subtitle: ''
     items:
