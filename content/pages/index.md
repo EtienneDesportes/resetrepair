@@ -57,7 +57,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
-      url: /images/abstract-background.svg
+      url: /images/abstract-feature1.svg
   - subtitle: ''
     items:
       - type: FeaturedItem
