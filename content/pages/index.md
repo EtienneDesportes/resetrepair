@@ -57,7 +57,6 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 80
-      url: /images/14_1sas12das.jpg
   - subtitle: ''
     items:
       - type: FeaturedItem
