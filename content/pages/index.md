@@ -16,7 +16,7 @@ sections:
 
       <p>📍 21 rue du Soleil 67300 Schiltigheim</p>
 
-      <p>📞 06 78 23 50 40 pour plus d'informations</p>
+      <p>📞 06 78 23 50 40</p>
 
 
       </span>
