@@ -53,7 +53,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
-      url: /images/nxwoq5714vv51.webp
+      url: /images/thumb-1920-585935.webp
   - subtitle: ''
     items:
       - type: FeaturedItem
