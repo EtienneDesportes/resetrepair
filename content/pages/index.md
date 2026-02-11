@@ -5,7 +5,7 @@ sections:
   - type: GenericSection
     subtitle: ''
     text: |+
-      <span style="color: #FFFFFF"><h2
+      <span style="color: #11295c"><h2
       id="-votre-machine-peut-tre-r-par-e-"><strong></strong></h2>
 
       <h3 id="microsoudure">Réparation de matériel électronique</h3>
