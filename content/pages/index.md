@@ -11,9 +11,9 @@ sections:
 
       <h3 id="microsoudure">Réparation de matériel électronique</h3>
 
-      <p>📍 21 rue du Soleil 67300 Schiltigheim</p>
+      <p>⚲ 21 rue du Soleil 67300 Schiltigheim</p>
 
-      <p>📞 <a href="tel:0678235040">06 78 23 50 40</a></p>
+      <p>✆ <a href="tel:0678235040">06 78 23 50 40</a></p>
 
       </span>
 
