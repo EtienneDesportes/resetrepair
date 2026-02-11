@@ -232,7 +232,7 @@ sections:
               - ml-0
               - mb-0
               - mr-0
-            borderColor: border-primary
+            borderColor: border-dark
       - type: FeaturedItem
         title: ''
         tagline: ''
