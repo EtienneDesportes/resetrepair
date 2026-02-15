@@ -90,7 +90,7 @@ sections:
       altText: altText of the image
       backgroundSize: cover
       backgroundPosition: center
-      backgroundRepeat: repeat
+      backgroundRepeat: no-repeat
       opacity: 45
       url: /images/resetlab-background-modern(1).svg
 slug: faireundevis
