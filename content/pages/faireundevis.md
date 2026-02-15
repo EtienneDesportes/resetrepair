@@ -91,7 +91,7 @@ sections:
       backgroundSize: auto
       backgroundPosition: center
       backgroundRepeat: repeat
-      opacity: 16
+      opacity: 100
       url: /images/noise.png
 slug: faireundevis
 isDraft: false
