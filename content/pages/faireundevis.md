@@ -92,7 +92,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: repeat
       opacity: 100
-      url: /images/noise.png
+      url: /images/resetlab-background-modern(1).svg
 slug: faireundevis
 isDraft: false
 seo:
