@@ -91,7 +91,7 @@ sections:
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
-      opacity: 68
+      opacity: 48
       url: /images/resetlab-background-modern(1).svg
 slug: faireundevis
 isDraft: false
