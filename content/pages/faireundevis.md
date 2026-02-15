@@ -75,7 +75,7 @@ sections:
           borderWidth: 2
           borderRadius: large
           justifyContent: flex-start
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-light
     styles:
       self:
         padding:
