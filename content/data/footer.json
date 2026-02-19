@@ -56,7 +56,7 @@
     },
     "primaryLinks": {
         "type": "FooterLinksGroup",
-        "title": "Entreprise",
+        "title": "Liens utiles",
         "links": [
             {
                 "type": "Link",
