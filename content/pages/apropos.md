@@ -14,14 +14,13 @@ sections:
           <p style='text-align: justify;'>
 
 
-          **Etienne**, ingénieur mécatronique et bricoleur en tout genre, décide
+          **Etienne**, mécatronicien de formation et bricoleur en tout genre, décide
           d'ouvrir son atelier pour redonner aux technologies du quotidien la
           valeur qu'elles méritent : **rien ne se jette, tout est réparable
           (enfin presque... )**. Non seulement c’est économique pour le client,
           une passion pour le réparateur (moi-même), et écologique pour tout le
-          monde. Diplômé de la formation trinationale mécatronique,
-          l'électronique est une réelle passion. On se fera un plaisir de vous
-          expliquer comment on procède. **L’obsolescence programmée** est de
+          monde. Diplômé du cursus Mécatronique Trinational,
+          l'électronique est une réelle passion. **L’obsolescence programmée** est de
           plus en plus pratiquée par les grandes entreprises de technologies.
           Par exemple un fabricant bien connu intègre le chip U4700 dans ses
           appareils, pourtant de piètre qualité dont la panne entraîne le
