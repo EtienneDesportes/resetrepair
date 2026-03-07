@@ -20,11 +20,37 @@ sections:
       <style>
       #card-reparation-1,
       #card-reparation-2,
-      #card-reparation-3 {
+      #card-reparation-3,
+      #card-info-1,
+      #card-info-2,
+      #card-info-3 {
+        position: relative !important;
+        overflow: hidden !important;
+      }
+      #card-reparation-1::before,
+      #card-reparation-2::before,
+      #card-reparation-3::before,
+      #card-info-1::before,
+      #card-info-2::before,
+      #card-info-3::before {
+        content: '' !important;
+        position: absolute !important;
+        inset: 0 !important;
         background-image: url('/images/resetlab-background-modern(1).svg') !important;
         background-size: cover !important;
         background-position: center !important;
         background-repeat: no-repeat !important;
+        opacity: 0.58 !important;
+        z-index: 0 !important;
+      }
+      #card-reparation-1 > *,
+      #card-reparation-2 > *,
+      #card-reparation-3 > *,
+      #card-info-1 > *,
+      #card-info-2 > *,
+      #card-info-3 > * {
+        position: relative !important;
+        z-index: 1 !important;
       }
       </style>
 
@@ -244,7 +270,7 @@ sections:
         title: ''
         tagline: ''
         subtitle: ''
-        text: "<span style=\"color: #11295c\"\_>\n\n<p style='text-align: justify;'>Payer pour un premier diagnostic n'a pas de sens d'après nous. Si un diagnostic approfondi est nécessaire afin de déterminer l'origine de la panne, nous vous informerons des tarifs appliqués.</p></span>\n\n"
+        text: "<span style=\"color: #ffffff\"\_>\n\n<p style='text-align: justify;'>Payer pour un premier diagnostic n'a pas de sens d'après nous. Si un diagnostic approfondi est nécessaire afin de déterminer l'origine de la panne, nous vous informerons des tarifs appliqués.</p></span>\n\n"
         image:
           type: ImageBlock
           url: /images/devisgratuit-60bd9b49.svg
@@ -253,7 +279,8 @@ sections:
             self:
               borderRadius: x-large
         actions: []
-        colors: bg-light-fg-dark
+        colors: bg-dark-fg-light
+        elementId: card-info-1
         styles:
           self:
             padding:
@@ -266,7 +293,7 @@ sections:
       - title: ''
         tagline: ''
         subtitle: ''
-        text: "<span style=\"color: #11295c\"\_>\n\n<p style='text-align: justify;'> Nous sommes l'alternative et proposons une réparation à moindre coût sans remplacer la carte mère.          Economique pour vous, une passion pour nous et écologique pour tous.</p>\n\n\n\n</span>\n\n"
+        text: "<span style=\"color: #ffffff\"\_>\n\n<p style='text-align: justify;'> Nous sommes l'alternative et proposons une réparation à moindre coût sans remplacer la carte mère.          Economique pour vous, une passion pour nous et écologique pour tous.</p>\n\n\n\n</span>\n\n"
         image:
           url: /images/eco-8be7843e.svg
           altText: Placeholder image
@@ -274,7 +301,8 @@ sections:
             self:
               borderRadius: x-large
           type: ImageBlock
-        colors: bg-light-fg-dark
+        colors: bg-dark-fg-light
+        elementId: card-info-2
         styles:
           self:
             padding:
@@ -288,7 +316,7 @@ sections:
       - title: ''
         tagline: ''
         subtitle: ''
-        text: "<span style=\"color: #11295c\"\_>\n\n<p style='text-align: justify;'>Notre expertise nous permet de vous garantir nos interventions pendant 6 mois. Nous avons les outils et          composants pour assurer une réparation de haute qualité.</p>\n\n</span>\n\n"
+        text: "<span style=\"color: #ffffff\"\_>\n\n<p style='text-align: justify;'>Notre expertise nous permet de vous garantir nos interventions pendant 6 mois. Nous avons les outils et          composants pour assurer une réparation de haute qualité.</p>\n\n</span>\n\n"
         image:
           url: /images/garantie-ce22d1df(2).svg
           altText: Placeholder image
@@ -296,7 +324,8 @@ sections:
             self:
               borderRadius: x-large
           type: ImageBlock
-        colors: bg-light-fg-dark
+        colors: bg-dark-fg-light
+        elementId: card-info-3
         styles:
           self:
             padding:
