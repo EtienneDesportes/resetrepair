@@ -213,8 +213,11 @@ sections:
         title: ''
         tagline: ''
         subtitle: ''
-        text: |+
+        text: >+
+          Spéciliste en réparation de carte-mère:
 
+          Console (PS5, Xbox,...), PC, MacBook, Carte Électronique en tout
+          genre 
 
         image:
           type: ImageBlock
