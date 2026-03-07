@@ -233,7 +233,7 @@ sections:
               - pb-5
               - pr-5
             borderRadius: large
-            flexDirection: col
+            flexDirection: row
             justifyContent: center
             margin:
               - mt-0
