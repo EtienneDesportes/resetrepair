@@ -277,7 +277,7 @@ sections:
           Ampli, Enceinte, Subwoofer, Carte son, Console de mixage</span>
         image:
           type: ImageBlock
-          url: /images/plan ensemble.webp
+          url: /images/music gear-1.webp
           altText: Réparation Carte-Mère Strasbourg https://www.jesuisreparateur.fr
           styles:
             self:
