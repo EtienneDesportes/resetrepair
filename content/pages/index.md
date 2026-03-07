@@ -252,7 +252,7 @@ sections:
           Clé de voiture, Remplacement de connectique, Micro-Soudure</span>
         image:
           type: ImageBlock
-          url: /images/alim labo.webp
+          url: /images/casque.webp
           altText: Réparation Électronique Schiltigheim
           styles:
             self:
