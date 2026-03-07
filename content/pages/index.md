@@ -161,7 +161,7 @@ sections:
         subtitle: ''
         text: |
           <span style="color: #11295c">**Réparation en tout genre:**
-          Clé de voiture, Remplacement de connectique, Micro-Soudure</span>
+          Clé de voiture, Remplacement connectique (Hdmi, Usb-c,...)</span>
         image:
           type: ImageBlock
           url: /images/casque.webp
