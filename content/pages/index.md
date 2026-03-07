@@ -135,7 +135,7 @@ sections:
         subtitle: ''
         text: |
           <span style="color: #11295c">**Réparation de matériel audio:**
-          Ampli, Enceinte, Subwoofer, Carte son, Console de mixage</span>
+          Ampli, Enceinte, Subwoofer, Carte son & mixage</span>
         image:
           type: ImageBlock
           url: /images/ldf.webp
