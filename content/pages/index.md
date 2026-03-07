@@ -5,7 +5,7 @@ sections:
   - type: GenericSection
     subtitle: ''
     text: |+
-      <span style="color: #11295c"><h3
+      <span style="color: #11295c"><h2
       id="-votre-machine-peut-tre-r-par-e-"><strong>Votre machine peut être
       réparée !</strong></h2>
 
