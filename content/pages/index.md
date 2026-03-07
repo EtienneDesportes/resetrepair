@@ -101,7 +101,6 @@ sections:
         text: |
           <span style="color: #11295c">**Réparation de carte-mère:**
           Console (PS5, Xbox,...), PC, MacBook, Carte Électronique</span>
-
         image:
           type: ImageBlock
           url: /images/macbook.webp
@@ -208,7 +207,7 @@ sections:
     text: >+
       <span style="color: #11295c">
 
-      ## **90% des dommages liquides sont réparables**
+      # **90% des dommages liquides sont réparables**
 
       <p style="text-align:justify;">
 
