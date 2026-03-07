@@ -137,7 +137,7 @@ sections:
             padding:
               - pt-5
               - pl-4
-              - pb-0
+              - pb-4
               - pr-5
             borderRadius: x-large
             flexDirection: col-reverse
