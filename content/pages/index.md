@@ -210,7 +210,7 @@ sections:
     subtitle: ''
     items:
       - type: FeaturedItem
-        title: ''
+        title: Réparation de console
         tagline: ''
         subtitle: ''
         text: |+
