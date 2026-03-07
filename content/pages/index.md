@@ -99,7 +99,7 @@ sections:
         tagline: ''
         subtitle: ''
         text: |
-          <span style="color: #11295c">**Réparation carte-mère:**
+          <span style="color: #11295c; font-size: 1.1rem">**Réparation carte-mère:**
           Console (PS5, Xbox,...), PC, MacBook, Carte Électronique</span>
         image:
           type: ImageBlock
@@ -134,7 +134,7 @@ sections:
         tagline: ''
         subtitle: ''
         text: |
-          <span style="color: #11295c">**Réparation matériel audio:**
+          <span style="color: #11295c; font-size: 1.1rem">**Réparation matériel audio:**
           Ampli, Enceinte, Subwoofer, Carte son & mixage</span>
         image:
           type: ImageBlock
@@ -160,7 +160,7 @@ sections:
         tagline: ''
         subtitle: ''
         text: |
-          <span style="color: #11295c">**Réparation en tout genre:**
+          <span style="color: #11295c; font-size: 1.1rem">**Réparation en tout genre:**
           Clé de voiture, Connectique (Hdmi, Usb-c,...)</span>
         image:
           type: ImageBlock
