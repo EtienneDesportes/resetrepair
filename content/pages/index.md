@@ -213,12 +213,12 @@ sections:
         title: ''
         tagline: ''
         subtitle: ''
-        text: |+
-
-
+        text: |
+          <span style="color: #11295c">**Réparation de carte-mère:**
+          Console (PS5, Xbox,...), PC, MacBook, Carte Électronique</span>
         image:
           type: ImageBlock
-          url: /images/microscopemacbook.webp
+          url: /images/macbook.webp
           altText: Réparation Console PS5 Strasbourg
           styles:
             self:
@@ -230,7 +230,7 @@ sections:
             padding:
               - pt-5
               - pl-5
-              - pb-0
+              - pb-5
               - pr-5
             borderRadius: large
             flexDirection: col
@@ -247,12 +247,12 @@ sections:
         title: ''
         tagline: ''
         subtitle: ''
-        text: |+
-
-
+        text: |
+          <span style="color: #11295c">**Réparation en tout genre:**
+          Clé de voiture, Remplacement de connectique, Micro-Soudure</span>
         image:
           type: ImageBlock
-          url: /images/alim labo.webp
+          url: /images/casque.webp
           altText: Réparation Électronique Schiltigheim
           styles:
             self:
@@ -272,12 +272,12 @@ sections:
         title: ''
         tagline: ''
         subtitle: ''
-        text: |+
-
-
+        text: |
+          <span style="color: #11295c">**Réparation de matériel audio:**
+          Ampli, Enceinte, Subwoofer, Carte son, Console de mixage</span>
         image:
           type: ImageBlock
-          url: /images/plan ensemble.webp
+          url: /images/ldf.webp
           altText: Réparation Carte-Mère Strasbourg https://www.jesuisreparateur.fr
           styles:
             self:
