@@ -72,7 +72,7 @@ sections:
             self:
               borderRadius: x-large
         actions: []
-        colors: bg-light-fg-dark
+        colors: bg-neutralAlt-fg-dark
         styles:
           self:
             padding:
