@@ -156,12 +156,12 @@ sections:
         textAlign: center
     backgroundImage:
       type: BackgroundImage
-      altText: altText of the image
-      backgroundSize: auto
-      backgroundPosition: ''
-      backgroundRepeat: repeat
-      opacity: 100
-      url: /images/noise.png
+      altText: réparation électronique strasbourg schiltigheim
+      backgroundSize: cover
+      backgroundPosition: center
+      backgroundRepeat: no-repeat
+      opacity: 58
+      url: /images/resetlab-background-modern(1).svg
   - type: GenericSection
     subtitle: ''
     text: >+
@@ -308,12 +308,12 @@ sections:
     type: FeaturedItemsSection
     backgroundImage:
       type: BackgroundImage
-      altText: altText of the image
-      backgroundSize: auto
-      backgroundPosition: ''
-      backgroundRepeat: repeat
-      opacity: 100
-      url: /images/noise.png
+      altText: réparation électronique strasbourg schiltigheim
+      backgroundSize: cover
+      backgroundPosition: center
+      backgroundRepeat: no-repeat
+      opacity: 58
+      url: /images/resetlab-background-modern(1).svg
 seo:
   metaTitle: Réparation Électronique Strasbourg Schiltigheim
   metaDescription: >-
