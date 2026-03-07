@@ -99,7 +99,7 @@ sections:
         tagline: ''
         subtitle: ''
         text: |
-          <span style="color: #11295c">**Réparation de carte-mère:**
+          <span style="color: #11295c">**Carte-mère:**
           Console (PS5, Xbox,...), PC, MacBook, Carte Électronique</span>
         image:
           type: ImageBlock
@@ -134,7 +134,7 @@ sections:
         tagline: ''
         subtitle: ''
         text: |
-          <span style="color: #11295c">**Réparation de matériel audio:**
+          <span style="color: #11295c">**Matériel audio:**
           Ampli, Enceinte, Subwoofer, Carte son & mixage</span>
         image:
           type: ImageBlock
@@ -161,7 +161,7 @@ sections:
         subtitle: ''
         text: |
           <span style="color: #11295c">**Réparation en tout genre:**
-          Clé de voiture, Remplacement connectique (Hdmi, Usb-c,...)</span>
+          Clé de voiture, Connectique (Hdmi, Usb-c,...)</span>
         image:
           type: ImageBlock
           url: /images/casque.webp
