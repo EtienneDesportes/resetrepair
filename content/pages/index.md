@@ -162,6 +162,68 @@ sections:
       backgroundRepeat: repeat
       opacity: 100
       url: /images/noise.png
+  - type: GenericSection
+    subtitle: ''
+    text: >+
+      <span style="color: #11295c">
+
+      ## **90% des dommages liquides sont réparables**
+
+      <p style="text-align:justify;">
+
+
+      Si le fabricant vous explique qu'il faut remplacer toute la carte mère
+      pour un coût exorbitant, ce n'est heureusement pas le cas ! Après avoir
+      établi un premier diagnostic au microscope à l'aide d'un multimètre et
+      d'une alimentation de labo, nous remplacerons les composants défectueux
+      (résistances, fusibles, condensateurs, mosfets... )
+
+
+      </p>
+
+      </span>
+
+    actions: []
+    media:
+      type: VideoBlock
+      title: Micro-Soudure sur Carte-Mère
+      url: /images/soldering.mp4
+      autoplay: true
+      loop: true
+      muted: true
+      controls: true
+      aspectRatio: '16:9'
+      styles:
+        self:
+          padding:
+            - pt-2
+            - pb-2
+            - pl-2
+            - pr-2
+          borderColor: border-dark
+          borderStyle: solid
+          borderWidth: 1
+          borderRadius: large
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        flexDirection: row
+        justifyContent: center
+        padding:
+          - pt-4
+          - pl-4
+          - pb-4
+          - pr-4
+      subtitle:
+        textAlign: left
+    backgroundImage:
+      type: BackgroundImage
+      altText: altText of the image
+      backgroundSize: cover
+      backgroundPosition: ''
+      backgroundRepeat: no-repeat
+      opacity: 58
+      url: /images/resetlab-background-modern(1).svg
   - subtitle: ''
     items:
       - type: FeaturedItem
@@ -252,68 +314,6 @@ sections:
       backgroundRepeat: repeat
       opacity: 100
       url: /images/noise.png
-  - type: GenericSection
-    subtitle: ''
-    text: >+
-      <span style="color: #11295c">
-
-      ## **90% des dommages liquides sont réparables**
-
-      <p style="text-align:justify;">
-
-
-      Si le fabricant vous explique qu'il faut remplacer toute la carte mère
-      pour un coût exorbitant, ce n'est heureusement pas le cas ! Après avoir
-      établi un premier diagnostic au microscope à l'aide d'un multimètre et
-      d'une alimentation de labo, nous remplacerons les composants défectueux
-      (résistances, fusibles, condensateurs, mosfets... )
-
-
-      </p>
-
-      </span>
-
-    actions: []
-    media:
-      type: VideoBlock
-      title: Micro-Soudure sur Carte-Mère
-      url: /images/soldering.mp4
-      autoplay: true
-      loop: true
-      muted: true
-      controls: true
-      aspectRatio: '16:9'
-      styles:
-        self:
-          padding:
-            - pt-2
-            - pb-2
-            - pl-2
-            - pr-2
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        flexDirection: row
-        justifyContent: center
-        padding:
-          - pt-4
-          - pl-4
-          - pb-4
-          - pr-4
-      subtitle:
-        textAlign: left
-    backgroundImage:
-      type: BackgroundImage
-      altText: altText of the image
-      backgroundSize: cover
-      backgroundPosition: ''
-      backgroundRepeat: no-repeat
-      opacity: 58
-      url: /images/resetlab-background-modern(1).svg
 seo:
   metaTitle: Réparation Électronique Strasbourg Schiltigheim
   metaDescription: >-
