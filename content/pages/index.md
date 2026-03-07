@@ -99,7 +99,7 @@ sections:
         tagline: ''
         subtitle: ''
         text: |
-          <span style="color: #ffffff">**Réparation de carte-mère:**
+          <span style="color: #11295c">**Réparation de carte-mère:**
           Console (PS5, Xbox,...), PC, MacBook, Carte Électronique</span>
         image:
           type: ImageBlock
@@ -134,7 +134,7 @@ sections:
         tagline: ''
         subtitle: ''
         text: |
-          <span style="color: #ffffff">**Réparation de matériel audio:**
+          <span style="color: #11295c">**Réparation de matériel audio:**
           Ampli, Enceinte, Subwoofer, Carte son, Console de mixage</span>
         image:
           type: ImageBlock
@@ -160,7 +160,7 @@ sections:
         tagline: ''
         subtitle: ''
         text: |
-          <span style="color: #ffffff">**Réparation en tout genre:**
+          <span style="color: #11295c">**Réparation en tout genre:**
           Clé de voiture, Remplacement de connectique, Micro-Soudure</span>
         image:
           type: ImageBlock
@@ -270,7 +270,7 @@ sections:
         title: ''
         tagline: ''
         subtitle: ''
-        text: "<span style=\"color: #ffffff\"\_>\n\n<p style='text-align: justify;'>Payer pour un premier diagnostic n'a pas de sens d'après nous. Si un diagnostic approfondi est nécessaire afin de déterminer l'origine de la panne, nous vous informerons des tarifs appliqués.</p></span>\n\n"
+        text: "<span style=\"color: #11295c\"\_>\n\n<p style='text-align: justify;'>Payer pour un premier diagnostic n'a pas de sens d'après nous. Si un diagnostic approfondi est nécessaire afin de déterminer l'origine de la panne, nous vous informerons des tarifs appliqués.</p></span>\n\n"
         image:
           type: ImageBlock
           url: /images/devisgratuit-60bd9b49.svg
@@ -293,7 +293,7 @@ sections:
       - title: ''
         tagline: ''
         subtitle: ''
-        text: "<span style=\"color: #ffffff\"\_>\n\n<p style='text-align: justify;'> Nous sommes l'alternative et proposons une réparation à moindre coût sans remplacer la carte mère.          Economique pour vous, une passion pour nous et écologique pour tous.</p>\n\n\n\n</span>\n\n"
+        text: "<span style=\"color: #11295c\"\_>\n\n<p style='text-align: justify;'> Nous sommes l'alternative et proposons une réparation à moindre coût sans remplacer la carte mère.          Economique pour vous, une passion pour nous et écologique pour tous.</p>\n\n\n\n</span>\n\n"
         image:
           url: /images/eco-8be7843e.svg
           altText: Placeholder image
@@ -316,7 +316,7 @@ sections:
       - title: ''
         tagline: ''
         subtitle: ''
-        text: "<span style=\"color: #ffffff\"\_>\n\n<p style='text-align: justify;'>Notre expertise nous permet de vous garantir nos interventions pendant 6 mois. Nous avons les outils et          composants pour assurer une réparation de haute qualité.</p>\n\n</span>\n\n"
+        text: "<span style=\"color: #11295c\"\_>\n\n<p style='text-align: justify;'>Notre expertise nous permet de vous garantir nos interventions pendant 6 mois. Nous avons les outils et          composants pour assurer une réparation de haute qualité.</p>\n\n</span>\n\n"
         image:
           url: /images/garantie-ce22d1df(2).svg
           altText: Placeholder image
