@@ -213,11 +213,11 @@ sections:
         title: ''
         tagline: ''
         subtitle: ''
-        text: >+
-          Spéciliste en réparation de carte-mère:
+        text: |+
+          <span style="color: #11295c">Spéciliste en réparation de carte-mère:
+          Console (PS5, Xbox,...), PC, MacBook, Carte Électronique en tout genre
 
-          Console (PS5, Xbox,...), PC, MacBook, Carte Électronique en tout
-          genre 
+          </span>
 
         image:
           type: ImageBlock
