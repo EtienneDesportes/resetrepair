@@ -17,6 +17,17 @@ sections:
 
       </span>
 
+      <style>
+      #card-reparation-1,
+      #card-reparation-2,
+      #card-reparation-3 {
+        background-image: url('/images/resetlab-background-modern(1).svg') !important;
+        background-size: cover !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+      }
+      </style>
+
     actions:
       - label: Faire un devis
         altText: ''
@@ -62,7 +73,7 @@ sections:
         tagline: ''
         subtitle: ''
         text: |
-          <span style="color: #11295c">**Réparation de carte-mère:**
+          <span style="color: #ffffff">**Réparation de carte-mère:**
           Console (PS5, Xbox,...), PC, MacBook, Carte Électronique</span>
         image:
           type: ImageBlock
@@ -72,7 +83,8 @@ sections:
             self:
               borderRadius: x-large
         actions: []
-        colors: bg-light-fg-dark
+        colors: bg-dark-fg-light
+        elementId: card-reparation-1
         styles:
           self:
             padding:
@@ -96,7 +108,7 @@ sections:
         tagline: ''
         subtitle: ''
         text: |
-          <span style="color: #11295c">**Réparation de matériel audio:**
+          <span style="color: #ffffff">**Réparation de matériel audio:**
           Ampli, Enceinte, Subwoofer, Carte son, Console de mixage</span>
         image:
           type: ImageBlock
@@ -106,7 +118,8 @@ sections:
             self:
               borderRadius: x-large
         actions: []
-        colors: bg-light-fg-dark
+        colors: bg-dark-fg-light
+        elementId: card-reparation-2
         styles:
           self:
             padding:
@@ -121,7 +134,7 @@ sections:
         tagline: ''
         subtitle: ''
         text: |
-          <span style="color: #11295c">**Réparation en tout genre:**
+          <span style="color: #ffffff">**Réparation en tout genre:**
           Clé de voiture, Remplacement de connectique, Micro-Soudure</span>
         image:
           type: ImageBlock
@@ -131,7 +144,8 @@ sections:
             self:
               borderRadius: x-large
         actions: []
-        colors: bg-light-fg-dark
+        colors: bg-dark-fg-light
+        elementId: card-reparation-3
         styles:
           self:
             padding:
