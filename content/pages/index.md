@@ -246,7 +246,7 @@ sections:
       url: /images/resetlab-background-modern(1).svg
     media:
       type: ImageBlock
-      url: /images/hero2.svg
+      url: /images/IMG_4323.webp
       altText: Image alt text placeholder
       elementId: ''
       styles:
