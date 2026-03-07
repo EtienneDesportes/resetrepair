@@ -98,16 +98,9 @@ sections:
         title: ''
         tagline: ''
         subtitle: ''
-        text: >+
-          <span style="color: #11295c">
-
-
-          ##### **Réparation de carte-mère:** Console (PS5, Xbox,...), PC,
-          MacBook, Carte Électronique
-
-
-          </span>
-
+        text: |
+          <span style="color: #11295c">**Réparation de carte-mère:**
+          Console (PS5, Xbox,...), PC, MacBook, Carte Électronique</span>
         image:
           type: ImageBlock
           url: /images/macbook.webp
@@ -168,7 +161,7 @@ sections:
         subtitle: ''
         text: |
           <span style="color: #11295c">**Réparation en tout genre:**
-          Clé de voiture, Connectique (Hdmi, Usb-c,...)</span>
+          Clé de voiture, Remplacement connectique (Hdmi, Usb-c,...)</span>
         image:
           type: ImageBlock
           url: /images/casque.webp
@@ -363,4 +356,3 @@ seo:
   addTitleSuffix: true
 type: PageLayout
 ---
-
