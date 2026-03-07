@@ -285,6 +285,11 @@ sections:
         text: |+
 
 
+          <span style="color: #11295c">**Réparation de matériel audio**:
+          Casque, Ampli, Enceinte, Subwoofer, Interface, Console de mixage 
+
+          </span>
+
         image:
           type: ImageBlock
           url: /images/plan ensemble.webp
