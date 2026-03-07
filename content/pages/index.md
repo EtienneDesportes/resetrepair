@@ -250,9 +250,11 @@ sections:
         title: ''
         tagline: ''
         subtitle: ''
-        text: |
+        text: >
           <span style="color: #11295c">**Réparation en tout genre:**
-          Clé de voiture, Remplacement de connectique, Micro-Soudure</span>
+
+          Clé de voiture, Casque Audio, Remplacement de connectique,
+          Micro-Soudure</span>
         image:
           type: ImageBlock
           url: /images/alim labo.webp
