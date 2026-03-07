@@ -79,7 +79,7 @@ sections:
               - pt-4
               - pl-4
               - pb-5
-              - pr-5
+              - pr-4
             borderRadius: large
             flexDirection: col-reverse
             justifyContent: center
