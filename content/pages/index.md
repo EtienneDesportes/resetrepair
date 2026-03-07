@@ -54,6 +54,114 @@ sections:
       backgroundRepeat: no-repeat
       opacity: 58
       url: /images/resetlab-background-modern(1).svg
+  - type: FeaturedItemsSection
+    subtitle: ''
+    items:
+      - type: FeaturedItem
+        title: ''
+        tagline: ''
+        subtitle: ''
+        text: |
+          <span style="color: #11295c">**Réparation de carte-mère:**
+          Console (PS5, Xbox,...), PC, MacBook, Carte Électronique</span>
+        image:
+          type: ImageBlock
+          url: /images/macbook.webp
+          altText: Réparation Console PS5 Strasbourg
+          styles:
+            self:
+              borderRadius: x-large
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-5
+              - pl-5
+              - pb-5
+              - pr-5
+            borderRadius: large
+            flexDirection: col
+            justifyContent: center
+            margin:
+              - mt-0
+              - ml-0
+              - mb-0
+              - mr-0
+            borderColor: border-dark
+            borderWidth: 0
+            borderStyle: none
+      - type: FeaturedItem
+        title: ''
+        tagline: ''
+        subtitle: ''
+        text: |
+          <span style="color: #11295c">**Réparation en tout genre:**
+          Clé de voiture, Remplacement de connectique, Micro-Soudure</span>
+        image:
+          type: ImageBlock
+          url: /images/casque.webp
+          altText: Réparation Électronique Schiltigheim
+          styles:
+            self:
+              borderRadius: x-large
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-5
+              - pl-5
+              - pb-0
+              - pr-5
+            borderRadius: x-large
+            flexDirection: col
+      - type: FeaturedItem
+        title: ''
+        tagline: ''
+        subtitle: ''
+        text: |
+          <span style="color: #11295c">**Réparation de matériel audio:**
+          Ampli, Enceinte, Subwoofer, Carte son, Console de mixage</span>
+        image:
+          type: ImageBlock
+          url: /images/ldf.webp
+          altText: Réparation Carte-Mère Strasbourg https://www.jesuisreparateur.fr
+          styles:
+            self:
+              borderRadius: x-large
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-5
+              - pl-5
+              - pb-0
+              - pr-5
+            borderRadius: x-large
+            flexDirection: col
+    actions: []
+    variant: three-col-grid
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-4
+          - pl-4
+          - pb-4
+          - pr-4
+        justifyContent: center
+      subtitle:
+        textAlign: center
+    backgroundImage:
+      type: BackgroundImage
+      altText: altText of the image
+      backgroundSize: auto
+      backgroundPosition: ''
+      backgroundRepeat: repeat
+      opacity: 100
+      url: /images/noise.png
   - subtitle: ''
     items:
       - type: FeaturedItem
@@ -206,114 +314,6 @@ sections:
       backgroundRepeat: no-repeat
       opacity: 58
       url: /images/resetlab-background-modern(1).svg
-  - type: FeaturedItemsSection
-    subtitle: ''
-    items:
-      - type: FeaturedItem
-        title: ''
-        tagline: ''
-        subtitle: ''
-        text: |
-          <span style="color: #11295c">**Réparation de carte-mère:**
-          Console (PS5, Xbox,...), PC, MacBook, Carte Électronique</span>
-        image:
-          type: ImageBlock
-          url: /images/macbook.webp
-          altText: Réparation Console PS5 Strasbourg
-          styles:
-            self:
-              borderRadius: x-large
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-5
-              - pl-5
-              - pb-5
-              - pr-5
-            borderRadius: large
-            flexDirection: col
-            justifyContent: center
-            margin:
-              - mt-0
-              - ml-0
-              - mb-0
-              - mr-0
-            borderColor: border-dark
-            borderWidth: 0
-            borderStyle: none
-      - type: FeaturedItem
-        title: ''
-        tagline: ''
-        subtitle: ''
-        text: |
-          <span style="color: #11295c">**Réparation en tout genre:**
-          Clé de voiture, Remplacement de connectique, Micro-Soudure</span>
-        image:
-          type: ImageBlock
-          url: /images/casque.webp
-          altText: Réparation Électronique Schiltigheim
-          styles:
-            self:
-              borderRadius: x-large
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-5
-              - pl-5
-              - pb-0
-              - pr-5
-            borderRadius: x-large
-            flexDirection: col
-      - type: FeaturedItem
-        title: ''
-        tagline: ''
-        subtitle: ''
-        text: |
-          <span style="color: #11295c">**Réparation de matériel audio:**
-          Ampli, Enceinte, Subwoofer, Carte son, Console de mixage</span>
-        image:
-          type: ImageBlock
-          url: /images/ldf.webp
-          altText: Réparation Carte-Mère Strasbourg https://www.jesuisreparateur.fr
-          styles:
-            self:
-              borderRadius: x-large
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-5
-              - pl-5
-              - pb-0
-              - pr-5
-            borderRadius: x-large
-            flexDirection: col
-    actions: []
-    variant: three-col-grid
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-4
-          - pl-4
-          - pb-4
-          - pr-4
-        justifyContent: center
-      subtitle:
-        textAlign: center
-    backgroundImage:
-      type: BackgroundImage
-      altText: altText of the image
-      backgroundSize: auto
-      backgroundPosition: ''
-      backgroundRepeat: repeat
-      opacity: 100
-      url: /images/noise.png
 seo:
   metaTitle: Réparation Électronique Strasbourg Schiltigheim
   metaDescription: >-
