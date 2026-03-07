@@ -24,7 +24,7 @@
             "elementId": "",
             "styles": {
                 "self": {
-                    "fontWeight": 700,
+                    "fontWeight": 900,
                     "fontSize": "xl"
                 }
             }
@@ -41,7 +41,7 @@
             "elementId": "",
             "styles": {
                 "self": {
-                    "fontWeight": 700,
+                    "fontWeight": 900,
                     "fontSize": "xl"
                 }
             }
