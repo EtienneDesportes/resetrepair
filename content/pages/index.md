@@ -99,7 +99,7 @@ sections:
         tagline: ''
         subtitle: ''
         text: |
-          <span style="color: #11295c">**Carte-mère:**
+          <span style="color: #11295c">**Réparation carte-mère:**
           Console (PS5, Xbox,...), PC, MacBook, Carte Électronique</span>
         image:
           type: ImageBlock
@@ -134,7 +134,7 @@ sections:
         tagline: ''
         subtitle: ''
         text: |
-          <span style="color: #11295c">**Matériel audio:**
+          <span style="color: #11295c">**Réparation matériel audio:**
           Ampli, Enceinte, Subwoofer, Carte son & mixage</span>
         image:
           type: ImageBlock
