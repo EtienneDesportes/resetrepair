@@ -21,7 +21,13 @@
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
-            "elementId": ""
+            "elementId": "",
+            "styles": {
+                "self": {
+                    "fontWeight": 500,
+                    "fontSize": "lg"
+                }
+            }
         },
         {
             "type": "Link",
@@ -32,7 +38,13 @@
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
-            "elementId": ""
+            "elementId": "",
+            "styles": {
+                "self": {
+                    "fontWeight": 500,
+                    "fontSize": "lg"
+                }
+            }
         }
     ],
     "secondaryLinks": [
