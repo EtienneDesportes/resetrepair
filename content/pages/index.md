@@ -236,10 +236,10 @@ sections:
       styles:
         self:
           padding:
-            - pt-2
-            - pb-2
-            - pl-2
-            - pr-2
+            - pt-0
+            - pb-0
+            - pl-0
+            - pr-0
           borderColor: border-dark
           borderStyle: solid
           borderWidth: 1
