@@ -232,7 +232,7 @@ sections:
       loop: true
       muted: true
       controls: true
-      aspectRatio: '16:9'
+      aspectRatio: '1:1'
       styles:
         self:
           padding:
