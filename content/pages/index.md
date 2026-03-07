@@ -250,10 +250,10 @@ sections:
         flexDirection: row
         justifyContent: center
         padding:
-          - pt-3
-          - pl-3
-          - pb-3
-          - pr-3
+          - pt-1
+          - pl-1
+          - pb-1
+          - pr-1
       subtitle:
         textAlign: left
     backgroundImage:
