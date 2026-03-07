@@ -209,48 +209,30 @@ sections:
 
       ## **90% des dommages liquides sont réparables**
 
-      <p style="text-align:justify; font-size: 1.05rem; line-height: 1.8; margin-top: 1rem;">
+      <p style="text-align:justify;">
+
 
       Si le fabricant vous explique qu'il faut remplacer toute la carte mère
-      pour un coût exorbitant, ce n'est heureusement pas le cas !
+      pour un coût exorbitant, ce n'est heureusement pas le cas ! Après avoir
+      établi un premier diagnostic au microscope à l'aide d'un multimètre et
+      d'une alimentation de labo, nous remplacerons les composants défectueux
+      (résistances, fusibles, condensateurs, mosfets... )
 
-      </p>
-
-      <p style="text-align:justify; font-size: 1.05rem; line-height: 1.8;">
-
-      Après avoir établi un premier diagnostic au microscope à l'aide d'un
-      multimètre et d'une alimentation de labo, nous remplacerons uniquement les
-      composants défectueux : résistances, fusibles, condensateurs, mosfets...
-
-      </p>
-
-      <p style="text-align:justify; font-size: 1.05rem; line-height: 1.8;">
-
-      🔬 Diagnostic gratuit · 🛡️ Garantie 6 mois · ♻️ Réparation écologique
 
       </p>
 
       </span>
 
-    actions:
-      - label: Faire un devis gratuit
-        altText: Devis gratuit réparation électronique Strasbourg
-        url: /faireundevis
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
-        type: Button
+    actions: []
     media:
       type: VideoBlock
-      title: Micro-Soudure sur Carte-Mère — Reset Lab Strasbourg
+      title: Micro-Soudure sur Carte-Mère
       url: /images/soldering.mp4
       autoplay: true
       loop: true
       muted: true
       controls: true
-      aspectRatio: '4:3'
+      aspectRatio: '16:9'
       styles:
         self:
           padding:
@@ -267,19 +249,18 @@ sections:
       self:
         flexDirection: row
         justifyContent: center
-        alignItems: center
         padding:
-          - pt-8
-          - pl-8
-          - pb-8
-          - pr-8
+          - pt-4
+          - pl-4
+          - pb-4
+          - pr-4
       subtitle:
         textAlign: left
     backgroundImage:
       type: BackgroundImage
-      altText: Réparation micro-soudure carte mère Strasbourg Schiltigheim
+      altText: altText of the image
       backgroundSize: cover
-      backgroundPosition: center
+      backgroundPosition: ''
       backgroundRepeat: no-repeat
       opacity: 58
       url: /images/resetlab-background-modern(1).svg
@@ -377,46 +358,14 @@ sections:
       opacity: 100
       url: /images/noise.png
 seo:
-  metaTitle: Réparation Électronique Strasbourg Schiltigheim — Reset Lab
+  metaTitle: Réparation Électronique Strasbourg Schiltigheim
   metaDescription: >-
-    Reset Lab, expert en réparation électronique à Schiltigheim (Strasbourg).
-    Micro-soudure, carte mère MacBook, PS5, Xbox, PC, ampli audio. Diagnostic
-    gratuit, réparation économique, garantie 6 mois. Appelez le 06 78 23 50 40.
+    Réparation Micro Soudure MacBook PC Portable Console Apple Audio Tablette
+    Smartphone Carte Mère 
   socialImage: /images/header image.webp
   type: Seo
-  metaTags:
-    - type: MetaTag
-      property: 'og:title'
-      content: 'Réparation Électronique Strasbourg — Micro-Soudure Carte Mère | Reset Lab'
-    - type: MetaTag
-      property: 'og:description'
-      content: >-
-        Spécialiste micro-soudure et réparation carte mère à Schiltigheim
-        Strasbourg. MacBook, PS5, Xbox, PC, audio. Diagnostic gratuit, garantie 6 mois.
-    - type: MetaTag
-      property: 'og:type'
-      content: website
-    - type: MetaTag
-      property: 'og:locale'
-      content: fr_FR
-    - type: MetaTag
-      name: keywords
-      content: >-
-        réparation électronique Strasbourg, micro-soudure Strasbourg,
-        réparation carte mère Schiltigheim, réparation MacBook Strasbourg,
-        réparation PS5 Strasbourg, réparation Xbox Strasbourg, réparation PC
-        Strasbourg, dommage liquide MacBook, réparation audio ampli Strasbourg,
-        Reset Lab Schiltigheim
-    - type: MetaTag
-      name: robots
-      content: 'index, follow'
-    - type: MetaTag
-      name: geo.region
-      content: FR-67
-    - type: MetaTag
-      name: geo.placename
-      content: Schiltigheim
-  addTitleSuffix: false
+  metaTags: []
+  addTitleSuffix: true
 type: PageLayout
 ---
 
