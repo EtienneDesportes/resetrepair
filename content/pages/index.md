@@ -218,7 +218,7 @@ sections:
           Console (PS5, Xbox,...), PC, MacBook, Carte Électronique</span>
         image:
           type: ImageBlock
-          url: /images/motherboard.webp
+          url: /images/macbook.webp
           altText: Réparation Console PS5 Strasbourg
           styles:
             self:
