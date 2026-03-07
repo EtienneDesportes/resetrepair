@@ -217,8 +217,7 @@ sections:
           <span style="color: #11295c">**Spécialiste en réparation de
           carte-mère:**
 
-          Console (PS5, Xbox,...), PC, MacBook, Carte Électronique en tout
-          genre</span>
+          Console (PS5, Xbox,...), PC, MacBook, Carte Électronique</span>
         image:
           type: ImageBlock
           url: /images/microscopemacbook.webp
