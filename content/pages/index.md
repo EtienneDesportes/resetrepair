@@ -224,26 +224,6 @@ sections:
       </span>
 
     actions: []
-    media:
-      type: VideoBlock
-      title: Micro-Soudure sur Carte-Mère
-      url: /images/soldering.mp4
-      autoplay: true
-      loop: true
-      muted: true
-      controls: true
-      aspectRatio: '16:9'
-      styles:
-        self:
-          padding:
-            - pt-0
-            - pb-0
-            - pl-0
-            - pr-0
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
     colors: bg-light-fg-dark
     styles:
       self:
@@ -264,6 +244,14 @@ sections:
       backgroundRepeat: no-repeat
       opacity: 58
       url: /images/resetlab-background-modern(1).svg
+    media:
+      type: ImageBlock
+      url: /images/IMG_4325.webp
+      altText: Image alt text placeholder
+      elementId: ''
+      styles:
+        self:
+          borderRadius: medium
   - subtitle: ''
     items:
       - type: FeaturedItem
