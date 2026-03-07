@@ -81,7 +81,7 @@ sections:
               - pb-5
               - pr-5
             borderRadius: large
-            flexDirection: col
+            flexDirection: col-reverse
             justifyContent: center
             margin:
               - mt-0
@@ -115,7 +115,7 @@ sections:
               - pb-0
               - pr-5
             borderRadius: x-large
-            flexDirection: col
+            flexDirection: col-reverse
       - type: FeaturedItem
         title: ''
         tagline: ''
@@ -140,7 +140,7 @@ sections:
               - pb-0
               - pr-5
             borderRadius: x-large
-            flexDirection: col
+            flexDirection: col-reverse
     actions: []
     variant: three-col-grid
     colors: bg-neutral-fg-dark
