@@ -96,31 +96,6 @@ sections:
         tagline: ''
         subtitle: ''
         text: |
-          <span style="color: #11295c">**Réparation en tout genre:**
-          Clé de voiture, Remplacement de connectique, Micro-Soudure</span>
-        image:
-          type: ImageBlock
-          url: /images/casque.webp
-          altText: Réparation Électronique Schiltigheim
-          styles:
-            self:
-              borderRadius: x-large
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-4
-              - pl-4
-              - pb-4
-              - pr-5
-            borderRadius: x-large
-            flexDirection: col-reverse
-      - type: FeaturedItem
-        title: ''
-        tagline: ''
-        subtitle: ''
-        text: |
           <span style="color: #11295c">**Réparation de matériel audio:**
           Ampli, Enceinte, Subwoofer, Carte son, Console de mixage</span>
         image:
@@ -139,6 +114,31 @@ sections:
               - pl-4
               - pb-4
               - pr-4
+            borderRadius: x-large
+            flexDirection: col-reverse
+      - type: FeaturedItem
+        title: ''
+        tagline: ''
+        subtitle: ''
+        text: |
+          <span style="color: #11295c">**Réparation en tout genre:**
+          Clé de voiture, Remplacement de connectique, Micro-Soudure</span>
+        image:
+          type: ImageBlock
+          url: /images/casque.webp
+          altText: Réparation Électronique Schiltigheim
+          styles:
+            self:
+              borderRadius: x-large
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pl-4
+              - pb-4
+              - pr-5
             borderRadius: x-large
             flexDirection: col-reverse
     actions: []
