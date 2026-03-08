@@ -74,7 +74,7 @@ sections:
           borderStyle: solid
           borderWidth: 2
           borderRadius: large
-          justifyContent: center
+          justifyContent: flex-start
     colors: bg-neutral-fg-dark
     styles:
       self:
