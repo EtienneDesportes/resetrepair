@@ -5,6 +5,8 @@ sections:
   - type: GenericSection
     subtitle: ''
     text: >
+      <span style="color: #11295c">
+
       ### **Devis gratuit**
 
 
@@ -23,6 +25,8 @@ sections:
 
       Nous analysons votre demande rapidement et vous proposons une solution
       adaptée.
+
+      </span>
     actions: []
     media:
       type: FormBlock
@@ -75,9 +79,11 @@ sections:
           borderWidth: 2
           borderRadius: large
           justifyContent: flex-start
-    colors: bg-neutral-fg-dark
+    colors: bg-light-fg-dark
     styles:
       self:
+        alignItems: center
+        flexDirection: row
         padding:
           - pt-4
           - pl-4
@@ -87,12 +93,12 @@ sections:
         textAlign: left
     backgroundImage:
       type: BackgroundImage
-      altText: altText of the image
+      altText: réparation électronique strasbourg schiltigheim
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
-      opacity: 24
-      url: /images/resetlab-background-modern(1).svg
+      opacity: 58
+      url: /images/amazing-mango.svg
 slug: faireundevis
 isDraft: false
 seo:
@@ -104,4 +110,3 @@ seo:
   type: Seo
   addTitleSuffix: true
 ---
-
