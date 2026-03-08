@@ -73,6 +73,9 @@ sections:
         letter-spacing: 0.04em !important;
         text-transform: uppercase !important;
       }
+      #contact-form {
+        border-color: #11295c !important;
+      }
       </style>
 
     actions: []
@@ -81,23 +84,23 @@ sections:
       fields:
         - type: TextFormControl
           name: name
-          label: name
-          hideLabel: true
-          placeholder: Nom et prénom
+          label: Nom et prénom
+          hideLabel: false
+          placeholder: Ex: Jean Dupont
           isRequired: true
           width: full
         - type: EmailFormControl
           name: email
-          label: email
-          hideLabel: true
-          placeholder: Adresse email
+          label: Adresse email
+          hideLabel: false
+          placeholder: Ex: jean.dupont@email.com
           isRequired: true
           width: full
         - type: TextFormControl
           name: telephone
-          label: telephone
-          hideLabel: true
-          placeholder: Téléphone (optionnel)
+          label: Téléphone (optionnel)
+          hideLabel: false
+          placeholder: Ex: 06 12 34 56 78
           isRequired: false
           width: full
         - type: TextareaFormControl
