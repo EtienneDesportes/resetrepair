@@ -29,49 +29,20 @@ sections:
       </span>
 
       <style>
-      #devis {
-        position: relative !important;
-        overflow: hidden !important;
-      }
-      #devis::before {
-        content: '' !important;
-        position: absolute !important;
-        inset: 0 !important;
-        background-image: url('/images/amazing-mango.svg') !important;
-        background-size: cover !important;
-        background-position: center !important;
-        background-repeat: no-repeat !important;
-        opacity: 0.58 !important;
-        z-index: 0 !important;
-        pointer-events: none !important;
-      }
       #contact-form input,
       #contact-form textarea,
       #contact-form select {
         color: #11295c !important;
         border: 1.5px solid #11295c !important;
-        border-radius: 8px !important;
         background-color: transparent !important;
-        outline: none !important;
-        box-shadow: none !important;
-        transition: border-color 0.2s ease !important;
-      }
-      #contact-form input:focus,
-      #contact-form textarea:focus {
-        border-color: #11295c !important;
-        box-shadow: 0 0 0 3px rgba(17,41,92,0.15) !important;
-        background-color: rgba(255,255,255,0.08) !important;
       }
       #contact-form input::placeholder,
       #contact-form textarea::placeholder {
-        color: rgba(17,41,92,0.5) !important;
+        color: rgba(17,41,92,0.45) !important;
       }
-      #contact-form label {
-        color: #11295c !important;
-        font-weight: 600 !important;
-        font-size: 0.85rem !important;
-        letter-spacing: 0.04em !important;
-        text-transform: uppercase !important;
+      #contact-form input:focus,
+      #contact-form textarea:focus {
+        box-shadow: 0 0 0 3px rgba(17,41,92,0.15) !important;
       }
       #contact-form {
         border-color: #11295c !important;
@@ -84,23 +55,23 @@ sections:
       fields:
         - type: TextFormControl
           name: name
-          label: Nom et prénom
-          hideLabel: false
-          placeholder: ''
+          label: name
+          hideLabel: true
+          placeholder: Nom et prénom
           isRequired: true
           width: full
         - type: EmailFormControl
           name: email
-          label: Adresse email
-          hideLabel: false
-          placeholder: ''
+          label: email
+          hideLabel: true
+          placeholder: Adresse email
           isRequired: true
           width: full
         - type: TextFormControl
           name: telephone
-          label: Téléphone (optionnel)
-          hideLabel: false
-          placeholder: ''
+          label: telephone
+          hideLabel: true
+          placeholder: Téléphone (optionnel)
           isRequired: false
           width: full
         - type: TextareaFormControl
@@ -121,7 +92,7 @@ sections:
       styles:
         self:
           padding:
-            - pt-6
+            - pt-20
             - pb-5
             - pl-16
             - pr-16
@@ -150,7 +121,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 58
-      url: /images/resetlab-background-modern(1).svg
+      url: /images/amazing-mango.svg
 slug: faireundevis
 isDraft: false
 seo:
