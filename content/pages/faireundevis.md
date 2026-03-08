@@ -49,15 +49,29 @@ sections:
       #contact-form textarea,
       #contact-form select {
         color: #11295c !important;
+        border: 1.5px solid #11295c !important;
+        border-radius: 8px !important;
+        background-color: transparent !important;
+        outline: none !important;
+        box-shadow: none !important;
+        transition: border-color 0.2s ease !important;
+      }
+      #contact-form input:focus,
+      #contact-form textarea:focus {
         border-color: #11295c !important;
-        background-color: rgba(255,255,255,0.85) !important;
+        box-shadow: 0 0 0 3px rgba(17,41,92,0.15) !important;
+        background-color: rgba(255,255,255,0.08) !important;
       }
       #contact-form input::placeholder,
       #contact-form textarea::placeholder {
-        color: #11295caa !important;
+        color: rgba(17,41,92,0.5) !important;
       }
       #contact-form label {
         color: #11295c !important;
+        font-weight: 600 !important;
+        font-size: 0.85rem !important;
+        letter-spacing: 0.04em !important;
+        text-transform: uppercase !important;
       }
       </style>
 
