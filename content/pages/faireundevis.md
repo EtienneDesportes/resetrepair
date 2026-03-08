@@ -5,16 +5,7 @@ sections:
   - type: GenericSection
     subtitle: ''
     text: >
-      ## Réparation rapide,<br>prix transparent.
-
-
-      Décrivez votre panne et recevez une estimation claire sous 24h — sans
-      engagement.
-
-
-      ---
-
-
+     
       ### ✓ &nbsp;Devis 100% gratuit
 
 
