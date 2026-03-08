@@ -29,11 +29,28 @@ sections:
       </span>
 
       <style>
+      #devis {
+        position: relative !important;
+        overflow: hidden !important;
+      }
+      #devis::before {
+        content: '' !important;
+        position: absolute !important;
+        inset: 0 !important;
+        background-image: url('/images/amazing-mango.svg') !important;
+        background-size: cover !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        opacity: 0.58 !important;
+        z-index: 0 !important;
+        pointer-events: none !important;
+      }
       #contact-form input,
       #contact-form textarea,
       #contact-form select {
         color: #11295c !important;
         border: 1.5px solid #11295c !important;
+        border-radius: 10px !important;
         background-color: transparent !important;
       }
       #contact-form input::placeholder,
@@ -121,7 +138,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 58
-      url: /images/amazing-mango.svg
+      url: /images/resetlab-background-modern(1).svg
 slug: faireundevis
 isDraft: false
 seo:
