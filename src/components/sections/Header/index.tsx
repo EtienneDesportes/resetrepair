@@ -24,6 +24,7 @@ export default function Header(props) {
                 styles?.self?.padding ? mapStyles({ padding: styles?.self?.padding }) : 'p-4',
                 'z-50'
             )}
+            style={{ backgroundImage: "url('/images/noise.png')", backgroundRepeat: 'repeat', backgroundSize: 'auto' }}
             {...(enableAnnotations && { 'data-sb-object-id': props?.__metadata?.id })}
         >
             <div className="mx-auto max-w-7xl">
