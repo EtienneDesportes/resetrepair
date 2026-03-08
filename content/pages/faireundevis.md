@@ -86,21 +86,21 @@ sections:
           name: name
           label: Nom et prénom
           hideLabel: false
-          placeholder: "Ex: Jean Dupont"
+          placeholder: ''
           isRequired: true
           width: full
         - type: EmailFormControl
           name: email
           label: Adresse email
           hideLabel: false
-          placeholder: "Ex: jean.dupont@email.com"
+          placeholder: ''
           isRequired: true
           width: full
         - type: TextFormControl
           name: telephone
           label: Téléphone (optionnel)
           hideLabel: false
-          placeholder: "Ex: 06 12 34 56 78"
+          placeholder: ''
           isRequired: false
           width: full
         - type: TextareaFormControl
@@ -121,7 +121,7 @@ sections:
       styles:
         self:
           padding:
-            - pt-20
+            - pt-6
             - pb-5
             - pl-16
             - pr-16
