@@ -17,7 +17,7 @@
             "label": "Comment ça marche ?",
             "altText": "",
             "url": "/reparation",
-            "showIcon": true,
+            "showIcon": false,
             "icon": "arrowRight",
             "iconPosition": "left",
             "style": "secondary",
