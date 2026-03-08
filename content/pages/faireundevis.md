@@ -5,29 +5,24 @@ sections:
   - type: GenericSection
     subtitle: ''
     text: >
-     
-      ### ✓ &nbsp;Devis 100% gratuit
+      ### **Devis gratuit**
 
 
-      Aucun frais avant intervention. Vous êtes informé à chaque étape.
+      Pas de frais pour un premier diagnostic. Si un diagnostic approfondi est
+      nécessaire, nous vous tiendrons informé.
 
 
-      ### ✓ &nbsp;Garantie 6 mois
+      ### **Garantie 6 mois**
 
 
-      Pièces et main-d'œuvre garanties sur toutes nos réparations.
+      Pas de mauvaises surprises ! Nos réparations sont garanties 6 mois.
 
 
-      ### ✓ &nbsp;Réponse sous 24h
+      ### **Réponse sous 24h**
 
 
-      Une solution adaptée à votre appareil et votre budget.
-
-
-      ### ✓ &nbsp;Envoi gratuit inclus
-
-
-      Expédition prise en charge dans les deux sens.
+      Nous analysons votre demande rapidement et vous proposons une solution
+      adaptée.
     actions: []
     media:
       type: FormBlock
@@ -57,7 +52,7 @@ sections:
           name: message
           label: Décrivez votre problème (modèle et année de l'appareil si possible)
           hideLabel: false
-          placeholder: "Ex : MacBook Pro 2019 ne s'allume plus après une chute"
+          placeholder: Ex MacBook Pro 2019 ne s'allume plus apres chute
           width: full
           isRequired: true
       submitButton:
@@ -72,25 +67,22 @@ sections:
         self:
           padding:
             - pt-20
-            - pb-10
+            - pb-5
             - pl-16
             - pr-16
           borderColor: border-dark
           borderStyle: solid
           borderWidth: 2
           borderRadius: large
-          justifyContent: center
+          justifyContent: flex-start
     colors: bg-neutral-fg-dark
     styles:
       self:
         padding:
-          - pt-16
-          - pl-8
-          - pb-16
-          - pr-8
-        alignItems: center
-        justifyContent: center
-        flexDirection: row
+          - pt-4
+          - pl-4
+          - pb-4
+          - pr-4
       text:
         textAlign: left
     backgroundImage:
@@ -106,9 +98,10 @@ isDraft: false
 seo:
   metaTitle: Devis Gratuit - Réparation Électronique Strasbourg
   metaDescription: >-
-    Devis gratuit en 24h. Réparation garantie 6 mois. Tarif de 80 à 450€ TTC.
+    Devis gratuit en 24h. Réparation garantie 6 mois. Tarif de 80 à 450€ TTC. 
     MacBook, PC, Console, Smartphone, Tablette. Envoi gratuit inclus.
   socialImage: /images/header image.webp
   type: Seo
   addTitleSuffix: true
 ---
+
