@@ -5,50 +5,24 @@ sections:
   - type: GenericSection
     subtitle: ''
     text: >
-      <span style="color: #11295c">
+      ### **Devis gratuit**
 
-      <style>
-      #contact-form input,
-      #contact-form textarea,
-      #contact-form select {
-        color: #11295c !important;
-        border: 1.5px solid #11295c !important;
-        border-radius: 10px !important;
-        background-color: transparent !important;
-      }
-      #contact-form input::placeholder,
-      #contact-form textarea::placeholder {
-        color: rgba(17,41,92,0.45) !important;
-      }
-      #contact-form input:focus,
-      #contact-form textarea:focus {
-        box-shadow: 0 0 0 3px rgba(17,41,92,0.15) !important;
-        outline: none !important;
-      }
-      #contact-form {
-        border-color: #11295c !important;
-      }
-      </style>
 
-      <br/><br/><br/>
+      Pas de frais pour un premier diagnostic. Si un diagnostic approfondi est
+      nécessaire, nous vous tiendrons informé.
 
-      ### ✅ &nbsp;Devis gratuit
 
-      Pas de frais pour un premier diagnostic. Si un diagnostic approfondi est nécessaire, nous vous tiendrons informé.
+      ### **Garantie 6 mois**
 
-      <br/>
-
-      ### 🔧 &nbsp;Garantie 6 mois
 
       Pas de mauvaises surprises ! Nos réparations sont garanties 6 mois.
 
-      <br/>
 
-      ### ⚡ &nbsp;Réponse sous 24h
+      ### **Réponse sous 24h**
 
-      Nous analysons votre demande rapidement et vous proposons une solution adaptée.
 
-      </span>
+      Nous analysons votre demande rapidement et vous proposons une solution
+      adaptée.
     actions: []
     media:
       type: FormBlock
@@ -92,20 +66,18 @@ sections:
       styles:
         self:
           padding:
-            - pt-8
-            - pb-8
-            - pl-10
-            - pr-10
+            - pt-20
+            - pb-5
+            - pl-16
+            - pr-16
           borderColor: border-dark
           borderStyle: solid
           borderWidth: 2
           borderRadius: large
           justifyContent: flex-start
-    colors: bg-light-fg-dark
+    colors: bg-neutral-fg-dark
     styles:
       self:
-        alignItems: center
-        flexDirection: row
         padding:
           - pt-4
           - pl-4
@@ -115,11 +87,11 @@ sections:
         textAlign: left
     backgroundImage:
       type: BackgroundImage
-      altText: réparation électronique strasbourg schiltigheim
+      altText: altText of the image
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
-      opacity: 58
+      opacity: 24
       url: /images/resetlab-background-modern(1).svg
 slug: faireundevis
 isDraft: false
@@ -132,3 +104,4 @@ seo:
   type: Seo
   addTitleSuffix: true
 ---
+
