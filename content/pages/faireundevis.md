@@ -74,21 +74,21 @@ sections:
           name: name
           label: name
           hideLabel: true
-          placeholder: Nom et prénom
+          placeholder:  Nom et prénom
           isRequired: true
           width: full
         - type: EmailFormControl
           name: email
           label: email
           hideLabel: true
-          placeholder: Adresse email
+          placeholder:  Adresse email
           isRequired: true
           width: full
         - type: TextFormControl
           name: telephone
           label: telephone
           hideLabel: true
-          placeholder: Téléphone (optionnel)
+          placeholder:  Téléphone (optionnel)
           isRequired: false
           width: full
         - type: TextareaFormControl
