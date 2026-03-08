@@ -25,7 +25,7 @@
             "styles": {
                 "self": {
                     "fontWeight": 1000,
-                    "fontSize": "2xl"
+                    "fontSize": "4xl"
                 }
             }
         },
@@ -42,7 +42,7 @@
             "styles": {
                 "self": {
                     "fontWeight": 1000,
-                    "fontSize": "2xl"
+                    "fontSize": "4xl"
                 }
             }
         }
