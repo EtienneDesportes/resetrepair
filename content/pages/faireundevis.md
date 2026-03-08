@@ -18,28 +18,25 @@ sections:
       ### ✓ &nbsp;Devis 100% gratuit
 
 
-      Pas de frais pour un premier diagnostic. Si un diagnostic approfondi est
-      nécessaire, nous vous tiendrons informé avant toute intervention.
+      Aucun frais avant intervention. Vous êtes informé à chaque étape.
 
 
-      ### ✓ &nbsp;Garantie 6 mois pièces & main-d'œuvre
+      ### ✓ &nbsp;Garantie 6 mois
 
 
-      Pas de mauvaises surprises ! Toutes nos réparations sont garanties 6 mois.
+      Pièces et main-d'œuvre garanties sur toutes nos réparations.
 
 
       ### ✓ &nbsp;Réponse sous 24h
 
 
-      Nous analysons votre demande rapidement et vous proposons une solution
-      adaptée à votre appareil et votre budget.
+      Une solution adaptée à votre appareil et votre budget.
 
 
       ### ✓ &nbsp;Envoi gratuit inclus
 
 
-      Expédition prise en charge dans les deux sens — restez chez vous, on
-      s'occupe du reste.
+      Expédition prise en charge dans les deux sens.
     actions: []
     media:
       type: FormBlock
