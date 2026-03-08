@@ -253,7 +253,7 @@ sections:
     media:
       type: ImageBlock
       url: /images/IMG_4325.webp
-      altText: Image alt text placeholder
+      altText: micro soudure strasbourg
       elementId: ''
       styles:
         self:
