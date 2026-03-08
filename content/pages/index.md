@@ -99,8 +99,8 @@ sections:
         tagline: ''
         subtitle: ''
         text: >
-          <span style="color: #11295c; font-size: 1.1rem">**Réparation
-          carte-mère:**
+          <span style="color: #11295c; font-size: 1.1rem">**Réparation carte
+          mère:**
 
           Console (PS5, Xbox,...), PC, MacBook, Carte Électronique</span>
         image:
