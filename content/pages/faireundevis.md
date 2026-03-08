@@ -5,8 +5,6 @@ sections:
   - type: GenericSection
     subtitle: ''
     text: >
-      <span style="color: #11295c">
-
       ### **Devis gratuit**
 
 
@@ -25,47 +23,6 @@ sections:
 
       Nous analysons votre demande rapidement et vous proposons une solution
       adaptée.
-
-      </span>
-
-      <style>
-      #devis {
-        position: relative !important;
-        overflow: hidden !important;
-      }
-      #devis::before {
-        content: '' !important;
-        position: absolute !important;
-        inset: 0 !important;
-        background-image: url('/images/amazing-mango.svg') !important;
-        background-size: cover !important;
-        background-position: center !important;
-        background-repeat: no-repeat !important;
-        opacity: 0.58 !important;
-        z-index: 0 !important;
-        pointer-events: none !important;
-      }
-      #contact-form input,
-      #contact-form textarea,
-      #contact-form select {
-        color: #11295c !important;
-        border: 1.5px solid #11295c !important;
-        border-radius: 10px !important;
-        background-color: transparent !important;
-      }
-      #contact-form input::placeholder,
-      #contact-form textarea::placeholder {
-        color: rgba(17,41,92,0.45) !important;
-      }
-      #contact-form input:focus,
-      #contact-form textarea:focus {
-        box-shadow: 0 0 0 3px rgba(17,41,92,0.15) !important;
-      }
-      #contact-form {
-        border-color: #11295c !important;
-      }
-      </style>
-
     actions: []
     media:
       type: FormBlock
@@ -74,21 +31,21 @@ sections:
           name: name
           label: name
           hideLabel: true
-          placeholder:  Nom et prénom
+          placeholder: Nom et prénom
           isRequired: true
           width: full
         - type: EmailFormControl
           name: email
           label: email
           hideLabel: true
-          placeholder:  Adresse email
+          placeholder: Adresse email
           isRequired: true
           width: full
         - type: TextFormControl
           name: telephone
           label: telephone
           hideLabel: true
-          placeholder:  Téléphone (optionnel)
+          placeholder: Téléphone (optionnel)
           isRequired: false
           width: full
         - type: TextareaFormControl
@@ -118,12 +75,9 @@ sections:
           borderWidth: 2
           borderRadius: large
           justifyContent: flex-start
-    elementId: devis
-    colors: bg-light-fg-dark
+    colors: bg-neutral-fg-dark
     styles:
       self:
-        alignItems: center
-        flexDirection: row
         padding:
           - pt-4
           - pl-4
@@ -133,11 +87,11 @@ sections:
         textAlign: left
     backgroundImage:
       type: BackgroundImage
-      altText: réparation électronique strasbourg schiltigheim
+      altText: altText of the image
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
-      opacity: 58
+      opacity: 24
       url: /images/resetlab-background-modern(1).svg
 slug: faireundevis
 isDraft: false
@@ -150,3 +104,4 @@ seo:
   type: Seo
   addTitleSuffix: true
 ---
+
