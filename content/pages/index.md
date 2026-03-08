@@ -15,6 +15,8 @@ sections:
 
       <p>📞 <a href="tel:0678235040">06 78 23 50 40</a></p>
 
+      <p>✉️<a href="mailto:etienne@resetlab.fr">etienne@resetlab.fr</a></p>
+
       </span>
 
       <style>
