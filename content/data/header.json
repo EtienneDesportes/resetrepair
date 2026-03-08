@@ -18,7 +18,7 @@
             "altText": "",
             "url": "/reparation",
             "showIcon": true,
-            "icon": "arrowRight",
+            "icon": "chevronLeft",
             "iconPosition": "left",
             "style": "secondary",
             "elementId": "",
