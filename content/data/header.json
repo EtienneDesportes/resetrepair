@@ -24,8 +24,8 @@
             "elementId": "",
             "styles": {
                 "self": {
-                    "fontWeight": 900,
-                    "fontSize": "xl"
+                    "fontWeight": 1000,
+                    "fontSize": "2xl"
                 }
             }
         },
@@ -41,8 +41,8 @@
             "elementId": "",
             "styles": {
                 "self": {
-                    "fontWeight": 900,
-                    "fontSize": "xl"
+                    "fontWeight": 1000,
+                    "fontSize": "2xl"
                 }
             }
         }
