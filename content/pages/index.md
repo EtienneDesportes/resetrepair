@@ -98,8 +98,10 @@ sections:
         title: ''
         tagline: ''
         subtitle: ''
-        text: |
-          <span style="color: #11295c; font-size: 1.1rem">**Réparation carte-mère:**
+        text: >
+          <span style="color: #11295c; font-size: 1.1rem">**Réparation carte
+          mère:**
+
           Console (PS5, Xbox,...), PC, MacBook, Carte Électronique</span>
         image:
           type: ImageBlock
@@ -133,9 +135,11 @@ sections:
         title: ''
         tagline: ''
         subtitle: ''
-        text: |
-          <span style="color: #11295c; font-size: 1.1rem">**Réparation matériel audio:**
-          Ampli, Enceinte, Subwoofer, Carte son, Table mixage</span>
+        text: >
+          <span style="color: #11295c; font-size: 1.1rem">**Réparation matériel
+          audio:**
+
+          Ampli, Enceinte, Subwoofer, Carte son, Table de mixage</span>
         image:
           type: ImageBlock
           url: /images/ldf.webp
@@ -159,9 +163,11 @@ sections:
         title: ''
         tagline: ''
         subtitle: ''
-        text: |
-          <span style="color: #11295c; font-size: 1.1rem">**Réparation en tout genre:**
-          Clé de voiture, Connectique (Hdmi, Usb-c,...)</span>
+        text: >
+          <span style="color: #11295c; font-size: 1.1rem">**Réparation en tout
+          genre:**
+
+          Clé de voiture, Connectique (HDMI, USB-C,...)</span>
         image:
           type: ImageBlock
           url: /images/casque.webp
@@ -247,7 +253,7 @@ sections:
     media:
       type: ImageBlock
       url: /images/IMG_4325.webp
-      altText: Image alt text placeholder
+      altText: micro soudure strasbourg
       elementId: ''
       styles:
         self:
@@ -258,7 +264,7 @@ sections:
         title: ''
         tagline: ''
         subtitle: ''
-        text: "<span style=\"color: #11295c\"\_>\n\n<p style='text-align: justify;'>Payer pour un premier diagnostic n'a pas de sens d'après nous. Si un diagnostic approfondi est nécessaire afin de déterminer l'origine de la panne, nous vous informerons des tarifs appliqués.</p></span>\n\n"
+        text: "<span style=\"color: #11295c\"\_>\n\n<p style='text-align: justify;'>Pas de frais pour un premier diagnostic. Si un diagnostic approfondi est nécessaire afin de déterminer l'origine de la panne, nous vous informerons des tarifs appliqués.</p></span>\n\n"
         image:
           type: ImageBlock
           url: /images/devisgratuit-60bd9b49.svg
@@ -281,7 +287,7 @@ sections:
       - title: ''
         tagline: ''
         subtitle: ''
-        text: "<span style=\"color: #11295c\"\_>\n\n<p style='text-align: justify;'> Nous sommes l'alternative et proposons une réparation à moindre coût sans remplacer la carte mère.          Economique pour vous, une passion pour nous et écologique pour tous.</p>\n\n\n\n</span>\n\n"
+        text: "<span style=\"color: #11295c\"\_>\n\n<p style='text-align: justify;'> Nous proposons une réparation à moindre coût sans remplacer toute la carte mère. Économique pour vous, une passion pour nous et écologique pour tous.</p></span>\n\n"
         image:
           url: /images/eco-8be7843e.svg
           altText: Placeholder image
