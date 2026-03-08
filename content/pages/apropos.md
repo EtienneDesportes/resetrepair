@@ -6,11 +6,11 @@ sections:
     subtitle: ''
     text: |+
       <style>
-      #card-apropos-1 {
+      .sb-component-carousel-section .sb-component-featured-item {
         position: relative !important;
         overflow: hidden !important;
       }
-      #card-apropos-1::before {
+      .sb-component-carousel-section .sb-component-featured-item::before {
         content: '' !important;
         position: absolute !important;
         inset: 0 !important;
@@ -21,7 +21,7 @@ sections:
         opacity: 0.58 !important;
         z-index: 0 !important;
       }
-      #card-apropos-1 > * {
+      .sb-component-carousel-section .sb-component-featured-item > * {
         position: relative !important;
         z-index: 1 !important;
       }
@@ -42,7 +42,6 @@ sections:
         title: ''
         tagline: ''
         subtitle: ''
-        elementId: card-apropos-1
         text: >
           <span style="color: #11295c">
 
