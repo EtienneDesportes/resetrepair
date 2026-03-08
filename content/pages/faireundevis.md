@@ -45,6 +45,20 @@ sections:
         z-index: 0 !important;
         pointer-events: none !important;
       }
+      #contact-form input,
+      #contact-form textarea,
+      #contact-form select {
+        color: #11295c !important;
+        border-color: #11295c !important;
+        background-color: rgba(255,255,255,0.85) !important;
+      }
+      #contact-form input::placeholder,
+      #contact-form textarea::placeholder {
+        color: #11295caa !important;
+      }
+      #contact-form label {
+        color: #11295c !important;
+      }
       </style>
 
     actions: []
