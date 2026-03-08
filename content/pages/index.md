@@ -167,7 +167,7 @@ sections:
           <span style="color: #11295c; font-size: 1.1rem">**Réparation en tout
           genre:**
 
-          Clé de voiture, Connectique (Hdmi, Usb-c,...)</span>
+          Clé de voiture, Connectique (HDMI, USB-C,...)</span>
         image:
           type: ImageBlock
           url: /images/casque.webp
