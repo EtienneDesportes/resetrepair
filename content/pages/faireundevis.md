@@ -27,6 +27,26 @@ sections:
       adaptée.
 
       </span>
+
+      <style>
+      #devis {
+        position: relative !important;
+        overflow: hidden !important;
+      }
+      #devis::before {
+        content: '' !important;
+        position: absolute !important;
+        inset: 0 !important;
+        background-image: url('/images/amazing-mango.svg') !important;
+        background-size: cover !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        opacity: 0.58 !important;
+        z-index: 0 !important;
+        pointer-events: none !important;
+      }
+      </style>
+
     actions: []
     media:
       type: FormBlock
@@ -79,6 +99,7 @@ sections:
           borderWidth: 2
           borderRadius: large
           justifyContent: flex-start
+    elementId: devis
     colors: bg-light-fg-dark
     styles:
       self:
@@ -98,7 +119,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 58
-      url: /images/amazing-mango.svg
+      url: /images/resetlab-background-modern(1).svg
 slug: faireundevis
 isDraft: false
 seo:
