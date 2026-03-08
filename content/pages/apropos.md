@@ -2,40 +2,6 @@
 type: PageLayout
 title: À propos
 sections:
-  - type: GenericSection
-    subtitle: ''
-    text: |+
-      <style>
-      .sb-component-carousel-section .sb-component-featured-item {
-        position: relative !important;
-        overflow: hidden !important;
-      }
-      .sb-component-carousel-section .sb-component-featured-item::before {
-        content: '' !important;
-        position: absolute !important;
-        inset: 0 !important;
-        background-image: url('/images/amazing-mango.svg') !important;
-        background-size: cover !important;
-        background-position: center !important;
-        background-repeat: no-repeat !important;
-        opacity: 0.58 !important;
-        z-index: 0 !important;
-      }
-      .sb-component-carousel-section .sb-component-featured-item > * {
-        position: relative !important;
-        z-index: 1 !important;
-      }
-      </style>
-    actions: []
-    elementId: ''
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-0
-          - pl-0
-          - pb-0
-          - pr-0
   - type: CarouselSection
     items:
       - type: FeaturedItem
@@ -51,33 +17,32 @@ sections:
           **Etienne**, mécatronicien de formation et bricoleur en tout genre, décide
           d'ouvrir son atelier pour redonner aux technologies du quotidien la
           valeur qu'elles méritent : **rien ne se jette, tout est réparable
-          (enfin presque... )**. Non seulement c'est économique pour le client,
+          (enfin presque... )**. Non seulement c’est économique pour le client,
           une passion pour le réparateur (moi-même), et écologique pour tout le
           monde. Diplômé du cursus Mécatronique Trinational,
-          l'électronique est une réelle passion. **L'obsolescence programmée** est de
+          l'électronique est une réelle passion. **L’obsolescence programmée** est de
           plus en plus pratiquée par les grandes entreprises de technologies.
           Par exemple un fabricant bien connu intègre le chip U4700 dans ses
           appareils, pourtant de piètre qualité dont la panne entraîne le
-          dysfonctionnement complet de l'ordinateur. Les appareils deviennent
-          inutilisables et le fabricant vous indiquera qu'il faudra remplacer
+          dysfonctionnement complet de l’ordinateur. Les appareils deviennent
+          inutilisables et le fabricant vous indiquera qu’il faudra remplacer
           toute la **carte mère**. Le coût de réparation sera très élevé alors
-          qu'on pourrait simplement remplacer par **micro-soudure** ce
-          composant. Ceci est un exemple parmi d'autres. De telles pratiques
-          enlèvent à l'utilisateur son droit de posséder un objet fonctionnel de
+          qu’on pourrait simplement remplacer par **micro-soudure** ce
+          composant. Ceci est un exemple parmi d’autres. De telles pratiques
+          enlèvent à l’utilisateur son droit de posséder un objet fonctionnel de
           qualité. De plus, les conséquences écologiques sont énormes,
-          l'obsolescence programmée génère des déchets considérables et nocifs
-          pour notre environnement. J'ai donc décidé de créer « Reset Lab » pour
+          l’obsolescence programmée génère des déchets considérables et nocifs
+          pour notre environnement. J’ai donc décidé de créer « Reset Lab » pour
           réparer ce matériel high tech. Ce sera aussi une manière de remettre
-          en cause les agissements nuisibles d'industriels et d'encourager
-          l'utilisation de **matériel reconditionné** qui suffit amplement à nos
+          en cause les agissements nuisibles d’industriels et d’encourager
+          l’utilisation de **matériel reconditionné** qui suffit amplement à nos
           besoins.
 
 
           </p></span>
-
         image:
           type: ImageBlock
-          url: /images/photo Etienne Réparation-2.webp
+          url: /images/photo Etienne Réparation-2.webp
           altText: Etienne
           styles:
             self:
@@ -121,7 +86,7 @@ seo:
   metaDescription: >-
     Réparation Micro Soudure MacBook PC Portable Console Apple Audio Tablette
     Smartphone Carte Mère 
-  socialImage: /images/réparation-micro-soudure.webp
+  socialImage: /images/réparation-micro-soudure.webp
   type: Seo
   metaTags: []
   addTitleSuffix: true
