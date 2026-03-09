@@ -188,6 +188,7 @@ sections:
               - pr-5
             borderRadius: x-large
             flexDirection: row-reverse
+            justifyContent: center
     actions: []
     variant: three-col-grid
     colors: bg-neutral-fg-dark
