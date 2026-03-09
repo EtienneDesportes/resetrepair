@@ -75,8 +75,7 @@ sections:
 
       **La carte mère est réparable :**
 
-      Vous réglez en ligne par CB le montant indiqué sur le devis. L’envoi et
-      retour par colis sont assurés et gratuits.
+      Vous réglez le montant indiqué sur le devis. Le retour par colis est gratuit.
 
 
       **La carte mère n’est pas réparable :**
