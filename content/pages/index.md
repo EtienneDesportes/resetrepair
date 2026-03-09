@@ -133,10 +133,8 @@ sections:
         title: ''
         tagline: ''
         subtitle: ''
-        text: >
-          <span style="color: #11295c; font-size: 1.1rem">**Réparation matériel
-          audio:**
-
+        text: |
+          <span style="color: #11295c; font-size: 1.1rem">**Matériel audio:**
           Ampli, Enceinte, Subwoofer, Carte son, Table de mixage</span>
         image:
           type: ImageBlock
