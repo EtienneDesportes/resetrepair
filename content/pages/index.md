@@ -242,6 +242,8 @@ sections:
           - pr-4
       subtitle:
         textAlign: left
+      text:
+        textAlign: center
     backgroundImage:
       type: BackgroundImage
       altText: altText of the image
