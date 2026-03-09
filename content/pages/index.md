@@ -121,7 +121,7 @@ sections:
               - pb-4
               - pr-4
             borderRadius: large
-            flexDirection: col-reverse
+            flexDirection: row-reverse
             justifyContent: center
             margin:
               - mt-0
