@@ -161,8 +161,8 @@ sections:
         tagline: ''
         subtitle: ''
         text: >
-          <span style="color: #11295c; font-size: 1.1rem">**Réparation en tout
-          genre:**
+          <span style="color: #11295c; font-size: 1.1rem">**Réparations
+          diverses:**
 
           Clé de voiture, Connectique (HDMI, USB-C,...)</span>
         image:
