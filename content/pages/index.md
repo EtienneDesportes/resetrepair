@@ -240,6 +240,7 @@ sections:
           - pl-4
           - pb-4
           - pr-4
+        alignItems: center
       subtitle:
         textAlign: left
       text:
