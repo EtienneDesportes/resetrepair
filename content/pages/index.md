@@ -98,8 +98,10 @@ sections:
         title: ''
         tagline: ''
         subtitle: ''
-        text: |
-          <span style="color: #11295c; font-size: 1.1rem">**Carte mère:**
+        text: >
+          <span style="color: #11295c; font-size: 1.1rem">**Micro-soudure Carte
+          mère:**
+
           Console (PS5, Xbox,...), PC, MacBook, Carte Électronique</span>
         image:
           type: ImageBlock
