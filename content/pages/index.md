@@ -187,7 +187,7 @@ sections:
               - pb-4
               - pr-5
             borderRadius: x-large
-            flexDirection: col-reverse
+            flexDirection: row-reverse
     actions: []
     variant: three-col-grid
     colors: bg-neutral-fg-dark
