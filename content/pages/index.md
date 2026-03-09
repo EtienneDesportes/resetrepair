@@ -243,7 +243,7 @@ sections:
       subtitle:
         textAlign: left
       text:
-        textAlign: center
+        textAlign: left
     backgroundImage:
       type: BackgroundImage
       altText: altText of the image
