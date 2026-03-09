@@ -83,6 +83,7 @@ sections:
           - pl-4
           - pb-4
           - pr-4
+        alignItems: center
       text:
         textAlign: left
     backgroundImage:
