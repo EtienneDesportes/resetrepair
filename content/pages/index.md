@@ -159,6 +159,7 @@ sections:
               - pr-4
             borderRadius: x-large
             flexDirection: col-reverse
+            justifyContent: center
       - type: FeaturedItem
         title: ''
         tagline: ''
