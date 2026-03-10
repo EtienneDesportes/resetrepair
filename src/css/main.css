@@ -166,6 +166,28 @@
         }
     }
 
+    /* Boutons Maps & WhatsApp */
+    .sb-markdown a[href*="google.com/maps"],
+    .sb-markdown a[href*="wa.me"] {
+        display: inline-flex !important;
+        align-items: center !important;
+        text-decoration: none !important;
+        margin-top: 0 !important;
+        vertical-align: middle !important;
+        line-height: 1 !important;
+        box-sizing: border-box !important;
+    }
+    .sb-markdown p:has(a[href*="google.com/maps"]) {
+        display: flex !important;
+        align-items: center !important;
+        gap: 10px !important;
+        flex-wrap: wrap !important;
+        margin-top: 1em !important;
+    }
+    .sb-markdown p:has(a[href*="google.com/maps"]) * + * {
+        margin-top: 0 !important;
+    }
+
     /* Buttons */
     .sb-component-button {
         @apply inline-flex justify-center items-center text-center border transition duration-200 ease-in hover:-translate-y-1;
