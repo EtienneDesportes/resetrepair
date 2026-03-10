@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: 'Inter';
   font-style: normal;
@@ -164,11 +163,6 @@
         th {
             font-weight: bold;
         }
-    }
-
-    /* Boutons Maps & WhatsApp — neutralise margin-top du CMS */
-    .sb-markdown p[style*="display:flex"] a {
-        margin-top: 0 !important;
     }
 
     /* Buttons */
