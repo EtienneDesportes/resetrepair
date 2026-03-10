@@ -366,4 +366,22 @@
             transform: translate3d(0,0,0)
         }
     }
+
+    /* Reset Lab contact buttons: horizontal on desktop, vertical on small screens */
+    .rl-contact-buttons {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: 1em 0 0 0;
+        flex-wrap: wrap;
+    }
+    .rl-contact-buttons > a {
+        flex-shrink: 0;
+    }
+    @media (max-width: 640px) {
+        .rl-contact-buttons {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
 }
