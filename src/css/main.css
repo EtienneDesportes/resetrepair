@@ -367,12 +367,13 @@
         }
     }
 
-    /* Reset Lab contact buttons: always stacked vertically */
+    /* Reset Lab contact buttons: force each link on its own line */
     .rl-contact-buttons {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
+        display: block;
         margin: 1em 0 0 0;
+    }
+    .rl-contact-buttons > a {
+        display: block !important;
+        margin: 0 0 10px 0 !important;
     }
 }
