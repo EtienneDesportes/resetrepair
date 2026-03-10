@@ -367,13 +367,8 @@
         }
     }
 
-    /* Reset Lab contact buttons: force each link on its own line */
+    /* Reset Lab contact buttons wrapper */
     .rl-contact-buttons {
-        display: block;
         margin: 1em 0 0 0;
-    }
-    .rl-contact-buttons > a {
-        display: block !important;
-        margin: 0 0 10px 0 !important;
     }
 }
