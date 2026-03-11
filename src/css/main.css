@@ -169,6 +169,12 @@
         }
     }
 
+    /* Header logo sizing to match button height */
+    .sb-component-header .sb-component-image-block img {
+        height: 48px;
+        width: auto;
+    }
+
     /* Buttons */
     .sb-component-button {
         @apply inline-flex justify-center items-center text-center border transition duration-200 ease-in hover:-translate-y-1;
