@@ -106,8 +106,7 @@ sections:
         tagline: ''
         subtitle: ''
         text: >
-          <span style="color: #11295c; font-size: 1.1rem">**Micro-soudure Carte
-          mère:**
+          <span style="color: #11295c; font-size: 1.1rem">**Micro-soudure:**
 
           Console (PS5, Xbox,...), PC, MacBook, Carte Électronique</span>
         image:
@@ -143,7 +142,7 @@ sections:
         tagline: ''
         subtitle: ''
         text: >
-          <span style="color: #11295c; font-size: 1.1rem">**Réparation Matériel
+          <span style="color: #11295c; font-size: 1.1rem">**Matériel
           audio:**
 
           Ampli, Enceinte, Subwoofer, Carte son, Table de mixage</span>
