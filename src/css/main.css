@@ -3,21 +3,21 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/inter-v13-latin-400.woff2') format('woff2');
+  src: url('/fonts/inter-v20-latin-regular.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url('/fonts/inter-v13-latin-500.woff2') format('woff2');
+  src: url('/fonts/inter-v20-latin-500.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('/fonts/inter-v13-latin-700.woff2') format('woff2');
+  src: url('/fonts/inter-v20-latin-700.woff2') format('woff2');
 }
 
 /* Roboto Slab font */
@@ -26,21 +26,21 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/roboto-slab-v25-latin-400.woff2') format('woff2');
+  src: url('/fonts/roboto-slab-v36-latin-regular.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url('/fonts/roboto-slab-v25-latin-500.woff2') format('woff2');
+  src: url('/fonts/roboto-slab-v36-latin-500.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('/fonts/roboto-slab-v25-latin-700.woff2') format('woff2');
+  src: url('/fonts/roboto-slab-v36-latin-700.woff2') format('woff2');
 }
 @tailwind base;
 @tailwind components;
@@ -62,6 +62,10 @@
     h6 {
         @apply break-words;
         line-height: 1.2;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
     }
 }
 

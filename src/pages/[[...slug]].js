@@ -26,12 +26,17 @@ function Page(props) {
                 {metaDescription && <meta name="description" content={metaDescription} />}
                 {metaTags.map((metaTag) => {
                     if (metaTag.format === 'property') {
-                        // OpenGraph meta tags (og:*) should be have the format <meta property="og:…" content="…">
                         return <meta key={metaTag.property} property={metaTag.property} content={metaTag.content} />;
                     }
                     return <meta key={metaTag.property} name={metaTag.property} content={metaTag.content} />;
                 })}
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta name="theme-color" content="#11295c" />
+                <meta property="og:type" content="website" />
+                <meta property="og:locale" content="fr_FR" />
+                <meta property="og:site_name" content="Reset Lab" />
+                {metaDescription && <meta property="og:description" content={metaDescription} />}
+                <link rel="canonical" href={`https://www.resetlab.fr${page.__metadata?.urlPath || '/'}`} />
                 {site.favicon && <link rel="icon" href={site.favicon} />}
             </Head>
             <PageLayout page={page} site={site} />

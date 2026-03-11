@@ -7,6 +7,8 @@ const nextConfig = {
     },
     trailingSlash: true,
     reactStrictMode: true,
+    compress: true,
+    poweredByHeader: false,
     allowedDevOrigins: [
         '192.168.1.84'
     ]

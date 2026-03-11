@@ -10,7 +10,7 @@ import TitleBlock from '../../blocks/TitleBlock';
 import { Action, Badge } from '../../atoms';
 
 export default function GenericSection(props) {
-    const { elementId, colors, backgroundImage, badge, title, subtitle, text, actions = [], media, styles = {}, enableAnnotations } = props;
+    const { elementId, colors, backgroundImage, badge, title, subtitle, text, actions = [], media, styles = {}, enableAnnotations, isFirstSection } = props;
     const flexDirection = styles?.self?.flexDirection ?? 'row';
     const alignItems = styles?.self?.alignItems ?? 'flex-start';
     const hasTextContent = !!(badge?.url || title?.text || subtitle || text || actions.length > 0);
@@ -108,7 +108,7 @@ export default function GenericSection(props) {
                             'lg:mt-10': badge?.label && media.__metadata.modelName === 'FormBlock' && hasXDirection
                         })}
                     >
-                        <Media media={media} hasAnnotations={enableAnnotations} />
+                        <Media media={media} hasAnnotations={enableAnnotations} isFirstSection={isFirstSection} />
                     </div>
                 )}
             </div>
@@ -116,7 +116,7 @@ export default function GenericSection(props) {
     );
 }
 
-function Media({ media, hasAnnotations }: { media: any; hasAnnotations: boolean }) {
+function Media({ media, hasAnnotations, isFirstSection }: { media: any; hasAnnotations: boolean; isFirstSection?: boolean }) {
     const modelName = media.__metadata.modelName;
     if (!modelName) {
         throw new Error(`generic section media does not have the 'modelName' property`);
@@ -125,7 +125,7 @@ function Media({ media, hasAnnotations }: { media: any; hasAnnotations: boolean 
     if (!MediaComponent) {
         throw new Error(`no component matching the hero section media model name: ${modelName}`);
     }
-    return <MediaComponent {...media} {...(hasAnnotations && { 'data-sb-field-path': '.media' })} />;
+    return <MediaComponent {...media} priority={isFirstSection} {...(hasAnnotations && { 'data-sb-field-path': '.media' })} />;
 }
 
 function mapFlexDirectionStyles(flexDirection: string, hasTextContent: boolean, hasMedia: boolean) {

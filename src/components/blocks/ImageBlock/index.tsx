@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
 
 export default function ImageBlock(props) {
-    const { elementId, className, imageClassName, url, altText = '', styles = {} } = props;
+    const { elementId, className, imageClassName, url, altText = '', styles = {}, loading, priority } = props;
     if (!url) {
         return null;
     }
@@ -12,6 +12,10 @@ export default function ImageBlock(props) {
     const annotations = fieldPath
         ? { 'data-sb-field-path': [fieldPath, `${fieldPath}.url#@src`, `${fieldPath}.altText#@alt`, `${fieldPath}.elementId#@id`].join(' ').trim() }
         : {};
+
+    // Use eager loading for priority (LCP) images, lazy for everything else
+    const imgLoading = priority ? 'eager' : (loading || 'lazy');
+    const fetchPriority = priority ? 'high' : undefined;
 
     return (
         <div
@@ -40,6 +44,11 @@ export default function ImageBlock(props) {
                 )}
                 src={url}
                 alt={altText}
+                loading={imgLoading}
+                decoding="async"
+                width={800}
+                height={600}
+                {...(fetchPriority && { fetchPriority })}
             />
         </div>
     );

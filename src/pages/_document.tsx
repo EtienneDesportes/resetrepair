@@ -4,22 +4,15 @@ export default function Document() {
   return (
     <Html lang="fr">
       <Head>
-        {/* Google tag (gtag.js) */}
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-FBBN11WEK6"
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-FBBN11WEK6');
-            `,
-          }}
-        />
-        
+        {/* Preconnect to Google Analytics */}
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+
+        {/* Preload critical fonts */}
+        <link rel="preload" href="/fonts/inter-v20-latin-regular.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="/fonts/inter-v20-latin-700.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="/fonts/roboto-slab-v36-latin-regular.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+
         {/* Schema.org LocalBusiness Markup */}
         <script
           type="application/ld+json"
@@ -110,6 +103,27 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        {/* Defer Google Analytics to after page load for better performance */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.addEventListener('load', function() {
+                setTimeout(function() {
+                  var s = document.createElement('script');
+                  s.src = 'https://www.googletagmanager.com/gtag/js?id=G-FBBN11WEK6';
+                  s.async = true;
+                  document.head.appendChild(s);
+                  s.onload = function() {
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-FBBN11WEK6');
+                  };
+                }, 100);
+              });
+            `,
+          }}
+        />
       </body>
     </Html>
   );
