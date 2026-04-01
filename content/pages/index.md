@@ -108,7 +108,7 @@ sections:
         text: >
           <span style="color: #11295c; font-size: 1.1rem">**Micro-soudure:**
 
-          Console (PS5, Xbox,...), PC, MacBook, Carte Électronique</span>
+          Carte Électronique, Console de jeux, PC, MacBook</span>
         image:
           type: ImageBlock
           url: /images/macbook.webp
