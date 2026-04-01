@@ -106,6 +106,35 @@ sections:
         tagline: ''
         subtitle: ''
         text: >
+          <span style="color: #11295c; font-size: 1.1rem">**Matériel
+          audio:**
+
+          Ampli, Enceinte, Subwoofer, Carte son, Table de mixage</span>
+        image:
+          type: ImageBlock
+          url: /images/ldf.webp
+          altText: Réparation Carte-Mère Strasbourg https://www.jesuisreparateur.fr
+          styles:
+            self:
+              borderRadius: x-large
+        actions: []
+        colors: bg-dark-fg-light
+        elementId: card-reparation-2
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pl-4
+              - pb-4
+              - pr-4
+            borderRadius: x-large
+            flexDirection: row-reverse
+            justifyContent: center
+      - type: FeaturedItem
+        title: ''
+        tagline: ''
+        subtitle: ''
+        text: >
           <span style="color: #11295c; font-size: 1.1rem">**Micro-soudure:**
 
           Carte Électronique, Console de jeux, PC, MacBook</span>
@@ -137,35 +166,7 @@ sections:
             borderColor: border-dark
             borderWidth: 0
             borderStyle: none
-      - type: FeaturedItem
-        title: ''
-        tagline: ''
-        subtitle: ''
-        text: >
-          <span style="color: #11295c; font-size: 1.1rem">**Matériel
-          audio:**
-
-          Ampli, Enceinte, Subwoofer, Carte son, Table de mixage</span>
-        image:
-          type: ImageBlock
-          url: /images/ldf.webp
-          altText: Réparation Carte-Mère Strasbourg https://www.jesuisreparateur.fr
-          styles:
-            self:
-              borderRadius: x-large
-        actions: []
-        colors: bg-dark-fg-light
-        elementId: card-reparation-2
-        styles:
-          self:
-            padding:
-              - pt-4
-              - pl-4
-              - pb-4
-              - pr-4
-            borderRadius: x-large
-            flexDirection: row-reverse
-            justifyContent: center
+      
       - type: FeaturedItem
         title: ''
         tagline: ''
