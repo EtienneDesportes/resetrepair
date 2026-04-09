@@ -52,7 +52,7 @@ sections:
           name: message
           label: Décrivez votre problème (modèle et année de l'appareil si possible)
           hideLabel: false
-          placeholder: Ex MacBook Pro 2019 ne s'allume plus après chute
+          placeholder: Ex Ma table de mixage Tascam Model 2400 ne démarre plus !
           width: full
           isRequired: true
       submitButton:
