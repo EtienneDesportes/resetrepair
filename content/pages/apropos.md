@@ -32,7 +32,7 @@ sections:
           enlèvent à l’utilisateur son droit de posséder un objet fonctionnel de
           qualité. De plus, les conséquences écologiques sont énormes,
           l’obsolescence programmée génère des déchets considérables et nocifs
-          pour notre environnement. J’ai donc décidé de créer « Reset Lab » pour
+          pour notre environnement. « Reset Lab » a pour but de
           réparer ce matériel high tech. Ce sera aussi une manière de remettre
           en cause les agissements nuisibles d’industriels et d’encourager
           l’utilisation de **matériel reconditionné** qui suffit amplement à nos
