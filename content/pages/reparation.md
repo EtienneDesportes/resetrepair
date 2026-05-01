@@ -18,7 +18,7 @@ sections:
       le circuit se comporte en l'état actuel et comparer avec les valeurs
       retrouvées sur le **schéma du circuit**. Sur une carte mère, on
       peut par exemple vérifier si le circuit injecte bien assez de **voltage**
-      pour démarrer le circuit ? La ligne électrique est-elle bien présente ? Résistance, fusible, condensateur, il ne faut
+      pour démarrer ? La ligne électrique est-elle bien présente ? Résistance, fusible, condensateur, il ne faut
       rien rater. À l'aide d'une **alimentation de labo**, on peut injecter du
       voltage dans certaines parties du circuit afin d'en trouver les
       **courts-circuits** potentiels. On peut ainsi réparer une carte-mère sans
