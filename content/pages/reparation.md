@@ -16,10 +16,9 @@ sections:
       une carte mère avant la réparation, cela brouille les pistes ! Si aucune
       trace n'est présente, équipé d'un **multimètre**, il faut analyser comment
       le circuit se comporte en l'état actuel et comparer avec les valeurs
-      retrouvées sur le **schéma du circuit**. Sur une carte mère de macbook, on
+      retrouvées sur le **schéma du circuit**. Sur une carte mère, on
       peut par exemple vérifier si le circuit injecte bien assez de **voltage**
-      pour démarrer le onewirecircuit ? La ligne électrique **PP3V42\_G3H**
-      est-elle bien présente ? Résistance, fusible, condensateur, il ne faut
+      pour démarrer le circuit ? La ligne électrique est-elle bien présente ? Résistance, fusible, condensateur, il ne faut
       rien rater. À l'aide d'une **alimentation de labo**, on peut injecter du
       voltage dans certaines parties du circuit afin d'en trouver les
       **courts-circuits** potentiels. On peut ainsi réparer une carte-mère sans
