@@ -8,7 +8,7 @@ sections:
       ### **Devis gratuit**
 
 
-      Pas de frais pour un premier diagnostic. Si un diagnostic approfondi est
+      Pas de frais pour un premier devis. Si un diagnostic approfondi est
       nécessaire, nous vous tiendrons informé.
 
 
