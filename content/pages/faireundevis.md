@@ -8,8 +8,7 @@ sections:
       ### **Devis gratuit**
 
 
-      Pas de frais pour un premier devis. Si un diagnostic approfondi est
-      nécessaire, nous vous tiendrons informé.
+      Devis gratuit pour une panne immédiatement identifiable. Si un diagnostic approfondi est nécessaire pour en déterminer l'origine, un tarif de 30 € s'applique.
 
 
       ### **Garantie 6 mois**
