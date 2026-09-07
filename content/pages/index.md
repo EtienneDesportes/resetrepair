@@ -276,7 +276,7 @@ sections:
         title: ''
         tagline: ''
         subtitle: ''
-        text: "<span style=\"color: #11295c\"\_>\n\n<p style='text-align: justify;'>Pas de frais pour un premier devis. Si un diagnostic approfondi est nécessaire afin de déterminer l'origine de la panne, nous vous informerons des tarifs appliqués.</p></span>\n\n"
+        text: "<span style=\"color: #11295c\"\_>\n\n<p style='text-align: justify;'>Devis gratuit pour une panne immédiatement identifiable. Si un diagnostic approfondi est nécessaire pour en déterminer l'origine, un tarif de 30 € s'applique.</p></span>\n\n"
         image:
           type: ImageBlock
           url: /images/devisgratuit-60bd9b49.svg
