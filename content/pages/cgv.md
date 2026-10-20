@@ -90,7 +90,7 @@ sections:
         textAlign: justify
       subtitle:
         textAlign: center
-slug: reparation
+slug: cgv
 seo:
   metaTitle: Réparation Électronique Strasbourg Schiltigheim
   metaDescription: >-
