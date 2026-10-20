@@ -71,9 +71,9 @@
             },
             {
                 "type": "Link",
-                "label": "Repair Cafe",
+                "label": "CGV",
                 "altText": "",
-                "url": "https://www.repaircafe.org/en/",
+                "url": "/cgv",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
