@@ -135,9 +135,6 @@
                     <label class="field">Téléphone <span class="req">*</span>
                         <input type="tel" name="telephone" autocomplete="tel" required>
                     </label>
-                    <label class="field full">Adresse postale
-                        <input type="text" name="adresse" autocomplete="street-address">
-                    </label>
                     <label class="field full">Moyen de contact préféré pour le devis <span class="req">*</span>
                         <span class="hint">Aucune réparation n'est engagée sans votre accord écrit (e-mail ou SMS).</span>
                         <select name="contact_prefere" required>
@@ -169,11 +166,8 @@
                     <label class="field">Marque <span class="req">*</span>
                         <input type="text" name="marque" required>
                     </label>
-                    <label class="field">Modèle <span class="req">*</span>
+                    <label class="field full">Modèle <span class="req">*</span>
                         <input type="text" name="modele" required>
-                    </label>
-                    <label class="field">Numéro de série
-                        <input type="text" name="numero_serie">
                     </label>
                 </div>
             </fieldset>
@@ -217,7 +211,7 @@
                 </label>
                 <label class="check">
                     <input type="checkbox" name="accepte_diagnostic" value="Oui" required>
-                    <span>Je reconnais que le diagnostic est facturé 30,00 € (TVA non applicable) et reste exigible même si je refuse le devis ou si l'appareil n'est pas réparable (article 3 des CGV). <span class="req">*</span></span>
+                    <span>Je reconnais que si un diagnostic approfondi est nécessaire, il est facturé 30,00 € (TVA non applicable) et reste exigible même si je refuse le devis ou si l'appareil n'est pas réparable. Je serai prévenu(e) avant toute facturation (article 3 des CGV). <span class="req">*</span></span>
                 </label>
                 <label class="check">
                     <input type="checkbox" name="certifie_proprietaire" value="Oui" required>
