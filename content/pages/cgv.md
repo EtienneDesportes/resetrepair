@@ -14,56 +14,86 @@ sections:
     text: |
       <div style="text-align: left; color: #ffffff; line-height: 1.7; font-size: 1rem; max-width: 900px; margin: 0 auto;">
 
-      <h2 style="color: #ffffff; text-align: center; font-size: 1.8rem; font-weight: 700; margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 2px solid #ffffff;">Conditions Générales de Vente et de Service (CGV)</h2>
+      <h2 style="color: #ffffff; text-align: center; font-size: 1.8rem; font-weight: 700; margin-bottom: 0.5rem;">CONDITIONS GÉNÉRALES DE VENTE ET DE SERVICE (CGV)</h2>
 
-      <h3 style="color: #ffffff; font-size: 1.25rem; font-weight: 700; margin-top: 2rem; margin-bottom: 0.75rem;">Article 1 – Mentions légales et champ d'application</h3>
-      <p style="color: #ffffff;">Les présentes Conditions Générales de Vente et de Service (CGV) s'appliquent de plein droit à l'ensemble des prestations de diagnostic, d'entretien et de réparation d'équipements électroniques et informatiques proposées par :</p>
-      <ul style="color: #ffffff; padding-left: 1.5rem; list-style: disc;">
-        <li><strong>Raison sociale :</strong> RESET LAB (Entrepreneur Individuel / Micro-entreprise)</li>
-        <li><strong>Siège social :</strong> 21 rue du Soleil, 67300 Schiltigheim, France</li>
-        <li><strong>Numéro SIREN :</strong> 822 831 251</li>
-        <li><strong>Site web :</strong> <a href="https://www.resetlab.fr/" style="color: #ffffff; text-decoration: underline;">https://www.resetlab.fr/</a></li>
-        <li><strong>TVA :</strong> TVA non applicable, art. 293 B du Code Général des Impôts (CGI).</li>
-      </ul>
-      <p style="color: #ffffff;">Toute commande de prestation réalisée sur le site internet <a href="https://www.resetlab.fr/" style="color: #ffffff; text-decoration: underline;">https://www.resetlab.fr/</a> ou tout dépôt de matériel en atelier implique l'acceptation sans réserve par le Client des présentes CGV. Le Client reconnaît en avoir pris connaissance préalablement au dépôt de son équipement.</p>
+      <p style="color: #ffffff; text-align: center; margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 2px solid #ffffff;"><strong>RESET LAB</strong> — Diagnostic et réparation d'équipements électroniques</p>
 
-      <h3 style="color: #ffffff; font-size: 1.25rem; font-weight: 700; margin-top: 2rem; margin-bottom: 0.75rem;">Article 2 – Prise en charge, fiche de dépôt et annulation</h3>
+      <h3 style="color: #ffffff; font-size: 1.25rem; font-weight: 700; margin-top: 2rem; margin-bottom: 0.75rem;">Article 1 — Identification et Champ d'application</h3>
+
+      <p style="color: #ffffff;">Les présentes Conditions Générales de Vente et de Service (CGV) régissent l'ensemble des prestations de diagnostic, dépannage et réparation réalisées par :</p>
+
       <ul style="color: #ffffff; padding-left: 1.5rem; list-style: disc;">
-        <li>Lors du dépôt de l'appareil en atelier, une fiche de prise en charge est établie. Elle consigne l'état apparent de l'équipement ainsi que les symptômes ou pannes déclarés par le Client.</li>
-        <li>Le Client s'engage à confier à RESET LAB uniquement le matériel strictement nécessaire à l'intervention (console, ordinateur, etc.), à l'exclusion de tout accessoire non sollicité (câbles, manettes, jeux, boîtes), sauf demande expresse de l'atelier. RESET LAB décline toute responsabilité en cas de perte d'accessoires non mentionnés sur le bon de dépôt.</li>
-        <li><strong>Annulation / restitution sans réparation :</strong> si le Client dépose un appareil et demande ultérieurement à le récupérer sans que la réparation n'ait été effectuée (demande d'annulation, refus de devis, etc.), le Client accepte d'accorder à RESET LAB un délai de sept (7) jours ouvrés à compter de la demande explicite de restitution pour réassembler l'appareil et le remettre à sa disposition.</li>
+        <li><strong>RESET LAB</strong> — Etienne Desportes (Entrepreneur Individuel / Micro-entreprise)</li>
+        <li>Adresse du siège social : 21 rue du Soleil, 67300 Schiltigheim, France</li>
+        <li>Numéro SIREN : 822 831 251</li>
+        <li>Site internet : <a href="https://www.resetlab.fr/" style="color: #ffffff; text-decoration: underline;">https://www.resetlab.fr/</a></li>
+        <li>TVA : TVA non applicable, article 293 B du Code Général des Impôts (CGI).</li>
       </ul>
 
-      <h3 style="color: #ffffff; font-size: 1.25rem; font-weight: 700; margin-top: 2rem; margin-bottom: 0.75rem;">Article 3 – Sauvegarde et intégrité des données</h3>
-      <ul style="color: #ffffff; padding-left: 1.5rem; list-style: disc;">
-        <li>RESET LAB apporte tout le soin raisonnable à la préservation des données stockées dans les appareils confiés.</li>
-        <li>Le Client est expressément informé que la nature des interventions matérielles ou logicielles peut comporter un risque de perte partielle ou totale des données (sauvegardes, comptes, profils, jeux installés, contenus médias).</li>
-        <li>Le Client est seul responsable de la sauvegarde préalable de ses données. La responsabilité de RESET LAB ne pourra en aucun cas être engagée en cas de perte, d'altération ou de corruption de données survenues au cours ou à la suite de la prestation.</li>
-      </ul>
+      <p style="color: #ffffff;">Ces CGV s'appliquent de plein droit à tout dépôt d'appareil en atelier ou à toute demande de prestation réalisée via le site internet.</p>
 
-      <h3 style="color: #ffffff; font-size: 1.25rem; font-weight: 700; margin-top: 2rem; margin-bottom: 0.75rem;">Article 4 – Tarifs, modalités de paiement et droit de rétention</h3>
-      <ul style="color: #ffffff; padding-left: 1.5rem; list-style: disc;">
-        <li>Les tarifs des interventions et pièces détachées sont affichés en Euros (€) sur le site <a href="https://www.resetlab.fr/" style="color: #ffffff; text-decoration: underline;">https://www.resetlab.fr/</a> et/ou en atelier. Conformément à l'article 293 B du CGI, les prix sont indiqués nets de TVA.</li>
-        <li>Le paiement intégral de la prestation est exigible au comptant lors de la restitution du matériel.</li>
-        <li><strong>Droit de rétention (article 2286 du Code civil) :</strong> RESET LAB conserve un droit de rétention légal sur l'appareil confié. L'appareil ne sera restitué au Client qu'après paiement intégral de la facture de réparation (ou de diagnostic/devis) ainsi que des éventuels frais de gardiennage accumulés.</li>
-      </ul>
+      <h3 style="color: #ffffff; font-size: 1.25rem; font-weight: 700; margin-top: 2rem; margin-bottom: 0.75rem;">Article 2 — Prise en charge et Restitution sans réparation</h3>
 
-      <h3 style="color: #ffffff; font-size: 1.25rem; font-weight: 700; margin-top: 2rem; margin-bottom: 0.75rem;">Article 5 – Notification de fin de travaux et frais de garde</h3>
-      <ul style="color: #ffffff; padding-left: 1.5rem; list-style: disc;">
-        <li><strong>Notification :</strong> dès l'achèvement de la réparation (ou en cas d'impossibilité technique / refus de devis), RESET LAB en informe le Client par tout moyen traçable (SMS, e-mail, appel téléphonique ou courrier).</li>
-        <li><strong>Délai de retrait gratuit :</strong> le Client dispose d'un délai de 30 jours calendaires à compter de la date de notification pour venir retirer son appareil en atelier.</li>
-        <li><strong>Frais de gardiennage :</strong> à l'expiration de ce délai de 30 jours, des frais de stockage et de gardiennage d'un montant de 5,00 € par jour de retard seront automatiquement appliqués. Ces frais s'ajouteront de plein droit au montant de la facture initiale.</li>
-      </ul>
+      <ol style="color: #ffffff; padding-left: 1.5rem; list-style: decimal;">
+        <li><strong>Bon de dépôt :</strong> Lors du dépôt d'un équipement, une fiche de prise en charge est établie, mentionnant l'état apparent de l'appareil et les symptômes déclarés. Le client s'engage à ne confier que le matériel strictement nécessaire à la prestation. RESET LAB décline toute responsabilité en cas de perte d'accessoires non mentionnés sur le bon de dépôt.</li>
+        <li><strong>Restitution sans réparation :</strong> En cas d'annulation par le client, de refus de devis ou d'impossibilité technique de réparer, si l'appareil a été démonté dans le cadre du diagnostic, le client accepte d'accorder à RESET LAB un délai de sept (7) jours ouvrés à compter de la demande explicite de restitution pour remonter l'équipement et le mettre à sa disposition.</li>
+      </ol>
 
-      <h3 style="color: #ffffff; font-size: 1.25rem; font-weight: 700; margin-top: 2rem; margin-bottom: 0.75rem;">Article 6 – Procédure d'abandon de matériel (loi du 31 décembre 1903)</h3>
-      <p style="color: #ffffff;">Conformément aux dispositions légales de la loi du 31 décembre 1903 relative aux objets abandonnés confiés à un réparateur :</p>
-      <ul style="color: #ffffff; padding-left: 1.5rem; list-style: disc;">
-        <li>Tout appareil non réclamé ou non retiré à l'expiration d'un délai d'un (1) an à compter de la date de notification de mise à disposition sera considéré comme légalement abandonné.</li>
-        <li>À l'issue de ce délai d'un an, RESET LAB engagera la procédure judiciaire requise auprès du Tribunal compétent afin de solliciter la vente aux enchères publiques du matériel pour couvrir le montant de la prestation et des frais de garde accumulés.</li>
-      </ul>
+      <h3 style="color: #ffffff; font-size: 1.25rem; font-weight: 700; margin-top: 2rem; margin-bottom: 0.75rem;">Article 3 — Diagnostic et Devis</h3>
 
-      <h3 style="color: #ffffff; font-size: 1.25rem; font-weight: 700; margin-top: 2rem; margin-bottom: 0.75rem;">Article 7 – Droit applicable et juridiction compétente</h3>
-      <p style="color: #ffffff;">Les présentes Conditions Générales de Vente sont régies par le droit français. En cas de contestation ou de litige relatif à la prestation ou aux présentes CGV, le Client et RESET LAB s'efforceront de résoudre le différend à l'amiable. À défaut d'accord amiable, le litige sera porté devant les tribunaux français compétents.</p>
+      <ol style="color: #ffffff; padding-left: 1.5rem; list-style: decimal;">
+        <li><strong>Tarif du diagnostic :</strong> Le tarif standard du diagnostic est fixé à 30,00 € (TVA non applicable, art. 293 B du CGI). Ce montant reste exigible avant toute restitution de l'équipement, y compris si le client refuse le devis de réparation proposé ou si l'appareil s'avère non réparable.</li>
+        <li><strong>Accord préalable :</strong> Aucune intervention de réparation n'est engagée sans l'accord préalable écrit du client (signature de devis, validation par e-mail ou SMS).</li>
+      </ol>
+
+      <h3 style="color: #ffffff; font-size: 1.25rem; font-weight: 700; margin-top: 2rem; margin-bottom: 0.75rem;">Article 4 — Limites techniques et Réparations</h3>
+
+      <ol style="color: #ffffff; padding-left: 1.5rem; list-style: decimal;">
+        <li><strong>Obligation de moyens :</strong> RESET LAB met en œuvre toute la diligence et le soin professionnels requis pour mener à bien la réparation. Toutefois, certaines défaillances préexistantes (oxydation, composants irréversiblement endommagés, interventions antérieures) peuvent limiter la réussite de l'intervention.</li>
+        <li><strong>Délais :</strong> Les délais de réparation annoncés sont prévisionnels et dépendent notamment de la disponibilité des pièces détachées et de la complexité de la panne.</li>
+      </ol>
+
+      <h3 style="color: #ffffff; font-size: 1.25rem; font-weight: 700; margin-top: 2rem; margin-bottom: 0.75rem;">Article 5 — Sauvegarde des données</h3>
+
+      <ol style="color: #ffffff; padding-left: 1.5rem; list-style: decimal;">
+        <li>Les interventions matérielles ou logicielles comportent un risque de perte partielle ou totale des données stockées sur les équipements.</li>
+        <li>Le client est seul responsable de la sauvegarde préalable de ses données sur un support externe. La responsabilité de RESET LAB ne pourra en aucun cas être engagée en cas de perte, d'altération ou de destruction de données survenues pendant ou à la suite de la prestation.</li>
+      </ol>
+
+      <h3 style="color: #ffffff; font-size: 1.25rem; font-weight: 700; margin-top: 2rem; margin-bottom: 0.75rem;">Article 6 — Tarifs et Modalités de paiement</h3>
+
+      <ol style="color: #ffffff; padding-left: 1.5rem; list-style: decimal;">
+        <li>Les prix sont indiqués en Euros nets (TVA non applicable, art. 293 B du CGI).</li>
+        <li>Le paiement intégral de la prestation (réparation ou diagnostic) est exigible au comptant lors de la restitution du matériel en atelier.</li>
+      </ol>
+
+      <h3 style="color: #ffffff; font-size: 1.25rem; font-weight: 700; margin-top: 2rem; margin-bottom: 0.75rem;">Article 7 — Droit de rétention</h3>
+
+      <p style="color: #ffffff;">Conformément à l'article 2286 du Code civil, RESET LAB conserve un droit de rétention légal sur l'équipement confié et refusera sa restitution jusqu'au paiement intégral des sommes dues au titre des prestations réalisées (diagnostic, réparation) et des frais de garde éventuels.</p>
+
+      <h3 style="color: #ffffff; font-size: 1.25rem; font-weight: 700; margin-top: 2rem; margin-bottom: 0.75rem;">Article 8 — Notification, Délais de retrait et Frais de garde</h3>
+
+      <ol style="color: #ffffff; padding-left: 1.5rem; list-style: decimal;">
+        <li><strong>Notification :</strong> Dès la fin des travaux (ou en cas d'impossibilité technique / refus de devis), RESET LAB en informe le client par tout moyen traçable (SMS, e-mail, téléphone).</li>
+        <li><strong>Délai gratuit :</strong> Le client dispose d'un délai de 30 jours calendaires à compter de la notification de mise à disposition pour venir retirer son équipement sans frais supplémentaires.</li>
+        <li><strong>Frais de gardiennage :</strong> À l'expiration de ce délai de 30 jours, des frais de stockage et de gardiennage d'un montant de 4,00 € (TVA non applicable, art. 293 B du CGI) par jour de retard s'appliquent de plein droit et s'ajoutent automatiquement au montant de la facture finale. Ce délai gratuit de 30 jours s'applique de la même manière en cas d'achèvement de la réparation, d'impossibilité technique de réparer ou de refus du devis.</li>
+      </ol>
+
+      <h3 style="color: #ffffff; font-size: 1.25rem; font-weight: 700; margin-top: 2rem; margin-bottom: 0.75rem;">Article 9 — Abandon de matériel (Loi du 31 décembre 1903)</h3>
+
+      <p style="color: #ffffff;">Conformément aux dispositions de la loi du 31 décembre 1903 relative aux objets abandonnés chez un réparateur :</p>
+
+      <ol style="color: #ffffff; padding-left: 1.5rem; list-style: decimal;">
+        <li>Tout équipement non réclamé ou non retiré à l'expiration d'un délai d'un (1) an à compter de la date de notification de mise à disposition sera considéré comme légalement abandonné.</li>
+        <li>À l'issue de ce délai d'un an, RESET LAB engagera la procédure judiciaire compétente auprès du Tribunal afin de solliciter l'autorisation de vente aux enchères publiques du matériel pour couvrir les frais de prestation et de garde accumulés.</li>
+      </ol>
+
+      <h3 style="color: #ffffff; font-size: 1.25rem; font-weight: 700; margin-top: 2rem; margin-bottom: 0.75rem;">Article 10 — Protection des données personnelles et Droit applicable</h3>
+
+      <ol style="color: #ffffff; padding-left: 1.5rem; list-style: decimal;">
+        <li>Les données personnelles collectées sont strictement nécessaires à la gestion des demandes, des devis et de la facturation.</li>
+        <li>Les présentes CGV sont soumises au droit français. En cas de litige, le client et RESET LAB s'efforceront de rechercher une solution amiable avant toute action judiciaire devant les tribunaux compétents.</li>
+      </ol>
 
       </div>
     actions: []
