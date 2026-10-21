@@ -60,9 +60,9 @@
         "links": [
             {
                 "type": "Link",
-                "label": "Droit à la réparation",
+                "label": "Mentions légales",
                 "altText": "",
-                "url": "https://repair.eu/fr/",
+                "url": "/mentionslegales",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
