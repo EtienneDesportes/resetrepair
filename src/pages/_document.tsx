@@ -4,10 +4,6 @@ export default function Document() {
   return (
     <Html lang="fr">
       <Head>
-        {/* Preconnect to Google Analytics */}
-        <link rel="preconnect" href="https://www.googletagmanager.com" />
-        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-
         {/* Preload critical fonts */}
         <link rel="preload" href="/fonts/inter-v20-latin-regular.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
         <link rel="preload" href="/fonts/inter-v20-latin-700.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
@@ -103,27 +99,6 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        {/* Defer Google Analytics to after page load for better performance */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.addEventListener('load', function() {
-                setTimeout(function() {
-                  var s = document.createElement('script');
-                  s.src = 'https://www.googletagmanager.com/gtag/js?id=G-FBBN11WEK6';
-                  s.async = true;
-                  document.head.appendChild(s);
-                  s.onload = function() {
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', 'G-FBBN11WEK6');
-                  };
-                }, 100);
-              });
-            `,
-          }}
-        />
       </body>
     </Html>
   );
