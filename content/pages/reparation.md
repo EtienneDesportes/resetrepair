@@ -70,13 +70,13 @@ sections:
     text: |
       <div style="text-align: left">
 
-      ### **La réparation est uniquement facturée si elle est réalisée avec succès !**
+      <h3><strong>La réparation est uniquement facturée si elle est réalisée avec succès !</strong></h3>
 
-      **L'appareil est réparable :**
-      Vous réglez le montant indiqué sur le devis.
+      <p><strong>L'appareil est réparable :</strong><br>
+      Vous réglez le montant indiqué sur le devis.</p>
 
-      **L'appareil n'est pas réparable :**
-      Vous en êtes informé par e-mail ou SMS. Vous ne payez pas la réparation. Seul un diagnostic approfondi, s'il a été nécessaire, est facturé 30 €.
+      <p><strong>L'appareil n'est pas réparable :</strong><br>
+      Vous en êtes informé par e-mail ou SMS. Vous ne payez pas la réparation. Seul un diagnostic approfondi, s'il a été nécessaire, est facturé 30 €.</p>
 
       </div>
     actions: []
