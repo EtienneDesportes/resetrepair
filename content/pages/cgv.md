@@ -1,6 +1,6 @@
 ---
 type: PageLayout
-title: Comment ça marche ?
+title: CGV
 sections:
   - type: GenericSection
     title:
@@ -27,6 +27,8 @@ sections:
         <li>Adresse du siège social : 21 rue du Soleil, 67300 Schiltigheim, France</li>
         <li>Numéro SIREN : 822 831 251</li>
         <li>Site internet : <a href="https://www.resetlab.fr/" style="color: #ffffff; text-decoration: underline;">https://www.resetlab.fr/</a></li>
+        <li>E-mail : <a href="mailto:etienne@resetlab.fr" style="color: #ffffff; text-decoration: underline;">etienne@resetlab.fr</a></li>
+        <li>Téléphone : 06 78 23 50 40</li>
         <li>TVA : TVA non applicable, article 293 B du Code Général des Impôts (CGI).</li>
       </ul>
 
@@ -46,11 +48,12 @@ sections:
         <li><strong>Accord préalable :</strong> Aucune intervention de réparation n'est engagée sans l'accord préalable écrit du client (signature de devis, validation par e-mail ou SMS).</li>
       </ol>
 
-      <h3 style="color: #ffffff; font-size: 1.25rem; font-weight: 700; margin-top: 2rem; margin-bottom: 0.75rem;">Article 4 — Limites techniques et Réparations</h3>
+      <h3 style="color: #ffffff; font-size: 1.25rem; font-weight: 700; margin-top: 2rem; margin-bottom: 0.75rem;">Article 4 — Limites techniques, Réparations et Garantie</h3>
 
       <ol style="color: #ffffff; padding-left: 1.5rem; list-style: decimal;">
         <li><strong>Obligation de moyens :</strong> RESET LAB met en œuvre toute la diligence et le soin professionnels requis pour mener à bien la réparation. Toutefois, certaines défaillances préexistantes (oxydation, composants irréversiblement endommagés, interventions antérieures) peuvent limiter la réussite de l'intervention.</li>
         <li><strong>Délais :</strong> Les délais de réparation annoncés sont prévisionnels et dépendent notamment de la disponibilité des pièces détachées et de la complexité de la panne.</li>
+        <li><strong>Garantie :</strong> Les réparations réalisées par RESET LAB sont garanties six (6) mois à compter de la date de la facture, uniquement si cette garantie est expressément mentionnée sur la facture remise au client. La garantie couvre la panne réparée et les composants remplacés lors de l'intervention. Elle ne couvre pas les dommages survenus après la restitution de l'équipement (chute, choc, liquide, surtension, mauvaise utilisation), ni une nouvelle panne sans rapport avec la réparation, ni un équipement ayant fait l'objet d'une intervention par un tiers après la restitution.</li>
       </ol>
 
       <h3 style="color: #ffffff; font-size: 1.25rem; font-weight: 700; margin-top: 2rem; margin-bottom: 0.75rem;">Article 5 — Sauvegarde des données</h3>
@@ -122,10 +125,8 @@ sections:
         textAlign: center
 slug: cgv
 seo:
-  metaTitle: Réparation Électronique Strasbourg Schiltigheim
-  metaDescription: >-
-    Réparation Micro Soudure MacBook PC Portable Console Apple Audio Tablette
-    Smartphone Carte Mère
+  metaTitle: CGV - Conditions générales de vente et de service
+  metaDescription: Conditions générales de vente et de service de Reset Lab, réparation électronique à Schiltigheim.
   socialImage: /images/réparation-micro-soudure.webp
   type: Seo
   addTitleSuffix: true

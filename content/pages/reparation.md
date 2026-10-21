@@ -67,19 +67,18 @@ sections:
         self:
           textAlign: center
     subtitle: ''
-    text: >
-      <div style="text-align: left">### **La réparation est uniquement facturée
-      si elle est réalisée avec succès !**</div>
+    text: |
+      <div style="text-align: left">
 
+      ### **La réparation est uniquement facturée si elle est réalisée avec succès !**
 
-      **La carte mère est réparable :**
+      **L'appareil est réparable :**
+      Vous réglez le montant indiqué sur le devis.
 
-      Vous réglez le montant indiqué sur le devis. Le retour par colis est gratuit.
+      **L'appareil n'est pas réparable :**
+      Vous en êtes informé par e-mail ou SMS. Vous ne payez pas la réparation. Seul un diagnostic approfondi, s'il a été nécessaire, est facturé 30 €.
 
-
-      **La carte mère n’est pas réparable :**
-
-      Vous serez informé par e-mail. Le retour est facturé 30€.
+      </div>
     actions: []
     colors: bg-neutral-fg-dark
     backgroundImage:

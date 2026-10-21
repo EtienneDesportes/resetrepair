@@ -98,8 +98,8 @@ isDraft: false
 seo:
   metaTitle: Devis Gratuit - Réparation Électronique Strasbourg
   metaDescription: >-
-    Devis gratuit en 24h. Réparation garantie 6 mois. Tarif de 80 à 450€ TTC. 
-    MacBook, PC, Console, Smartphone, Tablette. Envoi gratuit inclus.
+    Devis gratuit en 24h. Réparation garantie 6 mois.
+    MacBook, PC, Console, Smartphone, Tablette.
   socialImage: /images/header image.webp
   type: Seo
   addTitleSuffix: true
