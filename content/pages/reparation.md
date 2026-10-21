@@ -70,13 +70,19 @@ sections:
     text: |
       <div style="text-align: left">
 
-      <h3><strong>La réparation est uniquement facturée si elle est réalisée avec succès !</strong></h3>
+      <h3><strong>Aucune facture surprise !</strong></h3>
 
-      <p><strong>L'appareil est réparable :</strong><br>
-      Vous réglez le montant indiqué sur le devis.</p>
+      <p><strong>Réparation réussie :</strong><br>
+      Vous réglez le montant du devis.</p>
 
-      <p><strong>L'appareil n'est pas réparable :</strong><br>
-      Vous en êtes informé par e-mail ou SMS. Vous ne payez pas la réparation. Seul un diagnostic approfondi, s'il a été nécessaire, est facturé 30 €.</p>
+      <p><strong>Réparation impossible :</strong><br>
+      Vous ne payez pas la réparation.</p>
+
+      <p><strong>Tentative de réparation :</strong><br>
+      Quand le succès est incertain, nous pouvons vous proposer une tentative. Elle n'est lancée qu'avec votre accord, et elle est facturée même si elle échoue.</p>
+
+      <p><strong>Diagnostic :</strong><br>
+      Gratuit si la panne est identifiable d'emblée. S'il faut un diagnostic approfondi, il est facturé 30 € et nous vous prévenons avant.</p>
 
       </div>
     actions: []
