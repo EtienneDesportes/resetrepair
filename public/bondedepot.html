@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    <title>Bon de dépôt - Reset Lab</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: #1a1a1a;
+            background-image: url('/images/noise.png');
+            background-repeat: repeat;
+            color: #e5e5e5;
+            min-height: 100vh;
+            padding: 24px 16px 48px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 760px;
+            margin: 0 auto;
+            background: rgba(45, 45, 45, 0.85);
+            border: 1px solid #404040;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            padding: 40px 32px;
+        }
+
+        h1 { font-size: 2rem; color: #fff; font-weight: 700; text-align: center; }
+        .subtitle { text-align: center; color: #bdbdbd; margin: 6px 0 28px; }
+
+        .intro {
+            background: rgba(255, 255, 255, 0.06);
+            border-left: 3px solid #60a5fa;
+            padding: 12px 16px;
+            border-radius: 6px;
+            font-size: 0.95rem;
+            color: #d4d4d4;
+            margin-bottom: 8px;
+        }
+
+        fieldset { border: none; margin-top: 32px; }
+        legend {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #fff;
+            width: 100%;
+            padding-bottom: 8px;
+            margin-bottom: 16px;
+            border-bottom: 1px solid #555;
+        }
+
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+        .full { grid-column: 1 / -1; }
+
+        label.field { display: block; font-size: 0.9rem; color: #d4d4d4; font-weight: 600; }
+        .req { color: #f87171; }
+        .hint { display: block; font-size: 0.8rem; font-weight: 400; color: #a3a3a3; margin-top: 2px; }
+
+        input[type="text"], input[type="email"], input[type="tel"], select, textarea {
+            width: 100%;
+            margin-top: 6px;
+            padding: 11px 12px;
+            font: inherit;
+            color: #fff;
+            background: #262626;
+            border: 1px solid #525252;
+            border-radius: 8px;
+        }
+        textarea { min-height: 96px; resize: vertical; }
+        input:focus, select:focus, textarea:focus { outline: 2px solid #60a5fa; border-color: #60a5fa; }
+
+        .check, .radio { display: flex; gap: 12px; align-items: flex-start; margin-top: 12px; color: #e5e5e5; font-size: 0.95rem; cursor: pointer; }
+        .check input, .radio input { width: 20px; height: 20px; margin-top: 3px; flex-shrink: 0; accent-color: #60a5fa; }
+        .radios { margin-top: 6px; }
+
+        a { color: #fff; text-decoration: underline; }
+
+        .note { font-size: 0.85rem; color: #a3a3a3; margin-top: 12px; }
+
+        button[type="submit"] {
+            display: block;
+            width: 100%;
+            margin-top: 32px;
+            padding: 14px 20px;
+            font: inherit;
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: #fff;
+            background: #2563eb;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        button[type="submit"]:hover { background: #1d4ed8; }
+
+        @media (max-width: 600px) {
+            .container { padding: 28px 18px; }
+            .grid { grid-template-columns: 1fr; }
+            h1 { font-size: 1.6rem; }
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <h1>Bon de dépôt</h1>
+        <p class="subtitle">RESET LAB — Diagnostic et réparation d'équipements électroniques</p>
+
+        <p class="intro">
+            Ce formulaire constitue la fiche de prise en charge de votre équipement (article 2 des CGV).
+            Merci de le remplir avec soin avant le dépôt de votre appareil. Ne saisissez ici aucun mot de passe ni code de déverrouillage :
+            communiquez-les directement en atelier si nécessaire.
+        </p>
+
+        <form name="bon-de-depot" method="POST" action="/bondedepot-merci.html" data-netlify="true" data-netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="bon-de-depot">
+            <p hidden><label>Ne pas remplir : <input name="bot-field"></label></p>
+            <input type="hidden" name="date_depot" id="date_depot" value="">
+
+            <fieldset>
+                <legend>1. Vos coordonnées</legend>
+                <div class="grid">
+                    <label class="field">Nom <span class="req">*</span>
+                        <input type="text" name="nom" autocomplete="family-name" required>
+                    </label>
+                    <label class="field">Prénom <span class="req">*</span>
+                        <input type="text" name="prenom" autocomplete="given-name" required>
+                    </label>
+                    <label class="field">Adresse e-mail <span class="req">*</span>
+                        <input type="email" name="email" autocomplete="email" required>
+                    </label>
+                    <label class="field">Téléphone <span class="req">*</span>
+                        <input type="tel" name="telephone" autocomplete="tel" required>
+                    </label>
+                    <label class="field full">Adresse postale
+                        <input type="text" name="adresse" autocomplete="street-address">
+                    </label>
+                    <label class="field full">Moyen de contact préféré pour le devis <span class="req">*</span>
+                        <span class="hint">Aucune réparation n'est engagée sans votre accord écrit (e-mail ou SMS).</span>
+                        <select name="contact_prefere" required>
+                            <option value="">Choisir…</option>
+                            <option>E-mail</option>
+                            <option>SMS</option>
+                            <option>Téléphone</option>
+                        </select>
+                    </label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>2. Équipement confié</legend>
+                <div class="grid">
+                    <label class="field">Type d'appareil <span class="req">*</span>
+                        <select name="type_appareil" required>
+                            <option value="">Choisir…</option>
+                            <option>Ordinateur portable</option>
+                            <option>MacBook</option>
+                            <option>Ordinateur fixe</option>
+                            <option>Console de jeux</option>
+                            <option>Smartphone</option>
+                            <option>Tablette</option>
+                            <option>Matériel audio</option>
+                            <option>Autre</option>
+                        </select>
+                    </label>
+                    <label class="field">Marque <span class="req">*</span>
+                        <input type="text" name="marque" required>
+                    </label>
+                    <label class="field">Modèle <span class="req">*</span>
+                        <input type="text" name="modele" required>
+                    </label>
+                    <label class="field">Numéro de série
+                        <input type="text" name="numero_serie">
+                    </label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>3. Panne, état de l'appareil et accessoires</legend>
+                <div class="grid">
+                    <label class="field full">Symptômes / panne déclarée <span class="req">*</span>
+                        <span class="hint">Décrivez le problème : depuis quand, dans quelles circonstances (chute, liquide, surchauffe…).</span>
+                        <textarea name="symptomes" required></textarea>
+                    </label>
+                    <label class="field full">État apparent de l'appareil <span class="req">*</span>
+                        <span class="hint">Rayures, chocs, fissures, traces d'humidité, vis manquantes… Écrivez « RAS » si rien à signaler.</span>
+                        <textarea name="etat_apparent" required></textarea>
+                    </label>
+                    <label class="field full">Accessoires confiés avec l'appareil <span class="req">*</span>
+                        <span class="hint">Ne confiez que le matériel strictement nécessaire (ex. chargeur). Écrivez « Aucun » si vous ne laissez que l'appareil. Tout accessoire non mentionné ici n'est pas couvert (article 2 des CGV).</span>
+                        <textarea name="accessoires" required></textarea>
+                    </label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>4. Vos données</legend>
+                <div class="field">
+                    <span class="field">Avez-vous sauvegardé vos données avant le dépôt ? <span class="req">*</span></span>
+                    <div class="radios">
+                        <label class="radio"><input type="radio" name="sauvegarde" value="Oui" required> Oui, mes données sont sauvegardées</label>
+                        <label class="radio"><input type="radio" name="sauvegarde" value="Non"> Non, je n'ai pas fait de sauvegarde</label>
+                        <label class="radio"><input type="radio" name="sauvegarde" value="Impossible"> Impossible (l'appareil ne démarre pas) / sans objet</label>
+                    </div>
+                </div>
+                <p class="note">Les interventions comportent un risque de perte partielle ou totale des données. Le client est seul responsable de la sauvegarde préalable (article 5 des CGV).</p>
+            </fieldset>
+
+            <fieldset>
+                <legend>5. Acceptation et signature</legend>
+                <label class="check">
+                    <input type="checkbox" name="accepte_cgv" value="Oui" required>
+                    <span>J'ai lu et j'accepte les <a href="/cgv" target="_blank" rel="noopener">Conditions Générales de Vente et de Service (CGV)</a> de RESET LAB. <span class="req">*</span></span>
+                </label>
+                <label class="check">
+                    <input type="checkbox" name="accepte_diagnostic" value="Oui" required>
+                    <span>Je reconnais que le diagnostic est facturé 30,00 € (TVA non applicable) et reste exigible même si je refuse le devis ou si l'appareil n'est pas réparable (article 3 des CGV). <span class="req">*</span></span>
+                </label>
+                <label class="check">
+                    <input type="checkbox" name="certifie_proprietaire" value="Oui" required>
+                    <span>Je certifie être propriétaire de l'appareil ou autorisé à le confier, et que les informations ci-dessus sont exactes. <span class="req">*</span></span>
+                </label>
+
+                <div class="grid" style="margin-top: 16px;">
+                    <label class="field full">Nom et prénom (vaut signature) <span class="req">*</span>
+                        <input type="text" name="signature" required>
+                    </label>
+                </div>
+                <p class="note">La date et l'heure de votre envoi sont enregistrées automatiquement.</p>
+            </fieldset>
+
+            <button type="submit">Envoyer mon bon de dépôt</button>
+
+            <p class="note" style="text-align:center;">
+                Les données collectées sont utilisées uniquement pour la gestion de votre demande, des devis et de la facturation.
+                Vous pouvez demander leur accès, rectification ou suppression en contactant RESET LAB.
+            </p>
+        </form>
+    </main>
+
+    <script>
+        (function () {
+            var el = document.getElementById('date_depot');
+            if (el) {
+                el.value = new Date().toLocaleString('fr-FR', { timeZone: 'Europe/Paris' });
+            }
+        })();
+    </script>
+</body>
+</html>
