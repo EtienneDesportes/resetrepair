@@ -46,6 +46,7 @@ sections:
       <ol style="color: #ffffff; padding-left: 1.5rem; list-style: decimal;">
         <li><strong>Tarif du diagnostic :</strong> Lorsque la panne est clairement identifiée dès la prise en charge, aucun diagnostic n'est facturé. Lorsqu'un diagnostic approfondi est nécessaire pour en déterminer l'origine, il est facturé 30,00 € (TVA non applicable, art. 293 B du CGI). Si, en cours d'intervention, RESET LAB constate que le problème est plus complexe que prévu, le client en est informé avant toute facturation de diagnostic. Le diagnostic facturé reste exigible avant toute restitution de l'équipement, y compris si le client refuse le devis de réparation proposé ou si l'appareil s'avère non réparable.</li>
         <li><strong>Accord préalable :</strong> Aucune intervention de réparation n'est engagée sans l'accord préalable écrit du client (signature de devis, validation par e-mail ou SMS).</li>
+        <li><strong>Tentative de réparation :</strong> Lorsque le succès de la réparation est incertain, RESET LAB peut proposer au client une tentative de réparation. Le client en est informé avant l'intervention, avec son prix, et son accord préalable écrit (devis, e-mail ou SMS) est nécessaire. Une tentative acceptée est facturée même si la réparation échoue. En l'absence de tentative proposée et acceptée, aucune réparation n'est facturée en cas d'échec.</li>
       </ol>
 
       <h3 style="color: #ffffff; font-size: 1.25rem; font-weight: 700; margin-top: 2rem; margin-bottom: 0.75rem;">Article 4 — Limites techniques, Réparations et Garantie</h3>
