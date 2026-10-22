@@ -135,15 +135,6 @@
                     <label class="field">Téléphone <span class="req">*</span>
                         <input type="tel" name="telephone" autocomplete="tel" required>
                     </label>
-                    <label class="field full">Moyen de contact préféré pour le devis <span class="req">*</span>
-                        <span class="hint">Aucune réparation n'est engagée sans votre accord écrit (e-mail ou SMS).</span>
-                        <select name="contact_prefere" required>
-                            <option value="">Choisir…</option>
-                            <option>E-mail</option>
-                            <option>SMS</option>
-                            <option>Téléphone</option>
-                        </select>
-                    </label>
                 </div>
             </fieldset>
 
@@ -151,7 +142,7 @@
                 <legend>2. Équipement confié</legend>
                 <div class="grid">
                     <label class="field">Type d'appareil <span class="req">*</span>
-                        <input type="text" name="type_appareil" placeholder="Ex. MacBook, console PS5, table de mixage…" required>
+                        <input type="text" name="type_appareil" required>
                     </label>
                     <label class="field">Marque <span class="req">*</span>
                         <input type="text" name="marque" required>
@@ -165,17 +156,13 @@
             <fieldset>
                 <legend>3. Panne, état de l'appareil et accessoires</legend>
                 <div class="grid">
-                    <label class="field full">Symptômes / panne déclarée <span class="req">*</span>
-                        <span class="hint">Décrivez le problème : depuis quand, dans quelles circonstances (chute, liquide, surchauffe…).</span>
-                        <textarea name="symptomes" required></textarea>
-                    </label>
-                    <label class="field full">État apparent de l'appareil <span class="req">*</span>
-                        <span class="hint">Rayures, chocs, fissures, traces d'humidité, vis manquantes… Écrivez « RAS » si rien à signaler.</span>
-                        <textarea name="etat_apparent" required></textarea>
+                    <label class="field full">Problème constaté <span class="req">*</span>
+                        <span class="hint">Décrivez la panne ainsi que l'état de l'appareil (rayures, chocs, fissures, traces d'humidité…).</span>
+                        <textarea name="panne" required></textarea>
                     </label>
                     <label class="field full">Accessoires confiés avec l'appareil <span class="req">*</span>
-                        <span class="hint">Ne confiez que le matériel strictement nécessaire (ex. chargeur). Écrivez « Aucun » si vous ne laissez que l'appareil. Tout accessoire non mentionné ici n'est pas couvert (article 2 des CGV).</span>
-                        <textarea name="accessoires" required></textarea>
+                        <span class="hint">Ne confiez que le matériel strictement nécessaire. Écrivez « Aucun » si vous ne laissez que l'appareil. Tout accessoire non mentionné ici n'est pas couvert (article 2 des CGV).</span>
+                        <input type="text" name="accessoires" required>
                     </label>
                 </div>
             </fieldset>
