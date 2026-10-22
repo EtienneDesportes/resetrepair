@@ -68,21 +68,17 @@ sections:
           textAlign: center
     subtitle: ''
     text: |
-      <div style="text-align: left">
+      <div style="text-align: left; line-height: 1.5;">
 
-      <h3><strong>Aucune facture surprise !</strong></h3>
+      <h3 style="margin: 0 0 1.1rem; font-size: 1.6rem;"><strong>Aucune facture surprise !</strong></h3>
 
-      <p><strong>Réparation réussie :</strong><br>
-      Vous réglez le montant du devis.</p>
+      <p style="margin: 0 0 0.9rem;"><strong>Réparation réussie :</strong> vous réglez le devis.</p>
 
-      <p><strong>Réparation impossible :</strong><br>
-      Vous ne payez pas la réparation.</p>
+      <p style="margin: 0 0 0.9rem;"><strong>Réparation impossible :</strong> vous ne payez pas la réparation.</p>
 
-      <p><strong>Tentative de réparation :</strong><br>
-      Quand le succès est incertain, nous pouvons vous proposer une tentative. Elle n'est lancée qu'avec votre accord, et elle est facturée même si elle échoue.</p>
+      <p style="margin: 0 0 0.9rem;"><strong>Tentative de réparation :</strong> proposée quand le succès est incertain, uniquement avec votre accord. Facturée même en cas d'échec.</p>
 
-      <p><strong>Diagnostic :</strong><br>
-      Gratuit si la panne est identifiable d'emblée. S'il faut un diagnostic approfondi, il est facturé 30 € et nous vous prévenons avant.</p>
+      <p style="margin: 0;"><strong>Diagnostic :</strong> gratuit si la panne est identifiable. Sinon, diagnostic approfondi à 30 €, annoncé avant.</p>
 
       </div>
     actions: []
