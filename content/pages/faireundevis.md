@@ -4,24 +4,22 @@ title: Faire un Devis
 sections:
   - type: GenericSection
     subtitle: ''
-    text: >
-      ### **Devis gratuit**
+    text: |
+      <div style="text-align: left;">
 
+      <h3 style="display: flex; align-items: center; gap: 0.7rem; margin: 0 0 0.6rem;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" aria-hidden="true" style="flex-shrink: 0;"><circle cx="12" cy="12" r="12" fill="#22c55e"/><path d="M6.5 12.5l3.5 3.5 7.5-8" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><strong style="margin: 0;">Devis gratuit</strong></h3>
 
-      Devis gratuit pour une panne immédiatement identifiable. Si un diagnostic approfondi est nécessaire pour en déterminer l'origine, un tarif de 30 € s'applique.
+      <p style="margin: 0 0 2.2rem;">Devis gratuit pour une panne immédiatement identifiable. Si un diagnostic approfondi est nécessaire pour en déterminer l'origine, un tarif de 30 € s'applique.</p>
 
+      <h3 style="display: flex; align-items: center; gap: 0.7rem; margin: 0 0 0.6rem;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" aria-hidden="true" style="flex-shrink: 0;"><circle cx="12" cy="12" r="12" fill="#22c55e"/><path d="M6.5 12.5l3.5 3.5 7.5-8" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><strong style="margin: 0;">Garantie 6 mois</strong></h3>
 
-      ### **Garantie 6 mois**
+      <p style="margin: 0 0 2.2rem;">Pas de mauvaises surprises ! Nos réparations sont garanties 6 mois.</p>
 
+      <h3 style="display: flex; align-items: center; gap: 0.7rem; margin: 0 0 0.6rem;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" aria-hidden="true" style="flex-shrink: 0;"><circle cx="12" cy="12" r="12" fill="#22c55e"/><path d="M6.5 12.5l3.5 3.5 7.5-8" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><strong style="margin: 0;">Réponse sous 24h</strong></h3>
 
-      Pas de mauvaises surprises ! Nos réparations sont garanties 6 mois.
+      <p style="margin: 0;">Nous analysons votre demande rapidement et vous proposons une solution adaptée.</p>
 
-
-      ### **Réponse sous 24h**
-
-
-      Nous analysons votre demande rapidement et vous proposons une solution
-      adaptée.
+      </div>
     actions: []
     media:
       type: FormBlock
