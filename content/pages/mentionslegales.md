@@ -37,7 +37,7 @@ sections:
         <li><strong>Données collectées :</strong> via le formulaire de devis et le bon de dépôt : nom, prénom, adresse e-mail, numéro de téléphone, informations sur l'appareil confié et la panne déclarée.</li>
         <li><strong>Finalités :</strong> répondre à vos demandes, établir un devis, prendre en charge et réparer votre appareil, établir la facture. Bases légales : exécution de mesures précontractuelles et du contrat, obligation légale (facturation).</li>
         <li><strong>Durée de conservation :</strong> 3 ans maximum pour une demande sans suite ; 10 ans pour les factures (obligation comptable).</li>
-        <li><strong>Destinataires :</strong> vos données ne sont ni vendues ni cédées. Elles sont traitées par notre prestataire technique Netlify (hébergement du site et réception des formulaires), qui peut les traiter hors de l'Union européenne (États-Unis).</li>
+        <li><strong>Destinataires :</strong> vos données ne sont ni vendues ni cédées. Elles sont traitées par notre prestataire technique Netlify (hébergement du site et réception des formulaires), qui peut les traiter hors de l'Union européenne (États-Unis). Les notifications de formulaires sont reçues sur notre messagerie professionnelle Zoho Mail (serveurs dans l'Union européenne).</li>
         <li><strong>Vos droits :</strong> accès, rectification, effacement, opposition, limitation et portabilité de vos données, en écrivant à <a href="mailto:etienne@resetlab.fr" style="color: #ffffff; text-decoration: underline;">etienne@resetlab.fr</a>. Vous pouvez aussi adresser une réclamation à la CNIL (<a href="https://www.cnil.fr" style="color: #ffffff; text-decoration: underline;">www.cnil.fr</a>).</li>
       </ul>
 
