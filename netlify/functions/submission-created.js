@@ -2,21 +2,22 @@
  * Fonction Netlify déclenchée automatiquement à chaque envoi de formulaire Netlify Forms
  * (nom spécial « submission-created »).
  *
- * Pour le formulaire « bon-de-depot » uniquement :
- *   1. génère un PDF du bon de dépôt,
+ * Pour les formulaires « bon-de-depot » et « contact-form » (demande de devis) :
+ *   1. génère un PDF de la demande,
  *   2. l'envoie par e-mail à RESET LAB (etienne@resetlab.fr) depuis la messagerie Zoho de RESET LAB.
- *   Aucun envoi au client.
+ *   Aucun envoi au client. Les autres formulaires sont ignorés.
  *
  * Variables d'environnement à définir dans Netlify :
  *   ZOHO_SMTP_USER   (obligatoire) adresse Zoho utilisée pour envoyer, ex. etienne@resetlab.fr
  *   ZOHO_SMTP_PASS   (obligatoire) mot de passe d'application Zoho (pas le mot de passe du compte)
- *   ZOHO_SMTP_HOST   (facultatif)  défaut : smtppro.zoho.eu (compte Zoho Europe avec domaine personnalisé)
+ *   ZOHO_SMTP_HOST   (facultatif)  défaut : smtp.zoho.eu (compte Zoho Europe)
  *   MAIL_TO_OWNER    (facultatif)  destinataire du PDF, défaut : etienne@resetlab.fr
  */
 const nodemailer = require('nodemailer');
 const { PDFDocument, StandardFonts, rgb } = require('pdf-lib');
 
-const FORM_NAME = 'bon-de-depot';
+const FORM_DEPOT = 'bon-de-depot';
+const FORM_DEVIS = 'contact-form';
 const COMPANY = {
     name: 'RESET LAB',
     line: 'Etienne Desportes, entrepreneur individuel - 21 rue du Soleil, 67300 Schiltigheim - SIRET 822 831 251 00035',
@@ -45,15 +46,15 @@ function parisDate(iso) {
     return d.toLocaleString('fr-FR', { timeZone: 'Europe/Paris', dateStyle: 'long', timeStyle: 'short' });
 }
 
-function reference(payload) {
+function reference(payload, prefix = 'BD') {
     const d = payload.created_at ? new Date(payload.created_at) : new Date();
     const ymd = d.toLocaleDateString('sv-SE', { timeZone: 'Europe/Paris' }).replace(/-/g, '');
     const n = payload.number != null ? String(payload.number).padStart(4, '0') : String(payload.id || '').slice(-4).toUpperCase();
-    return `BD-${ymd}-${n}`;
+    return `${prefix}-${ymd}-${n}`;
 }
 
 /** Génère le PDF (octets) à partir des données du formulaire. */
-async function buildPdf(data, ref, dateText) {
+async function buildPdf(data, ref, dateText, kind = 'depot') {
     const pdf = await PDFDocument.create();
     const font = await pdf.embedFont(StandardFonts.Helvetica);
     const bold = await pdf.embedFont(StandardFonts.HelveticaBold);
@@ -108,7 +109,7 @@ async function buildPdf(data, ref, dateText) {
     // En-tête
     page.drawText('RESET LAB', { x: M, y: y - 16, size: 22, font: bold, color: dark });
     page.drawText("Diagnostic et réparation d'équipements électroniques", { x: M, y: y - 30, size: 9, font, color: grey });
-    const title = 'BON DE DÉPÔT';
+    const title = kind === 'devis' ? 'DEMANDE DE DEVIS' : 'BON DE DÉPÔT';
     page.drawText(title, { x: W - M - bold.widthOfTextAtSize(title, 16), y: y - 14, size: 16, font: bold, color: blue });
     const refTxt = `N° ${ref}`;
     page.drawText(refTxt, { x: W - M - font.widthOfTextAtSize(refTxt, 9.5), y: y - 28, size: 9.5, font, color: dark });
@@ -150,35 +151,46 @@ async function buildPdf(data, ref, dateText) {
         y -= 2;
     };
 
-    section('Client');
-    row('Nom', `${data.nom} ${data.prenom}`.trim());
-    row('E-mail', data.email);
-    row('Téléphone', data.telephone);
+    if (kind === 'devis') {
+        section('Client');
+        row('Nom', data.nom);
+        row('E-mail', data.email);
+        row('Téléphone', data.telephone);
 
-    section('Équipement confié');
-    row("Type d'appareil", data.type_appareil);
-    row('Marque', data.marque);
-    row('Modèle', data.modele);
+        section("Description du problème (déclarée par le client)");
+        block(data.message);
+    } else {
+        section('Client');
+        row('Nom', `${data.nom} ${data.prenom}`.trim());
+        row('E-mail', data.email);
+        row('Téléphone', data.telephone);
 
-    section("Panne et état de l'appareil (déclarés par le client)");
-    block(data.panne);
+        section('Équipement confié');
+        row("Type d'appareil", data.type_appareil);
+        row('Marque', data.marque);
+        row('Modèle', data.modele);
 
-    section('Accessoires confiés');
-    block(data.accessoires);
+        section("Panne et état de l'appareil (déclarés par le client)");
+        block(data.panne);
 
-    section('Acceptations');
-    row('CGV', 'Le client a lu et accepté les Conditions Générales de Vente et de Service (www.resetlab.fr/cgv).');
-    row('Diagnostic', "Le client reconnaît que si un diagnostic approfondi est nécessaire, il est facturé 30,00 EUR (TVA non applicable, art. 293 B du CGI), et qu'il sera prévenu avant toute facturation (article 3 des CGV).");
-    row('Propriété', "Le client certifie être propriétaire de l'appareil ou autorisé à le confier, et l'exactitude des informations.");
+        section('Accessoires confiés');
+        block(data.accessoires);
 
-    section('Signature électronique');
-    row('Signé par', data.signature);
-    row('Date et heure', dateText);
+        section('Acceptations');
+        row('CGV', 'Le client a lu et accepté les Conditions Générales de Vente et de Service (www.resetlab.fr/cgv).');
+        row('Diagnostic', "Le client reconnaît que si un diagnostic approfondi est nécessaire, il est facturé 30,00 EUR (TVA non applicable, art. 293 B du CGI), et qu'il sera prévenu avant toute facturation (article 3 des CGV).");
+        row('Propriété', "Le client certifie être propriétaire de l'appareil ou autorisé à le confier, et l'exactitude des informations.");
+
+        section('Signature électronique');
+        row('Signé par', data.signature);
+        row('Date et heure', dateText);
+
+    }
 
     ensure(50);
     y -= 14;
     for (const ln of wrap(
-        "Ce document a été généré automatiquement à partir du formulaire en ligne de RESET LAB. Il vaut fiche de prise en charge (article 2 des CGV). Les données personnelles sont traitées conformément à la politique de confidentialité du site (www.resetlab.fr/mentionslegales).",
+        "Ce document a été généré automatiquement à partir du formulaire en ligne de RESET LAB." + (kind === 'devis' ? ' Il ne constitue pas un devis.' : ' Il vaut fiche de prise en charge (article 2 des CGV).') + " Les données personnelles sont traitées conformément à la politique de confidentialité du site (www.resetlab.fr/mentionslegales).",
         font, 8, W - 2 * M)) {
         ensure(11);
         page.drawText(ln, { x: M, y, size: 8, font, color: grey });
@@ -191,9 +203,11 @@ async function buildPdf(data, ref, dateText) {
 exports.handler = async (event) => {
     try {
         const { payload } = JSON.parse(event.body || '{}');
-        if (!payload || payload.form_name !== FORM_NAME) {
+        const formName = payload && payload.form_name;
+        if (formName !== FORM_DEPOT && formName !== FORM_DEVIS) {
             return { statusCode: 200, body: 'Formulaire ignoré' };
         }
+        const kind = formName === FORM_DEVIS ? 'devis' : 'depot';
 
         const user = process.env.ZOHO_SMTP_USER;
         const pass = process.env.ZOHO_SMTP_PASS;
@@ -204,39 +218,46 @@ exports.handler = async (event) => {
 
         const raw = payload.data || {};
         const d = {};
-        for (const key of ['nom', 'prenom', 'email', 'telephone', 'type_appareil', 'marque', 'modele', 'panne', 'accessoires', 'signature']) {
-            d[key] = clean(raw[key], key === 'panne' ? 3000 : 300);
+        for (const key of ['nom', 'prenom', 'email', 'telephone', 'type_appareil', 'marque', 'modele', 'panne', 'accessoires', 'signature', 'name', 'message']) {
+            d[key] = clean(raw[key], key === 'panne' || key === 'message' ? 3000 : 300);
         }
+        if (kind === 'devis') d.nom = d.name;
 
-        const ref = reference(payload);
+        const ref = reference(payload, kind === 'devis' ? 'DV' : 'BD');
         const dateText = parisDate(payload.created_at);
-        const pdfBytes = await buildPdf(d, ref, dateText);
-        const clientName = `${d.prenom} ${d.nom}`.trim();
+        const pdfBytes = await buildPdf(d, ref, dateText, kind);
+        const clientName = kind === 'devis' ? d.nom : `${d.prenom} ${d.nom}`.trim();
         const e = escapeHtml;
 
         const transporter = nodemailer.createTransport({
-            host: process.env.ZOHO_SMTP_HOST || 'smtppro.zoho.eu',
+            host: process.env.ZOHO_SMTP_HOST || 'smtp.zoho.eu',
             port: 465,
             secure: true,
             auth: { user, pass }
         });
+
+        const label = kind === 'devis' ? 'Demande de devis' : 'Bon de dépôt';
+        const detail = kind === 'devis'
+            ? `<li><strong>Message :</strong> ${e(d.message).replace(/\n/g, '<br>')}</li>`
+            : `<li><strong>Appareil :</strong> ${e(d.type_appareil)} ${e(d.marque)} ${e(d.modele)}</li>`;
+        const subjectTail = kind === 'devis' ? '' : ` - ${d.marque} ${d.modele}`;
 
         await transporter.sendMail({
             from: `"Reset Lab" <${user}>`,
             to: process.env.MAIL_TO_OWNER || 'etienne@resetlab.fr',
             // On peut répondre directement au client
             ...(isEmail(d.email) ? { replyTo: `"${clientName.replace(/"/g, '')}" <${d.email}>` } : {}),
-            subject: `Bon de dépôt ${ref} - ${clientName} - ${d.marque} ${d.modele}`.slice(0, 200),
-            html: `<p>Nouveau bon de dépôt reçu (<strong>${e(ref)}</strong>).</p>
+            subject: `${label} ${ref} - ${clientName}${subjectTail}`.replace(/[\r\n]+/g, ' ').slice(0, 200),
+            html: `<p>Nouvelle demande reçue : <strong>${label.toLowerCase()} ${e(ref)}</strong>.</p>
 <ul>
 <li><strong>Client :</strong> ${e(clientName)} - ${e(d.email)} - ${e(d.telephone)}</li>
-<li><strong>Appareil :</strong> ${e(d.type_appareil)} ${e(d.marque)} ${e(d.modele)}</li>
+${detail}
 </ul>
 <p>Le PDF complet est en pièce jointe.</p>`,
-            attachments: [{ filename: `bon-de-depot-${ref}.pdf`, content: Buffer.from(pdfBytes), contentType: 'application/pdf' }]
+            attachments: [{ filename: `${kind === 'devis' ? 'demande-devis' : 'bon-de-depot'}-${ref}.pdf`, content: Buffer.from(pdfBytes), contentType: 'application/pdf' }]
         });
 
-        console.log(`Bon de dépôt ${ref} envoyé par e-mail.`);
+        console.log(`${label} ${ref} envoyé par e-mail.`);
         return { statusCode: 200, body: 'OK' };
     } catch (err) {
         console.error('Erreur submission-created :', err);
