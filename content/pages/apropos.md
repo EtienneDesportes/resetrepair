@@ -82,7 +82,7 @@ sections:
       url: /images/magnus-engo-mbXEkW5ZyBQ-unsplash.webp
 slug: apropos
 seo:
-  metaTitle: Réparation Électronique Strasbourg Schiltigheim
+  metaTitle: À propos - Reset Lab, réparateur électronique à Schiltigheim
   metaDescription: >-
     Réparation Micro Soudure MacBook PC Portable Console Apple Audio Tablette
     Smartphone Carte Mère 

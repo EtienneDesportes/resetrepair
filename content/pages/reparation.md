@@ -115,7 +115,7 @@ sections:
           borderRadius: medium
 slug: reparation
 seo:
-  metaTitle: Réparation Électronique Strasbourg Schiltigheim
+  metaTitle: Réparation micro-soudure, carte mère et console - Strasbourg
   metaDescription: >-
     Réparation Micro Soudure MacBook PC Portable Console Apple Audio Tablette
     Smartphone Carte Mère 
