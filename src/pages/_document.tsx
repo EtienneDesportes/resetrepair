@@ -18,7 +18,7 @@ export default function Document() {
               "@type": "LocalBusiness",
               "@id": "https://www.resetlab.fr/#organization",
               "name": "Reset Lab",
-              "image": "https://www.resetlab.fr/images/logo-reset-lab.jpg",
+              "image": "https://www.resetlab.fr/images/header%20image.webp",
               "description": "Expert en réparation électronique à Schiltigheim. Spécialiste micro-soudure sur Console, Macbook, Carte-Mère, PC, Audio, etc...",
               "url": "https://www.resetlab.fr",
               "telephone": "+33678235040",
@@ -36,14 +36,6 @@ export default function Document() {
                 "latitude": "48.607532",
                 "longitude": "7.756656"
               },
-              "openingHoursSpecification": [
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-                  "opens": "09:00",
-                  "closes": "20:00"
-                }
-              ],
               "areaServed": [
                 {
                   "@type": "City",
