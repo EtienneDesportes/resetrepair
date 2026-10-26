@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /bondedepot
+Disallow: /bondedepot.html
+Disallow: /bondedepot-merci.html
+Disallow: /thank-you.html
+Disallow: /forms.html
+
+Sitemap: https://www.resetlab.fr/sitemap.xml
