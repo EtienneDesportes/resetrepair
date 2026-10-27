@@ -35,6 +35,9 @@
         .site-header nav { display: flex; gap: 28px; margin-right: auto; }
         .site-header nav a { text-decoration: none; font-size: 0.95rem; }
         .site-header nav a:hover { text-decoration: underline; }
+        .burger { display: none; background: none; border: 0; color: var(--white); padding: 8px; cursor: pointer; margin-left: auto; }
+        .burger svg { display: block; width: 24px; height: 24px; fill: currentColor; }
+        .mobile-menu { display: none; }
         .btn {
             display: inline-block; background: var(--blue); color: var(--white); text-decoration: none;
             font-weight: 500; padding: 11px 20px; border-radius: 6px; border: 0; cursor: pointer; font-size: 1rem; font-family: inherit;
@@ -121,8 +124,19 @@
             .card { padding: 24px 18px 22px; }
             .grid { grid-template-columns: 1fr; }
             .intro h1 { font-size: 1.8rem; }
-            .site-header nav { display: none; }
-            .site-header .btn { margin-left: auto; }
+            .site-header { flex-wrap: nowrap; gap: 12px; }
+            .site-header nav, .site-header > .btn { display: none; }
+            .burger { display: block; }
+            .mobile-menu {
+                position: fixed; inset: 0; z-index: 50; overflow-y: auto; padding: 8px 16px 24px;
+                background-color: var(--navy); background-image: url('/images/noise.png');
+            }
+            .mobile-menu.open { display: block; }
+            .mobile-menu .top { display: flex; align-items: center; justify-content: space-between; }
+            .mobile-menu .top img { display: block; height: 46px; width: auto; }
+            .mobile-menu .links { display: grid; margin-top: 16px; }
+            .mobile-menu .links a { padding: 16px 0; border-top: 1px solid rgba(255,255,255,0.35); text-decoration: none; font-size: 1.1rem; }
+            .mobile-menu .links .btn { margin-top: 16px; text-align: center; border-top: 0; }
             .submit-row .btn { width: 100%; }
         }
     </style>
@@ -135,7 +149,23 @@
             <a href="/apropos">À propos</a>
         </nav>
         <a class="btn" href="/faireundevis">Faire un devis</a>
+        <button class="burger" type="button" aria-label="Ouvrir le menu" onclick="document.getElementById('mmenu').classList.add('open')">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v2H3zM3 11h18v2H3zM3 16h18v2H3z"/></svg>
+        </button>
     </header>
+    <div class="mobile-menu" id="mmenu">
+        <div class="top">
+            <a href="/"><img src="/images/amazing-mango.svg" alt="Reset Lab"></a>
+            <button class="burger" style="display:block" type="button" aria-label="Fermer le menu" onclick="document.getElementById('mmenu').classList.remove('open')">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.3 3.9L3.9 5.3 10.6 12l-6.7 6.7 1.4 1.4L12 13.4l6.7 6.7 1.4-1.4L13.4 12l6.7-6.7-1.4-1.4L12 10.6z"/></svg>
+            </button>
+        </div>
+        <div class="links">
+            <a href="/reparation">Comment ça marche ?</a>
+            <a href="/apropos">À propos</a>
+            <a class="btn" href="/faireundevis">Faire un devis</a>
+        </div>
+    </div>
 
     <main class="page">
         <div class="layout single">
