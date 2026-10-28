@@ -178,7 +178,7 @@ async function buildPdf(data, ref, dateText, kind = 'depot') {
 
         section('Acceptations');
         row('CGV', 'Le client a lu et accepté les Conditions Générales de Vente et de Service (www.resetlab.fr/cgv).');
-        row('Diagnostic', "Le client reconnaît que si un diagnostic approfondi est nécessaire, il est facturé 30,00 EUR (TVA non applicable, art. 293 B du CGI), et qu'il sera prévenu avant toute facturation (article 3 des CGV).");
+        row('Diagnostic', "Diagnostic gratuit si la panne est identifiable. Sinon, un diagnostic approfondi à 30 EUR (TVA non applicable) peut être nécessaire : le client en est prévenu avant, et il reste dû si le devis est refusé (article 3 des CGV).");
         row('Propriété', "Le client certifie être propriétaire de l'appareil ou autorisé à le confier, et l'exactitude des informations.");
 
         section('Signature électronique');
